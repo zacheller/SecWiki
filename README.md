@@ -1,1 +1,2 @@
-# SecWiki
+# Initial page
+
