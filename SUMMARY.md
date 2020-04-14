@@ -22,7 +22,6 @@
   * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
 * [General](pentest/general.md)
 * [Resources](pentest/resources.md)
-* [Blog](https://zacheller.github.io/posts)
 
 ## Capture the Flag \(CTF\)
 
@@ -37,7 +36,8 @@
 
 ## Shell <a id="shell-scripting"></a>
 
-* [Untitled](shell-scripting/untitled.md)
+* [Bash](shell-scripting/untitled.md)
+* [Untitled](shell-scripting/untitled-1.md)
 
 ## Other
 
