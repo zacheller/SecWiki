@@ -4,8 +4,6 @@
 
 ## General
 
-* [Untitled](general/untitled.md)
-
 ## Pentest
 
 * [5 Stages of Hacking](pentest/5-stages-of-hacking/README.md)
@@ -16,6 +14,7 @@
     * [Privilege Escalation](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/README.md)
       * [Linux](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/linux.md)
       * [Windows](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/windows.md)
+    * [Cracking Hashes](pentest/5-stages-of-hacking/3.-gaining-access/untitled.md)
   * [4. Maintaining Access](pentest/5-stages-of-hacking/4.-maintaining-access.md)
   * [5. Covering Tracks](pentest/5-stages-of-hacking/5.-covering-tracks.md)
 * [Tools](pentest/tools.md)
@@ -43,4 +42,5 @@
 ## Other
 
 * [K8s](other/k8s.md)
+* [Untitled](untitled.md)
 
