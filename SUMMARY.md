@@ -10,7 +10,8 @@
 
 * [5 Stages of Hacking](pentest/5-stages-of-hacking/README.md)
   * [1. Reconnaissance](pentest/5-stages-of-hacking/1.-reconnaissance.md)
-  * [2. Scanning/Enumeration](pentest/5-stages-of-hacking/2.-scanning-enumeration.md)
+  * [2. Scanning/Enumeration](pentest/5-stages-of-hacking/2.-scanning-enumeration/README.md)
+    * [Windows](pentest/5-stages-of-hacking/2.-scanning-enumeration/windows.md)
   * [3. Gaining Access](pentest/5-stages-of-hacking/3.-gaining-access/README.md)
     * [Privilege Escalation](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/README.md)
       * [Linux](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/linux.md)
