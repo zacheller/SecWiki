@@ -36,10 +36,6 @@
   * [Steganography](capture-the-flag-ctf/topics/steganography.md)
 * [Tools](capture-the-flag-ctf/tools.md)
 
-## Malware Analysis
-
-* [Untitled](malware-analysis/untitled.md)
-
 ## Shell <a id="shell-scripting"></a>
 
 * [Bash](shell-scripting/untitled.md)
@@ -47,6 +43,9 @@
 
 ## Other
 
-* [K8s](other/k8s.md)
-* [Untitled](untitled.md)
+* [K8s](other/k8s/README.md)
+  * [Chapter 1: From Monolith to Microservices](other/k8s/chapter-1-from-monolith-to-microservices.md)
+  * [Chapter 2: Container Orchestration](other/k8s/untitled.md)
+  * [Chapter 3: Kubernetes](other/k8s/chapter-3-kubernetes.md)
+  * [Chapter 4: Kubernetes Architecture](other/k8s/chapter-4-kubernetes-architecture.md)
 
