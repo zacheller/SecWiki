@@ -23,7 +23,8 @@
 * [Courses](pentest/courses/README.md)
   * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
 * [General](pentest/general.md)
-* [Resources](pentest/resources.md)
+* [Resources](pentest/resources/README.md)
+  * [OSCP Study](pentest/resources/oscp-study.md)
 
 ## Web App Pentest
 
@@ -35,6 +36,10 @@
   * [OSINT](capture-the-flag-ctf/topics/osint.md)
   * [Steganography](capture-the-flag-ctf/topics/steganography.md)
 * [Tools](capture-the-flag-ctf/tools.md)
+
+## Exploit Dev/Analysis
+
+* [Buffer Overflows](exploit-dev-analysis/buffer-overflows.md)
 
 ## Shell <a id="shell-scripting"></a>
 
