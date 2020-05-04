@@ -4,6 +4,8 @@
 
 ## General
 
+* [Content Journal](general/content-journal.md)
+
 ## Pentest
 
 * [5 Stages of Hacking](pentest/5-stages-of-hacking/README.md)
