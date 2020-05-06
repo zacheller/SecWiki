@@ -4,6 +4,12 @@ description: A log to keep track of media
 
 # Content Journal
 
+5/6/20
+
+* [STRIDE and Threat Modeling](https://paramsingh.github.io/notes/stride/)
+* [Application Security Testing of Thick Client Applications](https://resources.infosecinstitute.com/application-security-testing-of-thick-client-applications/)
+* [BSides SF 2020 CTF: Infrastructure Engineering and Lessons Learned](https://systemoverlord.com/2020/02/27/bsides-sf-2020-ctf-infrastructure-engineering.html)
+
 5/3/20 - [Reverse shell with Netcat: some use cases](https://www.andreafortuna.org/2017/05/18/reverse-shell-with-netcat-some-use-cases/)
 
 5/2/20 - [From DnsAdmins to SYSTEM to Domain Compromise](https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/from-dnsadmins-to-system-to-domain-compromise)

@@ -28,6 +28,7 @@
 
 ## Web App Pentest
 
+* [Untitled](web-app-pentest/untitled.md)
 * [SQL Injection](web-app-pentest/sql-injection.md)
 
 ## Capture the Flag \(CTF\)
@@ -44,7 +45,6 @@
 ## Shell <a id="shell-scripting"></a>
 
 * [Bash](shell-scripting/untitled.md)
-* [Untitled](shell-scripting/untitled-1.md)
 
 ## Other
 
