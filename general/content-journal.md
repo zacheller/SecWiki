@@ -9,6 +9,7 @@ description: A log to keep track of media
 * [STRIDE and Threat Modeling](https://paramsingh.github.io/notes/stride/)
 * [Application Security Testing of Thick Client Applications](https://resources.infosecinstitute.com/application-security-testing-of-thick-client-applications/)
 * [BSides SF 2020 CTF: Infrastructure Engineering and Lessons Learned](https://systemoverlord.com/2020/02/27/bsides-sf-2020-ctf-infrastructure-engineering.html)
+* [Security 101 Series](https://systemoverlord.com/security-101)
 
 5/3/20 - [Reverse shell with Netcat: some use cases](https://www.andreafortuna.org/2017/05/18/reverse-shell-with-netcat-some-use-cases/)
 
