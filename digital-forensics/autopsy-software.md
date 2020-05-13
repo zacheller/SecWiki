@@ -4,7 +4,7 @@ description: Based on Autopsy Basics and Hands On (8-Hours) Course
 
 # Autopsy - open-source digital forensics platform
 
-### Typical Workflow
+## Typical Workflow
 
 1. Create a case.
 

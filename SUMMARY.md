@@ -31,6 +31,14 @@
 
 * [SQL Injection](web-app-pentest/sql-injection.md)
 
+## Digital Forensics
+
+* [Autopsy - open-source digital forensics platform](digital-forensics/autopsy-software.md)
+
+## Exploit Dev/Analysis
+
+* [Buffer Overflows](exploit-dev-analysis/buffer-overflows.md)
+
 ## Capture the Flag \(CTF\)
 
 * [Topics](capture-the-flag-ctf/topics/README.md)
@@ -38,10 +46,6 @@
   * [OSINT](capture-the-flag-ctf/topics/osint.md)
   * [Steganography](capture-the-flag-ctf/topics/steganography.md)
 * [Tools](capture-the-flag-ctf/tools.md)
-
-## Exploit Dev/Analysis
-
-* [Buffer Overflows](exploit-dev-analysis/buffer-overflows.md)
 
 ## Shell <a id="shell-scripting"></a>
 
@@ -54,8 +58,4 @@
   * [Chapter 2: Container Orchestration](other/k8s/untitled.md)
   * [Chapter 3: Kubernetes](other/k8s/chapter-3-kubernetes.md)
   * [Chapter 4: Kubernetes Architecture](other/k8s/chapter-4-kubernetes-architecture.md)
-
-## Digital Forensics
-
-* [Autopsy - open-source digital forensics platform](digital-forensics/autopsy-software.md)
 
