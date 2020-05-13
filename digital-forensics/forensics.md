@@ -1,4 +1,4 @@
-# Forensics
+# CTF Forensics
 
 This is a great overview of CTF-style forensics challenge techniques:
 

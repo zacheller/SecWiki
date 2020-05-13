@@ -34,18 +34,11 @@
 ## Digital Forensics
 
 * [Autopsy - open-source digital forensics platform](digital-forensics/autopsy-software.md)
+* [CTF Forensics](digital-forensics/forensics.md)
 
 ## Exploit Dev/Analysis
 
 * [Buffer Overflows](exploit-dev-analysis/buffer-overflows.md)
-
-## Capture the Flag \(CTF\)
-
-* [Topics](capture-the-flag-ctf/topics/README.md)
-  * [Forensics](capture-the-flag-ctf/topics/forensics.md)
-  * [OSINT](capture-the-flag-ctf/topics/osint.md)
-  * [Steganography](capture-the-flag-ctf/topics/steganography.md)
-* [Tools](capture-the-flag-ctf/tools.md)
 
 ## Shell <a id="shell-scripting"></a>
 
