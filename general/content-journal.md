@@ -4,6 +4,8 @@ description: A log to keep track of media
 
 # Content Journal
 
+5/13/20 - [https://emaragkos.gr/resources/](https://emaragkos.gr/resources/)
+
 5/6/20
 
 * [STRIDE and Threat Modeling](https://paramsingh.github.io/notes/stride/)
