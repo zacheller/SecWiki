@@ -57,5 +57,5 @@
 
 ## Digital Forensics
 
-* [Autopsy Software](digital-forensics/autopsy-software.md)
+* [Autopsy - open-source digital forensics platform](digital-forensics/autopsy-software.md)
 
