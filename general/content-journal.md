@@ -6,6 +6,8 @@ description: A log to keep track of media
 
 5/13/20 - [https://emaragkos.gr/resources/](https://emaragkos.gr/resources/)
 
+5/11/20 - [White hat social engineering: How to become an admin of a system](https://ramon.dev/business/2020/05/11/become-an-admin.html)
+
 5/6/20
 
 * [STRIDE and Threat Modeling](https://paramsingh.github.io/notes/stride/)
