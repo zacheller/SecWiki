@@ -6,7 +6,7 @@ description: A log to keep track of media
 
 5/15/20 - [PrintDemon: Print Spooler Privilege Escalation, Persistence & Stealth \(CVE-2020-1048 & more\)](https://windows-internals.com/printdemon-cve-2020-1048/)
 
-5/14/20 - [https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/](https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)
+5/14/20 - [Security Flaws in Adobe Acrobat Reader Allow Malicious Program to Gain Root on macOS Silently](%20https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)
 
 5/13/20 - [https://emaragkos.gr/resources/](https://emaragkos.gr/resources/)
 
