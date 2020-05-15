@@ -4,6 +4,8 @@ description: A log to keep track of media
 
 # Content Journal
 
+5/14/20 - [https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/](https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)
+
 5/13/20 - [https://emaragkos.gr/resources/](https://emaragkos.gr/resources/)
 
 5/11/20 - [White hat social engineering: How to become an admin of a system](https://ramon.dev/business/2020/05/11/become-an-admin.html)
