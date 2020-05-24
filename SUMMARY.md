@@ -10,8 +10,12 @@
 
 * [Introduction](network-security/introduction/README.md)
   * [Network Basics](network-security/introduction/network-basics.md)
-* [Untitled](network-security/untitled-2.md)
-* [Untitled](network-security/untitled-1.md)
+  * [Basic Network Utilities](network-security/introduction/untitled-1.md)
+  * [The OSI Model](network-security/introduction/untitled-2.md)
+  * [Threat Classification](network-security/introduction/threat-classification.md)
+  * [Security Terminology](network-security/introduction/security-terminology.md)
+  * [Approaches of Network Security](network-security/introduction/approaches-of-network-security.md)
+  * [Law and Network Security](network-security/introduction/law-and-network-security.md)
 * [Wireshark](network-security/untitled.md)
 
 ## Network Pentest <a id="pentest"></a>
