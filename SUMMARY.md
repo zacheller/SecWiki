@@ -19,7 +19,7 @@
     * [Law and Network Security](network-security/isci-cnss-course/introduction/law-and-network-security.md)
   * [Types of Attacks](network-security/isci-cnss-course/types-of-attacks/README.md)
     * [Denial of Service Attacks](network-security/isci-cnss-course/types-of-attacks/denial-of-service-attacks.md)
-    * [Untitled](network-security/isci-cnss-course/types-of-attacks/untitled.md)
+    * [Buffer Overflow Attacks](network-security/isci-cnss-course/types-of-attacks/untitled.md)
   * [Fundamentals of Firewalls](network-security/isci-cnss-course/fundamentals-of-firewalls.md)
   * [Intrusion-Detection Systems](network-security/isci-cnss-course/intrusion-detection-systems.md)
   * [Fundamentals of Encryption](network-security/isci-cnss-course/fundamentals-of-encryption.md)
