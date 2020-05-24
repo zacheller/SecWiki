@@ -6,6 +6,14 @@
 
 * [Content Journal](general/content-journal.md)
 
+## Network Security
+
+* [Introduction](network-security/introduction/README.md)
+  * [Network Basics](network-security/introduction/network-basics.md)
+* [Untitled](network-security/untitled-2.md)
+* [Untitled](network-security/untitled-1.md)
+* [Wireshark](network-security/untitled.md)
+
 ## Network Pentest <a id="pentest"></a>
 
 * [5 Stages of Hacking](pentest/5-stages-of-hacking/README.md)
