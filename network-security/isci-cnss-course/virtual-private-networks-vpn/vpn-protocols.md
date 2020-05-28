@@ -58,8 +58,6 @@ Because SPAP encrypts passwords, someone capturing authentication packets will n
 
 #### Kerberos
 
-
-
 Kerberos is one of the most well-known network authentication protocols. It was developed at MIT and it’s named from the mythical three-headed dog that guarded the gates to Hades.
 
 Kerberos works by sending messages back and forth between the client and the server. The actual password \(or even a hash of the password\) is never sent. That makes it impossible for someone to intercept it. What happens instead is that the username is sent. The server then looks up the stored hash of that password, and uses that as an encryption key to encrypt data and send it back to the client. The client then takes the password the user entered, and uses that as a key to decrypt the data. If the user entered the wrong password, then it will never get decrypted. This is a clever way to verify the password without ever being transmitted. Authentication happens with UDP \(User Datagram Protocol\) on port 88.
