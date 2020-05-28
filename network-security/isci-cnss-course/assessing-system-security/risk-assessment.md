@@ -1,7 +1,5 @@
 # Risk Assessment
 
-
-
 Evaluating the security of a network always starts with a risk assessment. This involves considering the assets you are trying to protect, the threats against those assets, vulnerabilities in your systems, and what measures you can take to protect them. There are formulas for calculating risk.
 
 The most basic calculation is for a single loss expectancy \(SLE\), or what impact a single loss will cause. This is calculated by multiplying the asset value \(AV\) by the exposure factor \(EF\). The exposure factor is a percentage value, representing how much of the asset’s value you will lose in a given incident. For example, a laptop that has depreciated by 20 percent is now only worth 80 percent of its original value, should it be lost or stolen. This formula is
