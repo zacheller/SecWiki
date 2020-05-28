@@ -22,5 +22,23 @@ Secure Multipurpose Internet Mail Extensions \(S/MIME\) use X.509 certificates t
 
 Which encryption algorithm uses a variable length symmetric key?
 
->
+> Blowfish
+
+Which of the following is a symmetric key system using blocks?
+
+> DES
+
+What is the purpose of a certificate?
+
+> To validate the sender of a digital signature or software
+
+Which of the following is an encryption method developed by three mathematicians?
+
+> RSA
+
+Which of the following encryption algorithms is a block cipher and uses the Rijndael algorithm?
+
+> AES
+
+
 
