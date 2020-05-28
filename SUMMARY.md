@@ -40,7 +40,6 @@
     * [Windows and Linux Encryption](network-security/isci-cnss-course/fundamentals-of-encryption/windows-and-linux-encryption.md)
     * [Hashing](network-security/isci-cnss-course/fundamentals-of-encryption/hashing.md)
     * [Cracking Passwords](network-security/isci-cnss-course/fundamentals-of-encryption/cracking-passwords.md)
-    * [Rainbow Tables](network-security/isci-cnss-course/fundamentals-of-encryption/rainbow-tables.md)
   * [Virtual Private Networks \(VPN\)](network-security/isci-cnss-course/virtual-private-networks-vpn/README.md)
     * [Introduction to VPN](network-security/isci-cnss-course/virtual-private-networks-vpn/introduction-to-vpn.md)
     * [VPN Protocols](network-security/isci-cnss-course/virtual-private-networks-vpn/vpn-protocols.md)
