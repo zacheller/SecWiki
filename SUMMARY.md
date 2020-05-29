@@ -114,6 +114,8 @@
 
 ## Exploit Dev/Analysis
 
+* [Code Review](exploit-dev-analysis/code-review/README.md)
+  * [Tools](exploit-dev-analysis/code-review/tools.md)
 * [Buffer Overflows](exploit-dev-analysis/buffer-overflows.md)
 
 ## Shell <a id="shell-scripting"></a>
