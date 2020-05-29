@@ -4,7 +4,7 @@ A disaster is any event that significantly disrupts your organisation’s operat
 
 ## **Disaster Recovery Plan**
 
-You should have a disaster recovery plan \(DRP\) in place to guide the return of the business to normal operations. This must include a number of items. You must address personnel issues, which means being able to find temporary personnel if needed, and being able to contact the personnel you have employed. It also includes having specific people assigned to specific tasks. If a disaster occurs, who in your organisation is tasked with the following?
+You should have a **disaster recovery plan** \(DRP\) in place to guide the return of the business to normal operations. This must include a number of items. You must address personnel issues, which means being able to find temporary personnel if needed, and being able to contact the personnel you have employed. It also includes having specific people assigned to specific tasks. If a disaster occurs, who in your organisation is tasked with the following?
 
 * Locating alternative facilities
 * Getting equipment to those facilities
@@ -24,7 +24,7 @@ To successfully formulate a business continuity plan one must consider which sys
 
 ## **Determining Impact on Business**
 
-Before you can create a realistic DRP or BCP you have to do a business impact analysis \(BIA\) of what damage to your organisation a given disaster might cause. Consider a web server crash. If your organisation is an e-commerce business, then a web server crash is a very serious disaster. 
+Before you can create a realistic DRP or BCP you have to do a **business impact analysis** \(BIA\) of what damage to your organisation a given disaster might cause. Consider a web server crash. If your organisation is an e-commerce business, then a web server crash is a very serious disaster. 
 
 However, if your business is an accounting firm and the website is just a way for new customers to find you, then a web server crash is less critical. You can still do business and earn revenue while the web server is down. You should make a spreadsheet of various likely or plausible disasters and do a basic business impact analysis for each.
 
