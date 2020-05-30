@@ -6,6 +6,10 @@
 
 * [Content Journal](general/content-journal.md)
 
+## Hardware
+
+* [NAND2Tetris](hardware/nand2tetris.md)
+
 ## Network Security
 
 * [ISCI CNSS Course](network-security/isci-cnss-course/README.md)
