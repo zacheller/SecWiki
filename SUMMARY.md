@@ -9,6 +9,15 @@
 ## Hardware
 
 * [NAND2Tetris](hardware/nand2tetris.md)
+* [Boolean Functions and Gate Logic](hardware/boolean-functions-and-gate-logic.md)
+* [Boolean Arithmetic and the ALU](hardware/boolean-arithmetic-and-the-alu.md)
+* [Untitled](hardware/untitled-6.md)
+* [Untitled](hardware/untitled-5.md)
+* [Untitled](hardware/untitled-4.md)
+* [Untitled](hardware/untitled-3.md)
+* [Untitled](hardware/untitled-2.md)
+* [Untitled](hardware/untitled-1.md)
+* [Untitled](hardware/untitled.md)
 
 ## Network Security
 
