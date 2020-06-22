@@ -4,7 +4,7 @@
 
 ## General
 
-* [Content Journal](general/content-journal.md)
+* [Interesting Links](general/content-journal.md)
 
 ## Hardware
 

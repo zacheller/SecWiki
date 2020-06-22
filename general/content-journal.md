@@ -2,7 +2,9 @@
 description: A log to keep track of media
 ---
 
-# Content Journal
+# Interesting Links
+
+6/22/20 - [Reverse Engineering Snapchat](https://hot3eed.github.io/2020/06/18/snap_p1_obfuscations.html)
 
 5/15/20 - [PrintDemon: Print Spooler Privilege Escalation, Persistence & Stealth \(CVE-2020-1048 & more\)](https://windows-internals.com/printdemon-cve-2020-1048/)
 
