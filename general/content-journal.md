@@ -4,7 +4,14 @@ description: A log to keep track of media
 
 # Interesting Links
 
-6/22/20 - [Reverse Engineering Snapchat](https://hot3eed.github.io/2020/06/18/snap_p1_obfuscations.html)
+
+
+6/20
+
+* [Reverse Engineering Snapchat](https://hot3eed.github.io/2020/06/18/snap_p1_obfuscations.html)
+* [SAT solver on top of regex matcher  ](https://yurichev.com/news/20200621_regex_SAT/)
+* [What happens when you update your DNS?  ](https://jvns.ca/blog/how-updating-dns-works/)
+* [Run Your Own Authoritative DNS Servers  ](https://www.joshmcguigan.com/blog/run-your-own-dns-servers/)
 
 5/15/20 - [PrintDemon: Print Spooler Privilege Escalation, Persistence & Stealth \(CVE-2020-1048 & more\)](https://windows-internals.com/printdemon-cve-2020-1048/)
 
