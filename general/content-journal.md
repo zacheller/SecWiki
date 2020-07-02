@@ -4,7 +4,9 @@ description: A log to keep track of media
 
 # Interesting Links
 
+7/20
 
+* [A parable about privacy/encryption](https://cypherpunks.venona.com/date/1993/04/msg00559.html)
 
 6/20
 
