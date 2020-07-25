@@ -8,6 +8,7 @@ description: A log to keep track of media
 
 * [A parable about privacy/encryption](https://cypherpunks.venona.com/date/1993/04/msg00559.html)
 * [CrackMapExec](https://www.securenetworkinc.com/news/2017/8/22/crackmapexec-the-greatest-tool-youve-never-heard-of)
+* [PDF Shadow Attacks](https://pdf-insecurity.org/)
 
 6/20
 
