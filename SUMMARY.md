@@ -112,6 +112,8 @@
 * [Courses](pentest/courses/README.md)
   * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
 * [General](pentest/general/README.md)
+  * [Linux Privilege Escalation](pentest/general/linux-privilege-escalation.md)
+  * [Windows Privilege Escalation](pentest/general/windows-privilege-escalation.md)
   * [Reverse Shell Cheat Sheet](pentest/general/untitled.md)
 * [Resources](pentest/resources/README.md)
   * [OSCP Study](pentest/resources/oscp-study.md)
