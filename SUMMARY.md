@@ -5,6 +5,9 @@
 ## General
 
 * [Interesting Links](general/content-journal.md)
+* [CTF](general/ctf/README.md)
+  * [Crypto](general/ctf/crypto.md)
+* [Pentest Labs, Wargames Sites](general/labs-wargames-ctf.md)
 
 ## Hardware
 
@@ -116,7 +119,6 @@
   * [Windows Privilege Escalation](pentest/general/windows-privilege-escalation.md)
   * [Reverse Shell Cheat Sheet](pentest/general/untitled.md)
 * [Resources](pentest/resources/README.md)
-  * [Labs, Wargames, CTF](pentest/resources/labs-wargames-ctf.md)
   * [OSCP Study](pentest/resources/oscp-study.md)
 
 ## Web App Pentest
