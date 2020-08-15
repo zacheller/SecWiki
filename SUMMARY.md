@@ -6,7 +6,7 @@
 
 * [Interesting Links](general/content-journal.md)
 * [CTF](general/ctf/README.md)
-  * [Crypto](general/ctf/crypto.md)
+  * [Tools](general/ctf/crypto.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf.md)
 
 ## Hardware
