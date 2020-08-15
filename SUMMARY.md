@@ -112,7 +112,7 @@
 * [Courses](pentest/courses/README.md)
   * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
 * [General](pentest/general/README.md)
-  * [Untitled](pentest/general/untitled.md)
+  * [Reverse Shell Cheat Sheet](pentest/general/untitled.md)
 * [Resources](pentest/resources/README.md)
   * [OSCP Study](pentest/resources/oscp-study.md)
 
