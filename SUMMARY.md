@@ -116,6 +116,7 @@
   * [Windows Privilege Escalation](pentest/general/windows-privilege-escalation.md)
   * [Reverse Shell Cheat Sheet](pentest/general/untitled.md)
 * [Resources](pentest/resources/README.md)
+  * [Labs, Wargames, CTF](pentest/resources/labs-wargames-ctf.md)
   * [OSCP Study](pentest/resources/oscp-study.md)
 
 ## Web App Pentest
