@@ -7,6 +7,7 @@ Pentesting
   * If you work through retired machines, [https://0xdf.gitlab.io/](https://0xdf.gitlab.io/) has some of the best writeups.
 * [https://lab.pentestit.ru/](https://lab.pentestit.ru/)
 * [https://www.vulnhub.com/](https://www.vulnhub.com/)
+  * [https://pentester.land/tips-n-tricks/2018/06/26/How-to-get-the-IP-address-of-a-downloaded-vulnerable-machine.html](https://pentester.land/tips-n-tricks/2018/06/26/How-to-get-the-IP-address-of-a-downloaded-vulnerable-machine.html)
 * [https://www.zeropointsecurity.co.uk/rastalabs](https://www.zeropointsecurity.co.uk/rastalabs)
   * an immersive Windows Active Directory environment, designed to be attacked as a means of learning and honing your engagement skills
 
