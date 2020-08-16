@@ -4,6 +4,7 @@ Pentesting
 
 * [https://www.virtualhackinglabs.com/](https://www.virtualhackinglabs.com/)
 * [https://www.hackthebox.eu/](https://www.hackthebox.eu/)
+  * If you work through retired machines, [https://0xdf.gitlab.io/](https://0xdf.gitlab.io/) has some of the best writeups.
 * [https://lab.pentestit.ru/](https://lab.pentestit.ru/)
 * [https://www.vulnhub.com/](https://www.vulnhub.com/)
 * [https://www.zeropointsecurity.co.uk/rastalabs](https://www.zeropointsecurity.co.uk/rastalabs)
