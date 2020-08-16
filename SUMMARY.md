@@ -96,7 +96,7 @@
     * [Hacking Preparation](network-security/isci-cnss-course/attackers-techniques/hacking-preparation.md)
     * [The Attack Phase](network-security/isci-cnss-course/attackers-techniques/the-attack-phase.md)
     * [Hacking Wi-Fi](network-security/isci-cnss-course/attackers-techniques/hacking-wi-fi.md)
-* [Wireshark](network-security/untitled.md)
+* [Malware Traffic Analysis with Wireshark](network-security/untitled.md)
 
 ## Network Pentest <a id="pentest"></a>
 

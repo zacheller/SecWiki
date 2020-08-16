@@ -18,7 +18,8 @@ Wargames / CTFs
 Training
 
 * [https://seedsecuritylabs.org/labs.html](https://seedsecuritylabs.org/labs.html)
-
+* [http://exploit.education/](http://exploit.education/)
+* 
 
 
 
