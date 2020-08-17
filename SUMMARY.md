@@ -5,8 +5,6 @@
 ## General
 
 * [Interesting Links](general/content-journal.md)
-* [CTF](general/ctf/README.md)
-  * [Tools](general/ctf/crypto.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf.md)
 
 ## Hardware
@@ -21,6 +19,13 @@
 * [Untitled](hardware/untitled-2.md)
 * [Untitled](hardware/untitled-1.md)
 * [Untitled](hardware/untitled.md)
+
+## CTF
+
+* [Intro to CTF](ctf/ctf.md)
+* [Forensics](ctf/forensics.md)
+* [Tools](ctf/crypto.md)
+* [Untitled](ctf/untitled.md)
 
 ## Network Security
 
@@ -111,7 +116,6 @@
     * [Cracking Hashes](pentest/5-stages-of-hacking/3.-gaining-access/untitled.md)
   * [4. Maintaining Access](pentest/5-stages-of-hacking/4.-maintaining-access.md)
   * [5. Covering Tracks](pentest/5-stages-of-hacking/5.-covering-tracks.md)
-* [Tools](pentest/tools.md)
 * [Courses](pentest/courses/README.md)
   * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
 * [General](pentest/general/README.md)
@@ -128,7 +132,6 @@
 ## Digital Forensics
 
 * [Autopsy - open-source digital forensics platform](digital-forensics/autopsy-software.md)
-* [CTF Forensics](digital-forensics/forensics.md)
 
 ## Exploit Dev/Analysis
 
