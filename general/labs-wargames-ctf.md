@@ -16,6 +16,8 @@ Wargames / CTFs
 * [http://www.pwnable.kr/play.php\#](http://www.pwnable.kr/play.php#)
 * OverTheWire.org
 * 2018game.picoctf.com
+* 247ctf.com
+* defendtheweb.net
 
 Training
 
