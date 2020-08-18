@@ -22,6 +22,7 @@
 
 ## CTF
 
+* [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
 * [Intro to CTF](ctf/ctf.md)
 * [Forensics](ctf/forensics.md)
 * [Tools](ctf/crypto.md)
