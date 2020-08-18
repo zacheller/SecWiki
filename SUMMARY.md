@@ -22,11 +22,11 @@
 
 ## CTF
 
-* [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
 * [Intro to CTF](ctf/ctf.md)
+* [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
 * [Forensics](ctf/forensics.md)
+* [Steganography](ctf/untitled.md)
 * [Tools](ctf/crypto.md)
-* [Untitled](ctf/untitled.md)
 
 ## Network Security
 
