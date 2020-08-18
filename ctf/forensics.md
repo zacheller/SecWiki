@@ -38,16 +38,20 @@ You can also change the `Content-Type` in Burp.
 
 ![PNG Structure](../.gitbook/assets/image%20%2815%29.png)
 
-Irre
-
-If the server is checking the structure of the file, consider Polyglot files \([link](https://medium.com/swlh/polyglot-files-a-hackers-best-friend-850bf812dd8a)\). Polyglots, in a security context, are files that are a valid form of multiple different file types. For example, a [GIFAR](https://en.wikipedia.org/wiki/Gifar) is both a GIF and a RAR file. There are also files out there that can be both GIF and JS, both PPT and JS, etc.  
+If the server is checking the structure of the file, consider Polyglot files \([link](https://medium.com/swlh/polyglot-files-a-hackers-best-friend-850bf812dd8a)\). Polyglots, in a security context, are files that are a valid form of multiple different file types. For example, a [GIFAR](https://en.wikipedia.org/wiki/Gifar) is both a GIF and a RAR file. There are also files out there that can be both GIF and JS, both PPT and JS, etc. Most famous one is PHAR-JPG \([link](https://github.com/kunte0/phar-jpg-polyglot)\).  
 
 
 ### Magic Bytes
 
-File starting with specific leading bytes will usually be read as that type of file by utilities. 
+File starting with specific leading bytes will usually be read as that type of file by utilities.
+
+ A file might be corrupted. Use a hex editor `xd filename.png|head` and you may be able to guess the actual filetype from the contents \(e.g. `IDAT` means PNG\) and change the leading bytes to recover it.
 
 {% embed url="https://en.wikipedia.org/wiki/List\_of\_file\_signatures" %}
+
+### Known-plaintext attack \([link](https://en.wikipedia.org/wiki/Known-plaintext_attack)\)
+
+If you have an encrypted file of a known type. If you XOR the encrypted file with the known magic bytes, you can potentially recover a key. Then, XOR the encrypted file with the key to decrypt and recover the image.
 
 ## Field Guide
 
