@@ -26,7 +26,7 @@ else:
 
 
 
-#### Special Morse
+#### Special Morse using \([https://github.com/sotojuan/morse](https://github.com/sotojuan/morse)\)
 
 ```text
 $ echo "Hey there! I hope you like dogs. Here is a flag. No wait. Here it is: flag{itis_m0r53_0f_c0ur53}. There you go. I hope you had fun!" | morse | sed -e 's/-/bark/g; s/./woof/g;s/{/growl/g;s/}/growl/g;s/\///g;s//whine/g'
