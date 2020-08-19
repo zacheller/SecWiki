@@ -5,7 +5,8 @@
 ## General
 
 * [Interesting Links](general/content-journal.md)
-* [Pentest Labs, Wargames Sites](general/labs-wargames-ctf.md)
+* [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
+  * [How To Vulnhub with VirtualBox](general/labs-wargames-ctf/how-to-vulnhub-virtualbox.md)
 
 ## Hardware
 
@@ -22,19 +23,19 @@
 
 ## Network Pentest <a id="pentest"></a>
 
+* [Privilege Escalation](pentest/privilege-escalation/README.md)
+  * [Restricted Linux Shell Escape](pentest/privilege-escalation/restricted-linux-shell-escape.md)
+  * [Linux Privilege Escalation](pentest/privilege-escalation/linux-privilege-escalation.md)
+  * [Windows Privilege Escalation](pentest/privilege-escalation/windows-privilege-escalation/README.md)
+    * [User Enumeration](pentest/privilege-escalation/windows-privilege-escalation/user-enumeration.md)
+* [Information Disclosure](pentest/untitled.md)
 * [Courses](pentest/courses/README.md)
   * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
-  * [Information Disclosure](pentest/courses/untitled.md)
 * [OSCP Study](pentest/oscp-study.md)
 * [Reverse Shell Cheat Sheet](pentest/untitled-2.md)
-* [Restricted Linux Shell Escape](pentest/restricted-linux-shell-escape.md)
-* [Windows Privilege Escalation](pentest/windows-privilege-escalation/README.md)
-  * [User Enumeration](pentest/windows-privilege-escalation/user-enumeration.md)
-* [Linux Privilege Escalation](pentest/linux-privilege-escalation.md)
 * [Covering Tracks](pentest/5.-covering-tracks.md)
 * [Maintaining Access](pentest/4.-maintaining-access.md)
 * [Cracking Hashes](pentest/untitled-1.md)
-* [How To Vulnhub with VirtualBox](pentest/how-to-vulnhub-virtualbox.md)
 
 ## CTF
 
