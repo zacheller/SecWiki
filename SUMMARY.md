@@ -136,7 +136,12 @@
 * [Code Review](exploit-dev-analysis/code-review/README.md)
   * [Tools](exploit-dev-analysis/code-review/tools.md)
 * [Buffer Overflows](exploit-dev-analysis/buffer-overflows.md)
-* [Static Analysis](exploit-dev-analysis/static-analysis.md)
+* [Static Analysis](exploit-dev-analysis/static-analysis/README.md)
+  * [Portable Executable File Format \(PE\)](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/README.md)
+    * [Tools](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/tools.md)
+    * [Linked Libraries and Functions](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/linked-libraries-and-functions.md)
+    * [Untitled](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/untitled.md)
+  * [Antivirus Scanning](exploit-dev-analysis/static-analysis/antivirus-scanning.md)
 
 ## Shell <a id="shell-scripting"></a>
 
