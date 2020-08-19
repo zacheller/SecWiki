@@ -23,19 +23,19 @@
 
 ## Network Pentest <a id="pentest"></a>
 
+* [Courses](pentest/courses/README.md)
+  * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
 * [Privilege Escalation](pentest/privilege-escalation/README.md)
   * [Restricted Linux Shell Escape](pentest/privilege-escalation/restricted-linux-shell-escape.md)
   * [Linux Privilege Escalation](pentest/privilege-escalation/linux-privilege-escalation.md)
   * [Windows Privilege Escalation](pentest/privilege-escalation/windows-privilege-escalation/README.md)
     * [User Enumeration](pentest/privilege-escalation/windows-privilege-escalation/user-enumeration.md)
-* [Information Disclosure](pentest/untitled.md)
-* [Courses](pentest/courses/README.md)
-  * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
-* [OSCP Study](pentest/oscp-study.md)
+* [Vulnerabilities Checklist](pentest/untitled.md)
 * [Reverse Shell Cheat Sheet](pentest/untitled-2.md)
 * [Covering Tracks](pentest/5.-covering-tracks.md)
 * [Maintaining Access](pentest/4.-maintaining-access.md)
 * [Cracking Hashes](pentest/untitled-1.md)
+* [OSCP Study](pentest/oscp-study.md)
 
 ## CTF
 
