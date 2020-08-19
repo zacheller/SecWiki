@@ -1,17 +1,9 @@
-# Bashrc
-
-.bashrc:
+# .bashrc
 
 ```text
 # copy file contents to clipboard
 clip(){
 xclip -sel c < $1
-}
-
-# Auto no-check-certificate for wget
-wgetnc()
-{
-    wget --no-check-certificate $1	
 }
 
 # make directory and enter it
@@ -33,5 +25,11 @@ cd $ups
 
 #Search Forward through bash command history (Ctrl-S)
 stty -ixon
+
+# Auto no-check-certificate for wget
+wgetnc()
+{
+    wget --no-check-certificate $1	
+}
 ```
 
