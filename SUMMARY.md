@@ -38,6 +38,11 @@
 * [Maintaining Access](pentest/4.-maintaining-access.md)
 * [Vulnerabilities Checklist](pentest/untitled.md)
 
+## Web App Pentest
+
+* [THC-Hydra BruteForce](web-app-pentest/thc-hydra-bruteforce.md)
+* [SQL Injection](web-app-pentest/sql-injection.md)
+
 ## CTF
 
 * [Intro to CTF](ctf/ctf.md)
@@ -122,10 +127,6 @@
     * [Hacking Wi-Fi](network-security/isci-cnss-course/attackers-techniques/hacking-wi-fi.md)
 * [Malware Traffic Analysis with Wireshark](network-security/untitled.md)
 
-## Web App Pentest
-
-* [SQL Injection](web-app-pentest/sql-injection.md)
-
 ## Digital Forensics
 
 * [Autopsy - open-source digital forensics platform](digital-forensics/autopsy-software.md)
@@ -135,6 +136,7 @@
 * [Code Review](exploit-dev-analysis/code-review/README.md)
   * [Tools](exploit-dev-analysis/code-review/tools.md)
 * [Buffer Overflows](exploit-dev-analysis/buffer-overflows.md)
+* [Static Analysis](exploit-dev-analysis/static-analysis.md)
 
 ## Shell <a id="shell-scripting"></a>
 
