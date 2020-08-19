@@ -20,6 +20,29 @@
 * [Untitled](hardware/untitled-1.md)
 * [Untitled](hardware/untitled.md)
 
+## Network Pentest <a id="pentest"></a>
+
+* [5 Stages of Hacking](pentest/5-stages-of-hacking/README.md)
+  * [1. Reconnaissance](pentest/5-stages-of-hacking/1.-reconnaissance.md)
+  * [2. Scanning/Enumeration](pentest/5-stages-of-hacking/2.-scanning-enumeration/README.md)
+    * [Windows](pentest/5-stages-of-hacking/2.-scanning-enumeration/windows.md)
+  * [3. Gaining Access](pentest/5-stages-of-hacking/3.-gaining-access/README.md)
+    * [Privilege Escalation](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/README.md)
+      * [Linux](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/linux.md)
+      * [Windows](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/windows.md)
+    * [Cracking Hashes](pentest/5-stages-of-hacking/3.-gaining-access/untitled.md)
+  * [4. Maintaining Access](pentest/5-stages-of-hacking/4.-maintaining-access.md)
+  * [5. Covering Tracks](pentest/5-stages-of-hacking/5.-covering-tracks.md)
+* [Courses](pentest/courses/README.md)
+  * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
+* [General](pentest/general/README.md)
+  * [Linux Privilege Escalation](pentest/general/linux-privilege-escalation.md)
+  * [Windows Privilege Escalation](pentest/general/windows-privilege-escalation.md)
+  * [Reverse Shell Cheat Sheet](pentest/general/untitled.md)
+* [Restricted Linux Shell Escape](pentest/restricted-linux-shell-escape.md)
+* [Resources](pentest/resources/README.md)
+  * [OSCP Study](pentest/resources/oscp-study.md)
+
 ## CTF
 
 * [Intro to CTF](ctf/ctf.md)
@@ -103,28 +126,6 @@
     * [The Attack Phase](network-security/isci-cnss-course/attackers-techniques/the-attack-phase.md)
     * [Hacking Wi-Fi](network-security/isci-cnss-course/attackers-techniques/hacking-wi-fi.md)
 * [Malware Traffic Analysis with Wireshark](network-security/untitled.md)
-
-## Network Pentest <a id="pentest"></a>
-
-* [5 Stages of Hacking](pentest/5-stages-of-hacking/README.md)
-  * [1. Reconnaissance](pentest/5-stages-of-hacking/1.-reconnaissance.md)
-  * [2. Scanning/Enumeration](pentest/5-stages-of-hacking/2.-scanning-enumeration/README.md)
-    * [Windows](pentest/5-stages-of-hacking/2.-scanning-enumeration/windows.md)
-  * [3. Gaining Access](pentest/5-stages-of-hacking/3.-gaining-access/README.md)
-    * [Privilege Escalation](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/README.md)
-      * [Linux](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/linux.md)
-      * [Windows](pentest/5-stages-of-hacking/3.-gaining-access/privilege-escalation/windows.md)
-    * [Cracking Hashes](pentest/5-stages-of-hacking/3.-gaining-access/untitled.md)
-  * [4. Maintaining Access](pentest/5-stages-of-hacking/4.-maintaining-access.md)
-  * [5. Covering Tracks](pentest/5-stages-of-hacking/5.-covering-tracks.md)
-* [Courses](pentest/courses/README.md)
-  * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
-* [General](pentest/general/README.md)
-  * [Linux Privilege Escalation](pentest/general/linux-privilege-escalation.md)
-  * [Windows Privilege Escalation](pentest/general/windows-privilege-escalation.md)
-  * [Reverse Shell Cheat Sheet](pentest/general/untitled.md)
-* [Resources](pentest/resources/README.md)
-  * [OSCP Study](pentest/resources/oscp-study.md)
 
 ## Web App Pentest
 
