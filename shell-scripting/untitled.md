@@ -1,4 +1,4 @@
-# Bash
+# Bashrc
 
 .bashrc:
 

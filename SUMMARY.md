@@ -134,7 +134,9 @@
 
 ## Shell <a id="shell-scripting"></a>
 
-* [Bash](shell-scripting/untitled.md)
+* [Bash Tricks](shell-scripting/bash-tricks.md)
+* [Bashrc](shell-scripting/untitled.md)
+* [Random Commands](shell-scripting/random-commands.md)
 
 ## Other
 
