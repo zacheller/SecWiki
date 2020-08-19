@@ -24,6 +24,7 @@
 
 * [Courses](pentest/courses/README.md)
   * [Beginner Network Pentesting](pentest/courses/beginner-network-pentesting.md)
+  * [Untitled](pentest/courses/untitled.md)
 * [OSCP Study](pentest/oscp-study.md)
 * [Reverse Shell Cheat Sheet](pentest/untitled-2.md)
 * [Restricted Linux Shell Escape](pentest/restricted-linux-shell-escape.md)
