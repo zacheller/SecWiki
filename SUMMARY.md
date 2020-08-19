@@ -49,6 +49,7 @@
 * [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
 * [Forensics](ctf/forensics.md)
 * [Steganography](ctf/untitled.md)
+* [Reverse Engineering](ctf/reverse-engineering.md)
 * [Tools](ctf/crypto.md)
 
 ## Network Security
