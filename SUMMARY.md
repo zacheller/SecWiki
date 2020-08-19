@@ -33,6 +33,7 @@
 * [Covering Tracks](pentest/5.-covering-tracks.md)
 * [Maintaining Access](pentest/4.-maintaining-access.md)
 * [Cracking Hashes](pentest/untitled-1.md)
+* [How To Vulnhub/VirtualBox](pentest/how-to-vulnhub-virtualbox.md)
 
 ## CTF
 
