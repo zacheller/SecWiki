@@ -47,7 +47,8 @@
 
 * [Intro to CTF](ctf/ctf.md)
 * [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
-* [Forensics](ctf/forensics.md)
+* [Forensics](ctf/forensics/README.md)
+  * [Challenges](ctf/forensics/challenges.md)
 * [Steganography](ctf/untitled.md)
 * [Reverse Engineering](ctf/reverse-engineering.md)
 * [Tools](ctf/crypto.md)
