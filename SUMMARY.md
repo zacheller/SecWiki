@@ -5,10 +5,12 @@
 ## General
 
 * [Beginner Network Pentesting](general/beginner-network-pentesting/README.md)
-  * [Commands](general/beginner-network-pentesting/commands.md)
   * [Week 1](general/beginner-network-pentesting/week-1/README.md)
     * [notes](general/beginner-network-pentesting/week-1/notes.md)
     * [ipsweep.sh](general/beginner-network-pentesting/week-1/ipsweep.sh.md)
+  * [Week 2](general/beginner-network-pentesting/week-2.md)
+  * [Untitled](general/beginner-network-pentesting/untitled-1.md)
+  * [Commands](general/beginner-network-pentesting/commands.md)
 * [Interesting Links](general/content-journal.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
   * [How To Vulnhub with VirtualBox](general/labs-wargames-ctf/how-to-vulnhub-virtualbox.md)
