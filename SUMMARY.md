@@ -5,12 +5,16 @@
 ## General
 
 * [Beginner Network Pentesting](general/beginner-network-pentesting/README.md)
-  * [Week 1](general/beginner-network-pentesting/week-1/README.md)
+  * [Week 1: Setup](general/beginner-network-pentesting/week-1/README.md)
     * [notes](general/beginner-network-pentesting/week-1/notes.md)
     * [ipsweep.sh](general/beginner-network-pentesting/week-1/ipsweep.sh.md)
-  * [Week 2](general/beginner-network-pentesting/week-2/README.md)
+  * [Week 2: Python 101](general/beginner-network-pentesting/week-2/README.md)
     * [python101.py](general/beginner-network-pentesting/week-2/untitled-1.md)
     * [bof.py](general/beginner-network-pentesting/week-2/bof.py.md)
+  * [Week 3: Python 102](general/beginner-network-pentesting/week-3-python-102/README.md)
+    * [python102.py](general/beginner-network-pentesting/week-3-python-102/python102.py.md)
+    * [scanner.py](general/beginner-network-pentesting/week-3-python-102/scanner.py.md)
+    * [notes](general/beginner-network-pentesting/week-3-python-102/notes.md)
   * [Commands](general/beginner-network-pentesting/commands.md)
 * [Interesting Links](general/content-journal.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
