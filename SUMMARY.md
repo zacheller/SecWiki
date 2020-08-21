@@ -32,6 +32,7 @@
 
 * [Courses](pentest/courses/README.md)
   * [OSCP Study](pentest/courses/oscp-study.md)
+* [Recon/OSINT](pentest/recon-osint.md)
 * [Privilege Escalation](pentest/privilege-escalation/README.md)
   * [Restricted Linux Shell Escape](pentest/privilege-escalation/restricted-linux-shell-escape.md)
   * [Linux Privilege Escalation](pentest/privilege-escalation/linux-privilege-escalation.md)
