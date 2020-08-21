@@ -9,7 +9,7 @@
     * [notes](general/beginner-network-pentesting/week-1/notes.md)
     * [ipsweep.sh](general/beginner-network-pentesting/week-1/ipsweep.sh.md)
   * [Week 2](general/beginner-network-pentesting/week-2.md)
-  * [Untitled](general/beginner-network-pentesting/untitled-1.md)
+  * [python101.py](general/beginner-network-pentesting/untitled-1.md)
   * [Commands](general/beginner-network-pentesting/commands.md)
 * [Interesting Links](general/content-journal.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
