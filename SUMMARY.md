@@ -45,7 +45,9 @@
 
 * [Courses](pentest/courses/README.md)
   * [OSCP Study](pentest/courses/oscp-study.md)
-* [Recon/OSINT](pentest/recon-osint.md)
+* [Recon](pentest/recon-osint/README.md)
+  * [Enumeration](pentest/recon-osint/enumeration.md)
+  * [OSINT](pentest/recon-osint/osint.md)
 * [Privilege Escalation](pentest/privilege-escalation/README.md)
   * [Reverse Shell Cheat Sheet](pentest/privilege-escalation/untitled-2.md)
   * [Cracking Hashes](pentest/privilege-escalation/untitled-1.md)
