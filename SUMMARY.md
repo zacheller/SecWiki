@@ -22,7 +22,7 @@
   * [Week 7: Exploitation, Shells, and Some Credential Stuffing](general/beginner-network-pentesting/untitled-2.md)
   * [Week 8: LLMNR/NBT-NS Poisoning](general/beginner-network-pentesting/untitled-3.md)
   * [Week 9: NTLM](general/beginner-network-pentesting/week-9.md)
-  * [Untitled](general/beginner-network-pentesting/untitled-4.md)
+  * [Week 10: MS17-010, GPP/cPasswords, and Kerberoasting](general/beginner-network-pentesting/untitled-4.md)
   * [Commands](general/beginner-network-pentesting/commands.md)
 * [Interesting Links](general/content-journal.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
