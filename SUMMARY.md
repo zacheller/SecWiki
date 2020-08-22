@@ -23,6 +23,7 @@
   * [Week 8: LLMNR/NBT-NS Poisoning](general/beginner-network-pentesting/untitled-3.md)
   * [Week 9: NTLM](general/beginner-network-pentesting/week-9.md)
   * [Week 10: MS17-010, GPP/cPasswords, and Kerberoasting](general/beginner-network-pentesting/untitled-4.md)
+  * [Week 11: File Transfers, Pivoting, Reporting](general/beginner-network-pentesting/week-11-file-transfers-pivoting-reporting.md)
   * [Commands](general/beginner-network-pentesting/commands.md)
 * [Interesting Links](general/content-journal.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
