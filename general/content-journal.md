@@ -4,6 +4,10 @@ description: A log to keep track of media
 
 # Interesting Links
 
+8/20
+
+* [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
+
 7/20
 
 * [A parable about privacy/encryption](https://cypherpunks.venona.com/date/1993/04/msg00559.html)
