@@ -45,6 +45,7 @@
 ## Network Pentest <a id="pentest"></a>
 
 * [Courses](pentest/courses/README.md)
+  * [Penetration Testing Student \(PTS\)](pentest/courses/penetration-testing-student-pts.md)
   * [OSCP Study](pentest/courses/oscp-study.md)
 * [Recon](pentest/recon-osint/README.md)
   * [Enumeration](pentest/recon-osint/enumeration.md)
