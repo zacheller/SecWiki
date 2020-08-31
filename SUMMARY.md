@@ -51,6 +51,7 @@
   * [Enumeration](pentest/recon-osint/enumeration.md)
   * [OSINT](pentest/recon-osint/osint.md)
 * [Privilege Escalation](pentest/privilege-escalation/README.md)
+  * [Spawning a TTY Shell](pentest/privilege-escalation/spawning-a-tty-shell.md)
   * [Reverse Shell Cheat Sheet](pentest/privilege-escalation/untitled-2.md)
   * [Cracking Hashes](pentest/privilege-escalation/untitled-1.md)
   * [Restricted Linux Shell Escape](pentest/privilege-escalation/restricted-linux-shell-escape.md)
