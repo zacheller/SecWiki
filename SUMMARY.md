@@ -50,6 +50,8 @@
 * [Recon](pentest/recon-osint/README.md)
   * [Enumeration](pentest/recon-osint/enumeration.md)
   * [OSINT](pentest/recon-osint/osint.md)
+* [Gaining Access](pentest/gaining-access/README.md)
+  * [Reverse Shells](pentest/gaining-access/reverse-shells.md)
 * [Privilege Escalation](pentest/privilege-escalation/README.md)
   * [Spawning a TTY Shell](pentest/privilege-escalation/spawning-a-tty-shell.md)
   * [Reverse Shell Cheat Sheet](pentest/privilege-escalation/untitled-2.md)
