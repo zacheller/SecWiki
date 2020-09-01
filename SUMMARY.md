@@ -4,6 +4,7 @@
 
 ## General
 
+* [Curriculum](general/curriculum.md)
 * [Beginner Network Pentesting](general/beginner-network-pentesting/README.md)
   * [Week 1: Setup](general/beginner-network-pentesting/week-1/README.md)
     * [ipsweep.sh](general/beginner-network-pentesting/week-1/ipsweep.sh.md)
