@@ -62,8 +62,9 @@
   * [Windows Privilege Escalation](pentest/privilege-escalation/windows-privilege-escalation/README.md)
     * [Active Directory](pentest/privilege-escalation/windows-privilege-escalation/active-directory.md)
     * [User Enumeration](pentest/privilege-escalation/windows-privilege-escalation/user-enumeration.md)
-* [Covering Tracks](pentest/5.-covering-tracks.md)
-* [Maintaining Access](pentest/4.-maintaining-access.md)
+* [Post Exploitation](pentest/post-exploitation/README.md)
+  * [Maintaining Access](pentest/post-exploitation/4.-maintaining-access.md)
+  * [Covering Tracks](pentest/post-exploitation/5.-covering-tracks.md)
 * [Vulnerabilities Checklist](pentest/untitled.md)
 
 ## Web App Pentest
