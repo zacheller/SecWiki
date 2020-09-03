@@ -4,9 +4,13 @@ description: A log to keep track of media
 
 # Interesting Links
 
+9/20
+
+* 
 8/20
 
 * [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
+* LFI and RFI Attacks
 
 7/20
 
