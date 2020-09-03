@@ -7,7 +7,7 @@ description: >-
 
 # Home
 
-This Gitbook is currently under construction. Nothing substantial has been transferred over as of yet.
+This Gitbook is currently under construction.
 
-If you are here from the CTF, congrats on finding this page but there are no flags to be found here.
+If you are here from the STL OWASP CTF, congrats on finding this page but there are no flags to be found here.
 

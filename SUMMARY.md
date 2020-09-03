@@ -63,9 +63,13 @@
     * [Active Directory](pentest/privilege-escalation/windows-privilege-escalation/active-directory.md)
     * [User Enumeration](pentest/privilege-escalation/windows-privilege-escalation/user-enumeration.md)
 * [Post Exploitation](pentest/post-exploitation/README.md)
-  * [Maintaining Access](pentest/post-exploitation/4.-maintaining-access.md)
+  * [Cleanup](pentest/post-exploitation/cleanup.md)
+  * [Maintaining Access](pentest/post-exploitation/maintaining-access.md)
+  * [Pivoting](pentest/post-exploitation/pivoting.md)
+  * [File Transfers](pentest/post-exploitation/file-transfers.md)
   * [Covering Tracks](pentest/post-exploitation/5.-covering-tracks.md)
 * [Vulnerabilities Checklist](pentest/untitled.md)
+* [Report Writing](pentest/report-writing.md)
 
 ## Web App Pentest
 
