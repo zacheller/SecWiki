@@ -6,9 +6,9 @@ description: A log to keep track of media
 
 9/20
 
-* \*\*\*\*[**Does CSRF prevention also prevent reflected XSS attack?**](https://security.stackexchange.com/questions/66225/does-csrf-prevention-also-prevent-reflected-xss-attack)\*\*\*\*
-* \*\*\*\*[**https://tools.ietf.org/html/draft-hoehrmann-javascript-scheme-00**](https://tools.ietf.org/html/draft-hoehrmann-javascript-scheme-00)\*\*\*\*
-* \*\*\*\*
+* [Does CSRF prevention also prevent reflected XSS attack](https://security.stackexchange.com/questions/66225/does-csrf-prevention-also-prevent-reflected-xss-attack)
+* [The 'javascript' resource identifier scheme](https://tools.ietf.org/html/draft-hoehrmann-javascript-scheme-00)
+* [Sources and Sinks - Code Review Basics](https://www.youtube.com/watch?v=ZaOtY4i5w_U)
 
 8/20
 
