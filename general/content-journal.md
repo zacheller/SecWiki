@@ -7,6 +7,7 @@ description: A log to keep track of media
 9/20
 
 * \*\*\*\*[**Does CSRF prevention also prevent reflected XSS attack?**](https://security.stackexchange.com/questions/66225/does-csrf-prevention-also-prevent-reflected-xss-attack)\*\*\*\*
+* \*\*\*\*[**https://tools.ietf.org/html/draft-hoehrmann-javascript-scheme-00**](https://tools.ietf.org/html/draft-hoehrmann-javascript-scheme-00)\*\*\*\*
 * \*\*\*\*
 
 8/20
