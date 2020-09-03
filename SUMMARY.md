@@ -75,6 +75,7 @@
 
 * [THC-Hydra BruteForce](web-app-pentest/thc-hydra-bruteforce.md)
 * [SQL Injection](web-app-pentest/sql-injection.md)
+* [XSS](web-app-pentest/xss.md)
 
 ## CTF
 
