@@ -10,6 +10,7 @@ description: A log to keep track of media
 * [The 'javascript' resource identifier scheme](https://tools.ietf.org/html/draft-hoehrmann-javascript-scheme-00)
 * [Sources and Sinks - Code Review Basics](https://www.youtube.com/watch?v=ZaOtY4i5w_U)
 * [Let’s play a game: what is the deadly bug here?](https://www.youtube.com/watch?v=MpeaSNERwQA)
+* [https://www.benkuhn.net/autocomplete/](https://www.benkuhn.net/autocomplete/)
 
 8/20
 
