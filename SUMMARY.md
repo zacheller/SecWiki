@@ -189,6 +189,7 @@
 
 * [./missing-semester](shell-scripting/.-missing-semester/README.md)
   * [Course overview + the shell](shell-scripting/.-missing-semester/course-overview-+-the-shell.md)
+  * [Shell Tools and Scripting](shell-scripting/.-missing-semester/shell-tools-and-scripting.md)
 * [Bash Tricks](shell-scripting/bash-tricks.md)
 * [.bashrc](shell-scripting/untitled.md)
 * [Random Commands](shell-scripting/random-commands.md)
