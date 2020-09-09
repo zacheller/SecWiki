@@ -84,5 +84,5 @@ $ echo 1 | sudo tee /sys/class/leds/input6::scrolllock/brightness
 * Use `|` and `>` to write the “last modified” date output by `semester` into a file called `last-modified.txt` in your home directory.
   * \`stat -c '%y' semester 2020-09-07 21:10:47.638196300 -0700 &gt; ~/last-modified.txt\`
 * Write a command that reads out your laptop battery’s power level or your desktop machine’s CPU temperature from `/sys`. Note: if you’re a macOS user, your OS doesn’t have sysfs, so you can skip this exercise.
-  * 
+  * `cat /sys/class/power_supply/BAT0/*`
 
