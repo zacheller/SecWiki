@@ -1,13 +1,10 @@
 ---
 description: >-
-  SecWiki is a GitBook that contains selected notes from my study of cyber
-  security. Articles mainly focus on pentesting and CTFs, but also include dev
-  topics.
+  If you are here from the STL OWASP CTF, congrats on finding this page but
+  there are no flags to be found here.
 ---
 
 # Home
 
-This Gitbook is currently under construction.
-
-If you are here from the STL OWASP CTF, congrats on finding this page but there are no flags to be found here.
+SecWiki is a GitBook that contains selected notes from my study of cyber security. Articles mainly focus on pentesting and CTFs, but also include dev topics.
 
