@@ -9,19 +9,6 @@
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
   * [How To Vulnhub with VirtualBox](general/labs-wargames-ctf/how-to-vulnhub-virtualbox.md)
 
-## Hardware
-
-* [NAND2Tetris](hardware/nand2tetris.md)
-* [Boolean Functions and Gate Logic](hardware/boolean-functions-and-gate-logic.md)
-* [Boolean Arithmetic and the ALU](hardware/boolean-arithmetic-and-the-alu.md)
-* [Untitled](hardware/untitled-6.md)
-* [Untitled](hardware/untitled-5.md)
-* [Untitled](hardware/untitled-4.md)
-* [Untitled](hardware/untitled-3.md)
-* [Untitled](hardware/untitled-2.md)
-* [Untitled](hardware/untitled-1.md)
-* [Untitled](hardware/untitled.md)
-
 ## Network Pentest <a id="pentest"></a>
 
 * [Courses](pentest/courses/README.md)
@@ -194,6 +181,12 @@
 * [Bash Tricks](shell-scripting/bash-tricks.md)
 * [.bashrc](shell-scripting/untitled.md)
 * [Random Commands](shell-scripting/random-commands.md)
+
+## Hardware
+
+* [NAND2Tetris](hardware/nand2tetris/README.md)
+  * [Boolean Functions and Gate Logic](hardware/nand2tetris/boolean-functions-and-gate-logic.md)
+  * [Boolean Arithmetic and the ALU](hardware/nand2tetris/boolean-arithmetic-and-the-alu.md)
 
 ## Other
 
