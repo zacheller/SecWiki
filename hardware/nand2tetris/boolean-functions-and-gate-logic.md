@@ -44,24 +44,24 @@ The chip interface describes what the chip is doing; the chip implementation spe
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 ## Multi-Bit Buses
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 * How would you xor the first and last bits of a 16-bit bus named ‘bus’?
   * Xor\(a=bus\[0\], b=bus\[15\], out=out\)
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 ### Quiz
 
@@ -83,19 +83,19 @@ These lines are valid in HDL, when implementing the Example16 chip.
 
 ## Project 1 Overview
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 * Suppose that 1 is fed into the "in" input of a Demux chip, and the output wires are fed into a Mux chip. What would be the output of the Mux?
   * It depends on the selection bits of the chips.
   * For example: If the selection bit of the Demux is set to 0 then it will output a=1 and b=0. Now, if the selection bit of the Mux is set to 0 it will output 1, but if the selection bit of Mux is set to 1 it will output 0.
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 {% file src="../../.gitbook/assets/hcs.pdf" caption="The Hack Chip Set" %}
 
