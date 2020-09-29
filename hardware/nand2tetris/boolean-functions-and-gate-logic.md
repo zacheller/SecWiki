@@ -1,5 +1,9 @@
 # Boolean Functions and Gate Logic
 
+**In a nutshell:** We will start with a brief introduction of Boolean algebra, and learn how Boolean functions can be physically implemented using logic gates. We will then learn how to specify gates and chips using a _Hardware Description Language_ \(HDL\), and how to simulate the behaviour of the resulting chip specifications using a _hardware simulator_. This background will set the stage for Project 1, in which you will build, simulate, and test 15 elementary logic gates. The chipset that you will build this module will be later used to construct the computer's _Arithmetic Logic Unit_ \(ALU\) and memory system. This will be done in modules 2 and 3, respectively.
+
+**Key concepts:** Boolean algebra, Boolean functions, gate logic, elementary logic gates, Hardware Description Language \(HDL\), hardware simulation.
+
 ## Logic Gates
 
 {% file src="../../.gitbook/assets/boolean\_algebra.pdf" caption="Boolean Logic" %}
@@ -40,17 +44,17 @@ The chip interface describes what the chip is doing; the chip implementation spe
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 ## Multi-Bit Buses
 
+![](../../.gitbook/assets/image%20%2841%29.png)
+
+![](../../.gitbook/assets/image%20%2826%29.png)
+
+![](../../.gitbook/assets/image%20%2844%29.png)
+
 ![](../../.gitbook/assets/image%20%2831%29.png)
-
-![](../../.gitbook/assets/image%20%2824%29.png)
-
-![](../../.gitbook/assets/image%20%2833%29.png)
-
-![](../../.gitbook/assets/image%20%2827%29.png)
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 
@@ -79,13 +83,13 @@ These lines are valid in HDL, when implementing the Example16 chip.
 
 ## Project 1 Overview
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 * Suppose that 1 is fed into the "in" input of a Demux chip, and the output wires are fed into a Mux chip. What would be the output of the Mux?
   * It depends on the selection bits of the chips.
