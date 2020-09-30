@@ -187,6 +187,10 @@
 * [NAND2Tetris](hardware/nand2tetris/README.md)
   * [Boolean Functions and Gate Logic](hardware/nand2tetris/boolean-functions-and-gate-logic.md)
   * [Boolean Arithmetic and the ALU](hardware/nand2tetris/boolean-arithmetic-and-the-alu.md)
+  * [Memory](hardware/nand2tetris/memory.md)
+  * [Machine Language](hardware/nand2tetris/machine-language.md)
+  * [Computer Architecture](hardware/nand2tetris/computer-architecture.md)
+  * [Assembler](hardware/nand2tetris/assembler.md)
 
 ## Other
 

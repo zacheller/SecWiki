@@ -44,17 +44,17 @@ The chip interface describes what the chip is doing; the chip implementation spe
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 ## Multi-Bit Buses
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2868%29.png)
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 
@@ -83,13 +83,13 @@ These lines are valid in HDL, when implementing the Example16 chip.
 
 ## Project 1 Overview
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 * Suppose that 1 is fed into the "in" input of a Demux chip, and the output wires are fed into a Mux chip. What would be the output of the Mux?
   * It depends on the selection bits of the chips.
