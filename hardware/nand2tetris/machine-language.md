@@ -13,19 +13,56 @@
   * The second instruction is written in an assembly language.
   * The second is meant to be understood by humans, and the first is a bit-representation understood by the computer.
 
-
-
 ## Machine Languages: Elements
 
+![](../../.gitbook/assets/image%20%2887%29.png)
 
+* Which of these trade-offs occur in the memory hierarchy?
+  * Faster access means smaller memory size
+
+![](../../.gitbook/assets/image%20%2831%29.png)
+
+![](../../.gitbook/assets/image%20%2860%29.png)
+
+![](../../.gitbook/assets/image%20%2856%29.png)
+
+Flow Control: Usually CPU executes machine instructions in sequence, but sometimes we need to jump to another location so we can loop, conditionally or unconditionally.
 
 ## The Hack Computer and Machine Language
 
+![](../../.gitbook/assets/image%20%2850%29.png)
 
+![](../../.gitbook/assets/image%20%2839%29.png)
+
+![](../../.gitbook/assets/image%20%2889%29.png)
+
+* The CPU reads from both RAM and ROM.
+* The reset button is only used once per program.
+
+![M is currently selected register](../../.gitbook/assets/image%20%2841%29.png)
+
+![](../../.gitbook/assets/image%20%2880%29.png)
+
+![](../../.gitbook/assets/image%20%2826%29.png)
+
+```text
+@1
+M=A-1;JEQ
+
+# The first line sets the A register to 1.
+# The second line computes A-1=0.
+# It stores this computation in the M register, RAM[1]
+# The JEQ jump directive checks whether the computation is equal to 0
+# It is, so next instruction will be the value in A register (1)
+```
 
 ## Hack Language Specification
 
+![](../../.gitbook/assets/image%20%2866%29.png)
 
+* 0000000000000001 sets the A register to 1.
+
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 ## Input/Output
 

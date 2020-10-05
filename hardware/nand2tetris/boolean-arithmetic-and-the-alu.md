@@ -6,58 +6,58 @@
 
 ## Binary Numbers
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 * What is the decimal value of 1101?
   * 1101\(Binary\) = 8+4+1\(Decimal\) = 13\(Decimal\)
 
 ## Binary Addition
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2891%29.png)
 
-![](../../.gitbook/assets/image%20%2837%29.png)
-
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 ![](../../.gitbook/assets/image%20%2851%29.png)
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2859%29.png)
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2867%29.png)
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
+
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 ## Negative numbers
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 ## Arithmetic Logic Unit
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
-![](../../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 ## Project 2 Overview
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
-![Sum: xor, Carry: and](../../.gitbook/assets/image%20%2877%29.png)
+![Sum: xor, Carry: and](../../.gitbook/assets/image%20%2890%29.png)
 
-![Half adder is so named because it takes 2 to make a full adder](../../.gitbook/assets/image%20%2860%29.png)
+![Half adder is so named because it takes 2 to make a full adder](../../.gitbook/assets/image%20%2870%29.png)
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2888%29.png)
 
 ![](../../.gitbook/assets/image%20%2819%29.png)
 
