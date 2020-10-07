@@ -4,6 +4,11 @@ description: A log to keep track of media
 
 # Interesting Links
 
+10/20
+
+* [Linux and Unix sha1sum command tutorial with examples](https://shapeshed.com/unix-sha1sum/)
+* https://github.com/horshark/thm\_hacking\_encyclopedia/blob/master/THM\_hacking\_encyclopedia.pdf
+
 9/20
 
 * [Does CSRF prevention also prevent reflected XSS attack](https://security.stackexchange.com/questions/66225/does-csrf-prevention-also-prevent-reflected-xss-attack)
