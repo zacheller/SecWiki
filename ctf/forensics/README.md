@@ -63,5 +63,15 @@ $ binwalk --dd='.*' <file to extract>
 
 {% embed url="https://trailofbits.github.io/ctf/forensics/" %}
 
+## Windows
+
+{% embed url="https://blog.cyberhacktics.com/memory-forensics-on-windows-10-with-volatility/" %}
+
+{% embed url="https://blog.cyberhacktics.com/carving-files-from-memory-with-volatility/" %}
+
+{% embed url="https://www.nirsoft.net/utils/win\_prefetch\_view.html" %}
+
+
+
 
 
