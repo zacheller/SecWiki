@@ -8,6 +8,8 @@ description: A log to keep track of media
 
 * [Linux and Unix sha1sum command tutorial with examples](https://shapeshed.com/unix-sha1sum/)
 * https://github.com/horshark/thm\_hacking\_encyclopedia/blob/master/THM\_hacking\_encyclopedia.pdf
+* [https://blog.cyberhacktics.com/carving-files-from-memory-with-volatility/](https://blog.cyberhacktics.com/carving-files-from-memory-with-volatility/)
+* [https://blog.cyberhacktics.com/memory-forensics-on-windows-10-with-volatility/](https://blog.cyberhacktics.com/memory-forensics-on-windows-10-with-volatility/)
 
 9/20
 
