@@ -1,5 +1,7 @@
 # Steganography
 
+[https://pequalsnp-team.github.io/cheatsheet/steganography-101](https://pequalsnp-team.github.io/cheatsheet/steganography-101)
+
 Image forensics as in you get a jpg or png as challenge? Usually you have to learn a bit about image formats.
 
 If yes, here is my list of default things to do.
