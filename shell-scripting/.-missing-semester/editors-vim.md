@@ -1,5 +1,7 @@
 # Editors \(Vim\)
 
+{% embed url="https://sanctum.geek.nz/arabesque/vi-mode-in-bash/" caption="$ set -o vi" %}
+
 ## vimtutor
 
 ### Lesson 1 SUMMARY

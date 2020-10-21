@@ -31,5 +31,22 @@ wgetnc()
 {
     wget --no-check-certificate $1	
 }
+
+### WSL
+notepad(){
+        /mnt/c/Windows/notepad.exe $1
+}
+paint(){
+        /mnt/c/Windows/System32/mspaint.exe $1
+}
+sublime(){
+        /mnt/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe $1
+}
+alias subl='sublime'
+alias note='notepad'
+
+alias cdd="cd $DRAFTS"
+alias cdp="cd $POSTS"
+
 ```
 
