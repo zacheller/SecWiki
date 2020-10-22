@@ -90,3 +90,12 @@ SYNOPSIS
        eog [options] files...
 ```
 
+```text
+paste - merge lines of files
+
+$ cat scores | sort | uniq -c | sort -nk1,1 | awk '{print $2}' | paste -sd,
+4730,4755,4780,4785,4855,4864,4879,4884,4905,4930,4994,5003,5030,5054,5094,5124
+```
+
+
+

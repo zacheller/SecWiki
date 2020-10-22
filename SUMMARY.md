@@ -181,6 +181,7 @@
   * [Course overview + the shell](shell-scripting/.-missing-semester/course-overview-+-the-shell.md)
   * [Shell Tools and Scripting](shell-scripting/.-missing-semester/shell-tools-and-scripting.md)
   * [Editors \(Vim\)](shell-scripting/.-missing-semester/editors-vim.md)
+  * [Untitled](shell-scripting/.-missing-semester/untitled.md)
 * [Bash Tricks](shell-scripting/bash-tricks.md)
 * [.bashrc](shell-scripting/untitled.md)
 * [Random Commands](shell-scripting/random-commands.md)
