@@ -64,7 +64,17 @@ M=A-1;JEQ
 
 ![](../../.gitbook/assets/image%20%2836%29.png)
 
+* The binary instruction 1111010101101100 translates to:
+  * AM=D\|M;JLT
+
 ## Input/Output
+
+![](../../.gitbook/assets/image%20%2894%29.png)
+
+* If you want to change the bit in row 4, column 55, what address should you retrieve, and which bit should you change?
+  * Screen\[131\], 7th bit
+
+![](../../.gitbook/assets/image%20%2895%29.png)
 
 
 
