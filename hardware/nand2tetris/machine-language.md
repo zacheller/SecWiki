@@ -116,7 +116,7 @@ Accessing a pointer usually involves:
 
 ## Project 4 Overview
 
-Mult and FIll
+### Mult and Fill
 
 Mult: a program performing R2 = R0 \* R1
 
