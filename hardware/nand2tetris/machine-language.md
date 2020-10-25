@@ -122,5 +122,3 @@ Mult: a program performing R2 = R0 \* R1
 
 ![](../../.gitbook/assets/image%20%28101%29.png)
 
-
-
