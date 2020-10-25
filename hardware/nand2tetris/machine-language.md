@@ -80,9 +80,47 @@ M=A-1;JEQ
 
 ## Hack Programming
 
+![](../../.gitbook/assets/image%20%28100%29.png)
 
+```text
+# RAM[11]=10
+@10
+D=A
+A=D+1
+M=D
+```
+
+![](../../.gitbook/assets/image%20%28106%29.png)
+
+![](../../.gitbook/assets/image%20%2897%29.png)
+
+![](../../.gitbook/assets/image%20%28103%29.png)
+
+![](../../.gitbook/assets/image%20%2896%29.png)
+
+![](../../.gitbook/assets/image%20%2898%29.png)
+
+How would an assembler distinguish between a branching symbol and a variable symbol?
+
+* A branching symbol has a label declaration somewhere in the program, and a variable symbol doesn't.
+
+![](../../.gitbook/assets/image%20%2899%29.png)
+
+Accessing a pointer usually involves:
+
+* Changing the address register to a value retrieved from memory.
+
+![](../../.gitbook/assets/image%20%28102%29.png)
+
+![](../../.gitbook/assets/image%20%28107%29.png)
 
 ## Project 4 Overview
+
+Mult and FIll
+
+Mult: a program performing R2 = R0 \* R1
+
+![](../../.gitbook/assets/image%20%28101%29.png)
 
 
 
