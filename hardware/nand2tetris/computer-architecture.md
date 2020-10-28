@@ -97,7 +97,3 @@ The fetch part of the cycle reads from the program memory, and the execute part 
 
 ![](../../.gitbook/assets/image%20%28117%29.png)
 
-
-
-## Unit 5.6: Perspectives
-
