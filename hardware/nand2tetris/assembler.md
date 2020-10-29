@@ -6,7 +6,13 @@
 
 ## Unit 6.1: Assembly Languages and Assemblers
 
-
+* Basic Assembler Logic
+  * Repeat:
+    * Read the next Assembly language command
+    * Break it into the different fields it is composed of
+    * Lookup the binary code for each field
+    * Combine these codes into a single machine language command
+    * Output this machine language command
 
 ## Unit 6.2: The Hack Assembly Language
 
