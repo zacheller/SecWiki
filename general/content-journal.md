@@ -4,6 +4,10 @@ description: A log to keep track of media
 
 # Interesting Links
 
+11/20
+
+* [SSH Pivoting](https://blog.ikuamike.io/posts/2020/grayhat_red_team_village_ctf_tunneler_writeup/) - Red Team Village CTF Writeup
+
 10/20
 
 * [Linux and Unix sha1sum command tutorial with examples](https://shapeshed.com/unix-sha1sum/)
