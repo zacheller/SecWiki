@@ -13,6 +13,8 @@
     * Lookup the binary code for each field
     * Combine these codes into a single machine language command
     * Output this machine language command
+* The assembler translates assembly language to machine language
+* The assembler enters a symbol into the table only when that symbol has not appeared before.
 
 ## Unit 6.2: The Hack Assembly Language
 
