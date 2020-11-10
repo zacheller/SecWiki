@@ -64,7 +64,7 @@
 ## Web App Pentest
 
 * [Upload/Download](web-app-pentest/upload-download/README.md)
-  * [Error: Only .md and .pdf files are allowed!](web-app-pentest/upload-download/error-only-.md-and-.pdf-files-are-allowed.md)
+  * [Download Bypass: Poison Null Byte](web-app-pentest/upload-download/error-only-.md-and-.pdf-files-are-allowed.md)
 * [Burp Suite](web-app-pentest/burp-suite.md)
 * [THC-Hydra BruteForce](web-app-pentest/thc-hydra-bruteforce.md)
 * [SQL Injection](web-app-pentest/sql-injection.md)
