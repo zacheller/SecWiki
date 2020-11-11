@@ -63,11 +63,20 @@
 
 ## Web App Pentest
 
+* [Injection](web-app-pentest/injection/README.md)
+  * [SQL Injection](web-app-pentest/injection/sql-injection.md)
+* [Broken Authentication](web-app-pentest/broken-authentication.md)
+* [Sensitive Data Exposure](web-app-pentest/sensitive-data-exposure/README.md)
+  * [SQLite3](web-app-pentest/sensitive-data-exposure/sqlite3.md)
+* [XML External Entity](web-app-pentest/xml-external-entity/README.md)
+  * [XML Background](web-app-pentest/xml-external-entity/xml-background.md)
+* [Broken Access Control](web-app-pentest/broken-access-control.md)
+* [Security Misconfiguration](web-app-pentest/security-misconfiguration.md)
 * [Upload/Download](web-app-pentest/upload-download/README.md)
   * [Download Bypass: Poison Null Byte](web-app-pentest/upload-download/error-only-.md-and-.pdf-files-are-allowed.md)
-* [Burp Suite](web-app-pentest/burp-suite.md)
-* [THC-Hydra BruteForce](web-app-pentest/thc-hydra-bruteforce.md)
-* [SQL Injection](web-app-pentest/sql-injection.md)
+* [Tools](web-app-pentest/tools/README.md)
+  * [Burp Suite](web-app-pentest/tools/burp-suite.md)
+  * [THC-Hydra BruteForce](web-app-pentest/tools/thc-hydra-bruteforce.md)
 * [XSS](web-app-pentest/xss/README.md)
   * [DOMXSS](web-app-pentest/xss/domxss.md)
   * [Persistent XSS](web-app-pentest/xss/persistent-xss.md)
