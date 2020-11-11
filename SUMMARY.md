@@ -70,6 +70,8 @@
 * [SQL Injection](web-app-pentest/sql-injection.md)
 * [XSS](web-app-pentest/xss/README.md)
   * [DOMXSS](web-app-pentest/xss/domxss.md)
+  * [Persistent XSS](web-app-pentest/xss/persistent-xss.md)
+  * [Reflected \(Client-side\) XSS](web-app-pentest/xss/reflected-client-side-xss.md)
   * [Data URLs](web-app-pentest/xss/data-urls.md)
 
 ## CTF
