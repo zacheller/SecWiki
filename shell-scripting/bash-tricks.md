@@ -76,5 +76,11 @@ $ ls -l file1 link1 # verify new soft link
 lrwxr-xr-x 1 veryv wheel 5 Mar 7 22:01 link1 -> file1
 ```
 
+## Unzip multiple ZIP files into their own directories
+
+```text
+for f in *.zip; do unzip -d "${f%*.zip}" "$f"; done
+```
+
 
 
