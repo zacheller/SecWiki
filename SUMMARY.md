@@ -70,6 +70,7 @@
   * [SQLite3](web-app-pentest/sensitive-data-exposure/sqlite3.md)
 * [XML External Entity](web-app-pentest/xml-external-entity/README.md)
   * [XML Background](web-app-pentest/xml-external-entity/xml-background.md)
+  * [XPath Injection](web-app-pentest/xml-external-entity/xpath-injection.md)
 * [Broken Access Control](web-app-pentest/broken-access-control.md)
 * [Security Misconfiguration](web-app-pentest/security-misconfiguration.md)
 * [Upload/Download](web-app-pentest/upload-download/README.md)
@@ -82,6 +83,7 @@
   * [Persistent XSS](web-app-pentest/xss/persistent-xss.md)
   * [Reflected \(Client-side\) XSS](web-app-pentest/xss/reflected-client-side-xss.md)
   * [Data URLs](web-app-pentest/xss/data-urls.md)
+* [Insecure Deserialization](web-app-pentest/insecure-deserialization.md)
 
 ## CTF
 
