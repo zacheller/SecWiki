@@ -63,6 +63,9 @@
 
 ## Web App Pentest
 
+* [Tools](web-app-pentest/tools/README.md)
+  * [Burp Suite](web-app-pentest/tools/burp-suite.md)
+  * [THC-Hydra BruteForce](web-app-pentest/tools/thc-hydra-bruteforce.md)
 * [Injection](web-app-pentest/injection/README.md)
   * [SQL Injection](web-app-pentest/injection/sql-injection.md)
 * [Broken Authentication](web-app-pentest/broken-authentication.md)
@@ -75,15 +78,14 @@
 * [Security Misconfiguration](web-app-pentest/security-misconfiguration.md)
 * [Upload/Download](web-app-pentest/upload-download/README.md)
   * [Download Bypass: Poison Null Byte](web-app-pentest/upload-download/error-only-.md-and-.pdf-files-are-allowed.md)
-* [Tools](web-app-pentest/tools/README.md)
-  * [Burp Suite](web-app-pentest/tools/burp-suite.md)
-  * [THC-Hydra BruteForce](web-app-pentest/tools/thc-hydra-bruteforce.md)
 * [XSS](web-app-pentest/xss/README.md)
   * [DOMXSS](web-app-pentest/xss/domxss.md)
   * [Persistent XSS](web-app-pentest/xss/persistent-xss.md)
   * [Reflected \(Client-side\) XSS](web-app-pentest/xss/reflected-client-side-xss.md)
   * [Data URLs](web-app-pentest/xss/data-urls.md)
 * [Insecure Deserialization](web-app-pentest/insecure-deserialization.md)
+* [Components with Known Vulnerabilities](web-app-pentest/components-with-known-vulnerabilities.md)
+* [Insufficient Logging and Monitoring](web-app-pentest/insufficient-logging-and-monitoring.md)
 
 ## CTF
 
