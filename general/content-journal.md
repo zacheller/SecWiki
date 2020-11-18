@@ -9,6 +9,7 @@ description: A log to keep track of media
 * [SSH Pivoting](https://blog.ikuamike.io/posts/2020/grayhat_red_team_village_ctf_tunneler_writeup/) - Red Team Village CTF Writeup
 * [.git hacking](https://medium.com/swlh/hacking-git-directories-e0e60fa79a36)
 * [Off-the-Record Communication, or, Why Not To Use PGP](https://otr.cypherpunks.ca/otr-wpes.pdf)
+* [Exploiting X11 Unauthenticated Access](https://resources.infosecinstitute.com/topic/exploiting-x11-unauthenticated-access/)
 
 10/20
 
