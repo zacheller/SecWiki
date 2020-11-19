@@ -10,6 +10,7 @@ description: A log to keep track of media
 * [.git hacking](https://medium.com/swlh/hacking-git-directories-e0e60fa79a36)
 * [Off-the-Record Communication, or, Why Not To Use PGP](https://otr.cypherpunks.ca/otr-wpes.pdf)
 * [Exploiting X11 Unauthenticated Access](https://resources.infosecinstitute.com/topic/exploiting-x11-unauthenticated-access/)
+* [Windows Subsystem for Linux: The lost potential](https://jmmv.dev/2020/11/wsl-lost-potential.html)
 
 10/20
 
