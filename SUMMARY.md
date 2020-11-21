@@ -200,6 +200,7 @@
   * [Shell Tools and Scripting](shell-scripting/.-missing-semester/shell-tools-and-scripting.md)
   * [Editors \(Vim\)](shell-scripting/.-missing-semester/editors-vim.md)
   * [Data Wrangling](shell-scripting/.-missing-semester/untitled.md)
+  * [Command-line Environment](shell-scripting/.-missing-semester/command-line-environment.md)
 * [Bash Tricks](shell-scripting/bash-tricks.md)
 * [.bashrc](shell-scripting/untitled.md)
 * [Random Commands](shell-scripting/random-commands.md)
