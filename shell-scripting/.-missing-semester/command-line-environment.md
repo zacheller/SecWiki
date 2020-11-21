@@ -10,8 +10,6 @@ video:
 
 # Command-line Environment
 
-We will learn about different ways to improve your shell and other tools, by defining aliases and configuring them using dotfiles. Both of these can help you save time, e.g. by using the same configurations in all your machines without having to type long commands. We will look at how to work with remote machines using SSH.
-
 ## Job Control
 
 In some cases you will need to interrupt a job while it is executing, for instance if a command is taking too long to complete \(such as a `find` with a very large directory structure to search through\). Most of the time, you can do `Ctrl-C` and the command will stop. But how does this actually work and why does it sometimes fail to stop the process?
