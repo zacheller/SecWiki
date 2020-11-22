@@ -99,6 +99,7 @@
 
 ## Network Security
 
+* [The OSI Model](network-security/the-osi-model.md)
 * [ISCI CNSS Course](network-security/isci-cnss-course/README.md)
   * [Introduction to Network Security](network-security/isci-cnss-course/introduction/README.md)
     * [Network Basics](network-security/isci-cnss-course/introduction/network-basics.md)
