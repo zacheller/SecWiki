@@ -36,8 +36,10 @@
   * [Penetration Testing Student \(PTS\)](pentest/courses/penetration-testing-student-pts.md)
   * [OSCP Study](pentest/courses/oscp-study.md)
 * [Recon](pentest/recon-osint/README.md)
-  * [Enumeration](pentest/recon-osint/enumeration.md)
   * [OSINT](pentest/recon-osint/osint.md)
+* [Enumeration](pentest/enumeration/README.md)
+  * [Samba Shares](pentest/enumeration/samba-shares.md)
+  * [ProFtpd](pentest/enumeration/proftpd.md)
 * [Gaining Access](pentest/gaining-access/README.md)
   * [Reverse Shells](pentest/gaining-access/reverse-shells.md)
 * [Privilege Escalation](pentest/privilege-escalation/README.md)
@@ -204,7 +206,8 @@
   * [Command-line Environment](shell-scripting/.-missing-semester/command-line-environment.md)
 * [Bash Tricks](shell-scripting/bash-tricks.md)
 * [.bashrc](shell-scripting/untitled.md)
-* [Random Commands](shell-scripting/random-commands.md)
+* [Random Commands](shell-scripting/random-commands/README.md)
+  * [sed](shell-scripting/random-commands/sed.md)
 
 ## Hardware
 
