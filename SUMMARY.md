@@ -4,10 +4,10 @@
 
 ## General
 
-* [Curriculum](general/curriculum.md)
 * [Interesting Links](general/content-journal.md)
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
   * [How To Vulnhub with VirtualBox](general/labs-wargames-ctf/how-to-vulnhub-virtualbox.md)
+* [Curriculum](general/curriculum.md)
 
 ## Network Pentest <a id="pentest"></a>
 
