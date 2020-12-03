@@ -92,7 +92,8 @@
 
 ## CTF
 
-* [Intro to CTF](ctf/ctf.md)
+* [Intro to CTF](ctf/ctf/README.md)
+  * [The Web](ctf/ctf/the-web.md)
 * [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
 * [Forensics](ctf/forensics/README.md)
   * [Challenges](ctf/forensics/challenges.md)
