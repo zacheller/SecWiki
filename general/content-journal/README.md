@@ -4,6 +4,10 @@ description: A log to keep track of media
 
 # Interesting Links
 
+12/20
+
+* [https://who23.github.io/2020/12/03/sockets-in-your-shell.html](https://who23.github.io/2020/12/03/sockets-in-your-shell.html)
+* 
 11/20
 
 * [SSH Pivoting](https://blog.ikuamike.io/posts/2020/grayhat_red_team_village_ctf_tunneler_writeup/) - Red Team Village CTF Writeup
