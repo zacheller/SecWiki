@@ -92,8 +92,7 @@
 
 ## CTF
 
-* [Intro to CTF](ctf/ctf/README.md)
-  * [The Web](ctf/ctf/the-web.md)
+* [Intro to CTF](ctf/ctf.md)
 * [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
 * [Forensics](ctf/forensics/README.md)
   * [Challenges](ctf/forensics/challenges.md)
@@ -103,6 +102,7 @@
 
 ## Network Security
 
+* [The Web](network-security/the-web.md)
 * [The OSI Model](network-security/the-osi-model.md)
 * [ISCI CNSS Course](network-security/isci-cnss-course/README.md)
   * [Introduction to Network Security](network-security/isci-cnss-course/introduction/README.md)
