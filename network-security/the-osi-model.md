@@ -56,4 +56,5 @@ The physical layer is right down to the hardware of the computer. This is where 
 ## Resources:
 
 * [https://tryhackme.com/room/introtonetworking](https://tryhackme.com/room/introtonetworking)
+* [https://www.sans.org/reading-room/whitepapers/standards/osi-model-overview-543](https://www.sans.org/reading-room/whitepapers/standards/osi-model-overview-543)
 
