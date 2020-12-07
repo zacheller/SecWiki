@@ -7,6 +7,7 @@ description: A log to keep track of media
 12/20
 
 * [Sockets In Your Shell](https://who23.github.io/2020/12/03/sockets-in-your-shell.html)
+* [Turning the frustration of a mobile game into a reverse engineering training](https://medium.com/@xplodwild/turning-the-frustration-of-a-mobile-game-into-a-reverse-engineering-training-a9887043efdf)
 
 11/20
 
