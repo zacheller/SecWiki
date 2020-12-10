@@ -54,7 +54,7 @@
     * [sytemctl](pentest/privilege-escalation/linux-privilege-escalation/sytemctl.md)
   * [Windows Privilege Escalation](pentest/privilege-escalation/windows-privilege-escalation/README.md)
     * [Active Directory](pentest/privilege-escalation/windows-privilege-escalation/active-directory/README.md)
-      * [What is AD? Links](pentest/privilege-escalation/windows-privilege-escalation/active-directory/what-is-ad-links.md)
+      * [What is AD?](pentest/privilege-escalation/windows-privilege-escalation/active-directory/what-is-ad-links.md)
     * [User Enumeration](pentest/privilege-escalation/windows-privilege-escalation/user-enumeration.md)
 * [Post Exploitation](pentest/post-exploitation/README.md)
   * [Cleanup](pentest/post-exploitation/cleanup.md)
