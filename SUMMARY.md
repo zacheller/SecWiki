@@ -90,6 +90,7 @@
 * [Insecure Deserialization](web-app-pentest/insecure-deserialization.md)
 * [Components with Known Vulnerabilities](web-app-pentest/components-with-known-vulnerabilities.md)
 * [Insufficient Logging and Monitoring](web-app-pentest/insufficient-logging-and-monitoring.md)
+* [Server-Side Request Forgery \(SSRF\)](web-app-pentest/server-side-request-forgery-ssrf.md)
 
 ## CTF
 
