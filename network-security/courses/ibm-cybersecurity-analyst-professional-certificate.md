@@ -584,8 +584,225 @@ description: Coursera Courses; '-' means not
 
 ## Cybersecurity Roles, Processes & Operating System Security
 
+* The statement: “_The protection of computer systems from theft or damage to the hardware, software or information on them, as well as from disruption or misdirection of the services they provide._” Is a good definition for what?
+  * IT Security
+* When looking at security standard and compliance, which three \(3\) are characteristics of best practices, baselines and frameworks?
+  * They are rules to follow for a specific industry.
 
+    **They seek to improve performance, controls and metrics.**
 
+    They enforce government, industry or client regulations.
+
+    **They are used to improved controls, methodologies and governance for the IT department.**
+
+    **They help translate the business needs into technical or operational needs.**
+* Which three \(3\) of these roles would likely exist in an Information Security organization?
+  * Regional Sales Executive
+
+    Product Development Manager
+
+    **CISO, Chief Information Security Officer**
+
+    **Vulnerability Assessor**
+
+    Director of Human Resources
+
+    **Information Security Architect**
+* In the video _Introduction to Process,_ which three \(3\) items were called out as critical to the success of a Security Operations Center \(SOC\)?
+  * **People**
+
+    **Process**
+
+    **Tools**
+
+    Uninterruptible Power Supplies for all critical systems.
+
+    Bandwidth
+
+    Faraday Cages
+* Process performance metrics typically measure items in which four \(4\) categories?
+  * **Rework**
+
+    Parts Inventory on hand
+
+    Backlog of pending orders
+
+    **Quality \(defect rate\)**
+
+    Injuries
+
+    **Cost**
+
+    **Cycle time**
+* Service Portfolio Management, Financial Management, Demand Management and Business Relationship Management belong to which ITIL Service Lifecycle Phase?
+  * Service Design
+
+    Service Improvement
+
+    Service Operations
+
+    **Service Strategy**
+
+    Service Transition
+* _Log, Assign, Track, Categorize, Prioritize, Resolve_ and _Close_ are all steps in which ITIL process?
+  * Change Management
+
+    Problem Management
+
+    **Incident Management**
+
+    Event Management
+* What critical item is noted when discussing process roles?
+  * Separation of duties is critical; the approver should not be the requester.
+* Service Operations: Event Management, Incident Management, Problem Management
+* Service Design: Service Catalogue Management, Service Level Management, InfoSec Management, Supplier Management
+* The process in ITIL where changes are released to an IT environment is called what?
+  * Release Management
+* Which two \(2\) processes are operational processes? \(Select 2\)
+  * **Change Management**
+
+    **Incident Management**
+
+    Availability Management
+
+    Financial Management
+* Which two \(2\) of these are considered best practices? \(Select 2\)
+  * **ITIL**
+
+    **Project Manager methodologies**
+
+    HIPPA
+
+    SOX
+* Which service management process has the responsibility of understanding the root cause of a problem?
+  * **Problem Management**
+
+    Change Management
+
+    Incident Management
+
+    Configuration Management
+* In the video _What is IT Security_, Elio Sanabria Echeverria put forth a definition that included which factors?
+  * The protection of computer hardware.
+
+    The protection of computer software.
+
+    The protection of data.
+
+    The disruption or misdirection of services provided by your systems.
+
+    **All of the above.**
+* This description belongs to which information security role? _“This position is in charge of testing the effectiveness of computer information systems, including the security of the systems and reports their findings.”_
+  * Information Security Auditor
+* Which of these statements more accurately conveys what was stated in the video _Introduction to Process_?
+  * **As volumes of security alerts and false positives grow, more burden is placed upon Security Analysts & Incident Response teams.**
+
+    Solid and well documented security processes are making the role of the security analyst increasingly obsolete.
+
+    As security monitoring and analysis tools advance and incorporate artificial intelligence, Information Security organizations are challenged to find new work for underutilized security analysts.
+* Continual Process Improvement consists of which four \(4\) items? \(Select 4\)
+  * **Financial performance**
+
+    **Maturity Assessments**
+
+    **Customer Feedback**
+
+    **Process Metrics**
+
+    Focus Group studies
+
+    Market Research
+
+    Legal Review
+* Event Management, Incident Management, and Problem Management belong to which ITIL Service Lifecycle Phase?
+  * Service Transition
+
+    Service Improvement
+
+    Service Design
+
+    Service Strategy
+
+    **Service Operations**
+* Maintaining Information Security Policy \(ISP\) and specific security policies that address each aspect of strategy, objectives and regulations is the part of which ITIL process?
+  * Problem Management
+
+    Change Management
+
+    Service Level Management
+
+    **Information Security Management**
+* Which aspect of the CIA Triad would cover preserving authorized restrictions on information access and disclosure?
+  * Confidentiality
+* A message that Bob receives from Alice is genuine and can be verified as such demonstrates which key property?
+  * Authenticity
+*  Which is the correct order for gaining access to a resource?
+  * Authentication Identification, Authorization, Accountability
+
+    **Identification, Authentication, Authorization, Accountability**
+
+    Identification, Authorization, Authentication, Accountability
+
+    Accountability, Identification, Authentication, Authorization
+* Which type of method would include something you know, such as a password?
+  * Accountability
+
+    **Authentication: something you know, something you have, something you are**
+
+    Identification
+
+    Authorization
+* Which three \(3\) are common methods of access control?
+  * **Role Based Access Control \(RBAC\):** assigns access based upon the roles assigned to an individual
+
+    Perimeter Access Control \(PAC\)
+
+    **Mandatory Access Control \(MAC\):** common form that uses labels to restrict access
+
+    CIA Triad Access Control \(CTAC\)
+
+    **Discretionary Access Control \(DAC\):** requires the creator of any object to assign access controls to that object
+* Which three \(3\) items would be considered Physical Access Control methods?
+  * **Perimetral**
+
+    Access Control Lists \(ACL\) - logical control
+
+    **Work areas**
+
+    Password policies - logical control
+
+    **Building**
+* Which is an example of technical uses of physcial\[sic\] security controls?
+  * Tokens
+
+    Tramps
+
+    Lists and logs
+
+    **All of the above**.
+* Hamid has access to certain resources because he is a Quality Control Inspector and he has access to other resources because he is the manager of that team. Which form of access control is his company most likely using?
+  * RBAC
+* Which type of method would include something you are, such as a fingerprint?
+  * Authentication
+* How many unique address spaces are used by applications running in kernel mode?
+  * 1: All applications run in the same shared address space in Kernel mode
+* Which two \(2\) of these file systems could you use to format a 64 GB USB drive?
+  * FAT32 && NTFS
+* Where does Windows 10 store 64-bit applications?
+  * \Program Files
+* Where does Windows 10 store 32-bit applications?
+  * \Program Files \(x86\)
+* Which three \(3\) groups can "own" a file in Linux?
+  * user, group, everybody
+* What application can you use to see all the active running applications and processes on macOS?
+  * Activity Monitor
+* What feature in macOS prevents unauthorized applications from being installed?
+  * Gatekeeper
+* Which three \(3\) utilities are found when booting macOS to the recovery partition? \(Select 3\)
+  * Safari
+  * Disk Utility
+  * Time Machine
+* 
 ## Cybersecurity Compliance Framework & System Administration
 
 
