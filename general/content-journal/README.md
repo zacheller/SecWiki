@@ -11,6 +11,7 @@ description: A log to keep track of media
 * [Weaknesses in the Key Scheduling Algorithm of RC4](https://link.springer.com/chapter/10.1007%2F3-540-45537-X_1)
 * [Removing Exponential Backoff from TCP](https://networks.cs.northwestern.edu/publications/extr.pdf)
 * [https://readme.localtest.me/](https://readme.localtest.me/)
+* [The Great iPwn  : Journalists Hacked with Suspected NSO Group iMessage ‘Zero-Click’ Exploit](https://citizenlab.ca/2020/12/the-great-ipwn-journalists-hacked-with-suspected-nso-group-imessage-zero-click-exploit/)
 
 11/20
 
