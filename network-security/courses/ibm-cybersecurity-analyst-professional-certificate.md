@@ -1,5 +1,5 @@
 ---
-description: Coursera Courses; '-' means not
+description: Coursera Courses
 ---
 
 # IBM Cybersecurity Analyst Professional Certificate
@@ -1118,5 +1118,18 @@ description: Coursera Courses; '-' means not
 * When developing an application, using NoSQL instead of MySQL will have what effect on the applications susceptibility to SQL Injection attacks?
   * Reduce the attack surface, but not eliminate it
 
+## Penetration Testing, Incident Response and Forensics
 
+* a
 
+## Cyber Threat Intelligence
+
+* a
+
+## Cybersecurity Capstone: Breach Response Case Studies
+
+* a
+
+## IBM Cybersecurity Analyst Assessment
+
+* 
