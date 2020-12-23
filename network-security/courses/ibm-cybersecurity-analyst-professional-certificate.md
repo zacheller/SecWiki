@@ -802,10 +802,299 @@ description: Coursera Courses; '-' means not
   * Safari
   * Disk Utility
   * Time Machine
-* 
+
 ## Cybersecurity Compliance Framework & System Administration
 
+* A security attack is defined as which of the following?
+  * An event that has been reviewed by analysts and deemed worthy of deeper investigation.
 
+    All cybersecurity events.
+
+    An event on a system or network detected by a device.
+
+    **An event that has been identified by correlation and analytics tools as a malicious activity.**
+* Which order does a typical compliance process follow?
+  * **Establish scope, readiness assessment, gap remediation, testing/auditing, management reporting**
+* Under GDPR who determines the purpose and means of processing of personal data?
+  * Controller
+* Under the International Organization for Standardization \(ISO\) which standard focuses on Privacy?
+  * ISO 27018
+* What is an auditor looking for when they test control the control for implementation over an entire offering with no gaps?
+  * Completeness
+* The HIPAA Security Rule requires covered entities to maintain which three \(3\) reasonable safeguards for protecting e-PHI?
+  * administrative
+
+    physical
+
+    technical
+* HIPAA Administrative safeguards include which two \(2\) of the following?
+  * Workforce training and management
+
+    Security Personnel
+* Who is the governing entity for HIPAA?
+  * US Department of Health and Human Services Office of Civil Rights
+* HIPAA Physical safeguards include which two \(2\) of the following?
+  * Facility Access and Control
+
+    Workstation and Device Security
+* PCI uses which three \(3\) of the following Card Holder Data Environment categories to determine scope?
+  * Processes
+
+    Technology
+
+    People
+* One PCI Requirement is using an approved scanning vendor to scan at what frequency?
+  * Quarterly
+* In which CIS control category will you find Incident Response and Management?
+  * Organizational
+* Which is NOT an example of a client?
+  * e-mail Server
+* Which three \(3\) threat key factors should be considered when looking at an Endpoint Security Solution?
+  * detection response, user education, threat hunting
+* Which two types of updates do most organizations patch as soon as possible after testing?
+  * Security and Critical
+* A patch is a set of changes to a computer program or its data designed for which three \(3\) functions?
+  * improve, fix, update
+* Which three \(3\) are common Endpoint attack types?
+  * Spear Phishing
+
+    Whale hunting
+
+    Ad Network
+* Which three \(3\) of the following steps can be taken to help protect sensitive Windows domain accounts? \(Select 3\)
+  * Disable the account delegation rights for administrator accounts.
+
+    Grant user logon access to servers and workstations.
+
+    Create dedicated workstation hosts without Internet and email access.
+
+    Separate administrator accounts from user accounts.
 
 ## Network Security & Database Vulnerabilities
+
+* Which network layer do IP addresses belong to?
+  * The Network Layer
+* Which address assures a packet is delivered to a computer on a different network segment from the sender?
+  * The IP Address
+* A network device that is capable of sending and receiving data at the same time is referred to as which of the following?
+  * Full duplex
+* True or **False**: Collision avoidance protocols are critical to the smooth operation of modern networks.
+* Comparing bridges with switches, which are three \(3\) characteristics specific to a bridge?
+  * End-user devices share bandwidth on each port.
+  * Virtual LANs are not possible.
+  * Half-duplex transmission.
+* ARP tables only keep track of addresses within the node's broadcast domain
+* If a network server has four \(4\) network interface cards, how many MAC addresses will be associated with that server?
+  * 4
+* **True** or False: When you connect your laptop to a new network, a new IP address will be assigned.
+* What does the Address Resolution Protocol \(ARP\) do when it needs to send a message to a location that is outside its broadcast domain?
+  * ARP sends the message to the MAC address of the default gateway.
+* Routing tables are maintained by which of the following devices?
+  * On any network connected device.
+* What is the purpose of a default gateway?
+  * It forwards messages coming from, or going to, external networks.
+* If a message is being sent to a computer that is identified in the computer's routing table, what type of connection would be established?
+  * Direct
+* What is meant by "stateless" packet inspection?
+  * It is a packet-by-packet inspection with no awareness of previous packets.
+* **True** or False: An Intrusion Detection System \(IDS\) is generally a passive device that listens to network traffic and alerts an administrator when a potential problem is detected?
+* **True** or False: The primary difference between an Intrusion Detection System \(IDS\) and an Intrusion Prevention System \(IPS\) is that an IDS is designed as a passive system that listens and alerts while an IPS is an active system that is designed to take action when a problem is detected?
+* Which intrusion system does not add any delay to network traffic?
+  * IDS
+* How does using Network Address Translation \(NAT\) provide an additional layer of security to your network?
+  * By hiding the real IP addresses of all the devices on your private network and exposing only a single public IP address.
+* Which type of NAT routing maps unregistered IP addresses to a single registered IP address allowing thousands of users to be connected to the Internet using only a single global IP address?
+  * Overload
+* Which network layer do MAC addresses belong to?
+  * Data Link
+* Which address assures a packet is delivered to a computer on the same network segment as the sender?
+  * The MAC address.
+* A network device that cannot send and receive data at the same time is referred to as which of the following?
+  * Half duplex
+* When a NIC reads a packet header and sees the destination address is not its own address, what does it do with the packet?
+  * It discards the packet.
+* Comparing bridges with switches, which are three \(3\) characteristics specific to a switch?
+  * Virtual LANs are possible.
+
+    Each port is dedicated to a single device; bandwidth is not shared.
+
+    Full-duplex transmission.
+* True or **False**: Switches can connect two geographically dispersed networks.
+* A network interface card's MAC address is also known by which two \(2\) of the following?
+  * The physical address.
+
+    The burn address.
+* What is the main function of the Address Resolution Protocol \(ARP\)?
+  * To translate a MAC address to an IP address and vice versa.
+* What does a router do when it needs to send a packet to an address that is not in its routing table?
+  * It forwards the packet to the default gateway.
+* What happens to messages sent from a computer that has no gateway address specified?
+  * Messages sent to other computers on the same subnet will be delivered but those destined to computers on other networks will not be delivered.
+* Which three \(3\) are types of routes found in a routing table?
+  * Direct
+
+    Dynamic
+
+    Default
+* The IP address range goes from 0.0.0.0 to 255.255.255.255 and is known as the "four octets". Why are these 4 numbers called octets?
+  * The number 255 in decimal takes up 8 digits in binary.
+* How many octets are used to define the network portion of the IP address in a Class C network?
+  * 3
+* **True** or False: A routable protocol is a protocol whose packets may leave your network, pass through your router, and be delivered to a remote network.
+* True or **False**: The destination address is defined in the packet header but the source address is in the packet footer.
+* Which network mask belongs to a Class A network?
+  * 255.0.0.0
+* What is the primary function of DNS?
+  * To translate domain names to IP addresses and vice versa.
+* How does a new endpoint know the address of the DHCP server?
+  * The endpoint sends a DHCP Discover broadcast request to all endpoints on the local network.
+* Which Syslog layer contains the actual message contents?
+  * Syslog Content
+* **True** or False: Setting the correct Syslog Severity Level on systems helps keep the Syslog server from being flooded by the millions of messages that could be generated by these systems.
+* **True** or False: The Syslog message typically includes the severity level, facility code, originator process ID, a time stamp, and the hostname or IP address of the originator device.
+* Why is port mirroring used?
+  * To provide a stream of all data entering or leaving a specific port for debugging or analysis work.
+* What is the main difference between a Next Generation Firewall \(NGFW\) and a traditional firewall?
+  * NGFW use sessions.
+* **True** or False: Unlike traditional stateful firewalls, next-generation firewalls drill into traffic to identify the applications traversing the network.
+* What are the two \(2\) primary methods used by Intrusion Prevention Systems \(IPS\) to discover an exploit?
+  * Statistical anomaly-based detection.
+  * Signature-based detection.
+* If your nontechnical manager told you that you must configure your traditional second-generation firewalls to block all users on your network from posting messages on Facebook from their office computers, how would you carry out this request?
+  * You would have to block any IP addresses used by Facebook.
+* How does an endpoint know the address of the DNS server?
+  * It is manually configured in the network settings by the administrator or obtained from the DHCP server.
+* What is the primary function of DHCP?
+  * To automatically assign IP addresses to systems.
+* Which Syslog layer would handles the routing and storage of a Syslog message?
+  * Syslog Application
+* Which of the following flow data are gathered by utilities such as NetFlow?
+  * Packet count and byte count.
+
+    Source and destination TCP/UDP ports.
+
+    Source and destination IP addresses.
+
+    Routing and peering data such as TCP flags and protocol.
+
+    **All of the above.**
+* When a network interface card in operating in promiscuous mode, what action does it take?
+  * The NIC sends all packets to the CPU for processing instead of only those packets indicated for its MAC address.
+* If a packet is allowed to pass through a NGFW based upon the established firewall rules and a new session is established, how does the NGFW treat the next packet it encounters from the same session?
+  * Subsequent packets of the same session are automatically allowed.
+* If your nontechnical manager told you that you must configure your next generation firewalls \(NGFW\) to block all users on your network from posting messages on Facebook from their office computers, what would be the consequence of carrying out his order?
+  * No serious consequence, application-level inspection and blocking can be configured.
+* Monitoring network traffic and comparing it against an established baseline for normal use is an example of which form of intrusion detection?
+  * Statistical anomaly-based detection
+* Which are three \(3\) characteristics of a highly available system?
+  * Redundancy
+
+    Failover
+
+    Monitoring
+* True or **False**: If all of your organization's data is centralized in a small number of data centers, than focusing security on perimiter defense is adequate to assure your data is safe.
+* Which two \(2\) of the following data source types are considered structured data?
+  * Data warehouses
+  * Distributed databases
+* Data that has not been organized into a specialized repository, but does have associated information, such as metadata that makes it more amenable to processing than raw data, is an example of which data model type?
+  * Semi-structured data
+* How are the tables in a relational database linked together?
+  * Through the use of primary and foreign keys.
+* In the video Securing the Crown Jewels, the "Identification and Baseline" phase contains which three \(3\) of the following items?
+  * **Vulnerability Assessment**
+
+    Blocking & Quarantine
+
+    Activity Monitoring
+
+    **Discovery & Classification**
+
+    **Entitlements Reporting**
+* In the video _Securing the Crown Jewels_, the "Real-Time Monitor & Protection" phase contains which three \(3\) of the following items?
+  * Activity Monitoring
+
+    Blocking & Quarantine
+
+    Dynamic Data Masking
+* In the video Securing the Crown Jewels, the "Raise Bar" phase contains:
+  * Reconfigure, Mask & Encrypt
+* In the video Leveraging Security Industry Best Practices, which US Government agency is a co-publisher of the Database Security Requirements Guide \(SRG\)?
+  * Department of Defense \(DoD\)
+* For added security, a firewall is often placed between which of these?
+  * The database and the hardened data repository.
+* True or **False**: In a vulnerability assessment test, a new commercial database installed on a new instance of a major operating system should pass 80-90% of the vulnerability tests out-of-the-box unless there is a major flaw or breach.
+* Which of these hosting environments requires the enterprise to manage the largest number of different data sources?
+  * on prem
+* While data security is an ongoing process, what is the correct order to consider these steps?
+  * Discover, Harden, Monitor & Protect, Repeat
+* In setting up policy rules for data monitoring, what is the purpose of "exclude" rules?
+  * To exclude certain applications or safe activities from being logged.
+* True or **False**: Data monitoring products such as IBM Guardium can send access alerts to syslog for manual intervention by a security analyst but must be connected to addition applications if automated interventions are desired.
+* To created auditable reports of data access using the IBM Guardium product, the administrator would do which of the following?
+  * Use the Audit Process Builder feature to automate the reporting process.
+* **True** or False: The IBM Guardium monitoring applications is capable of monitoring activities in non-relational databases such as Hadoop, Cognos, and Spark.
+* At a minimum, which 3 entities should be captured in any event log?
+  * When the activity took place.
+  * What activity took place.
+  * Who or what committed the activity.
+* True of **False**: In the IBM Guardium data monitoring tool, the number of failed login attempts that would trigger an alert are always counted since the last successful login.
+* Which activity should be considered suspicious and might indicate inappropriate activity is being attempted?
+  * Attempts are made to access data using nonstandard tools, such as MS Excel or MS Access, rather than through the application the data belongs to.
+* Which two \(2\) activities should be considered suspicious and warrant further investigation?
+  * Use of an Application ID from an IP that is different from what has been specified by the application owner.
+  * Use of an Application ID from a hostname that is different from what has been specified by the application owner.
+* Distributed databases, data warehouses, big data, and File shares are all classified as what?
+  * Data source types
+* Hadoop, MongoDB, and BigTable are all examples of which data source type?
+  * Big data databases
+* Data that has been organized into a formatted repository, typically a database, so its elements can be made addressable, is an example of which data model type?
+  * Structured data
+* Which of the following is the primary difference between a flat file database and a relational database?
+  * All the data in a flat file database is stored in a single table.
+* In the video Leveraging _Security Industry Best Practices_, where would you turn to look for help on establishing security benchmarks for your database?
+  * not Department of Defense/Defence Information Systems Agency \(DoD/DISA\).
+  * Center for Internet Security \(CIS\).
+* Most of the time, how do users access data?
+  * Through an application.
+* **True** or False: In a vulnerability assessment test, it is not uncommon to fail more than 50% of the tests before the operating system and database are hardened.
+* Which of these hosting environments requires the service provider to manage the largest number of different data sources?
+  * SaaS
+* While data security is an ongoing process, what is the correct order to consider these steps?
+  * Identification & Baseline, Raise the Bar, Real-time Monitor & Protection
+* To automatically terminate a session if an attempt is made to access data in a sensitive table, such as Social Security \(SSN\) ID numbers, you would set up which type of rule?
+  * not terminate
+  * An Access rule.
+* **True** or False: Data monitoring products such as IBM Guarduim are fully capable of blocking access to sensitive data based upon access parameters configured in policy rules.
+* In which two \(2\) ways can security events collected by a data monitoring tool be logged to a security incident and event management \(SIEM\) system?'
+  * **Configure the monitoring system to write to the SIEM systems syslog file.**
+
+    **Configure bidirectional communication between the monitoring and SIEM systems, if available.**
+
+    Export security events from your monitoring tool and import them into your SIEM tool.
+
+    Configure your SIEM system to read the monitoring systems local syslog file.
+* True or **False**: Data monitoring tools such as IBM Guardium are designed to monitor activities within a database, but external products, such as a privileged identity management \(PIM\) tool would be required to monitor changes to the data monitoring tool itself, such as the addition of new users or the alteration of existing user accounts.
+* **True** or False: In the IBM Guardium data monitoring tool, it is possible to create a report that shows not only how many SQL unauthorized access attempts were made by an individual, but also exactly which SQL statements were disallowed.
+* Which activity should be considered suspicious and might indicate inappropriate activity is being attempted?
+  * Attempts are made to SELECT lists of usernames and passwords by a non-administrator account.
+* Which two \(2\) activities should be considered suspicious and warrant further investigation?
+  * **The data monitoring logging system was manually shut down.**
+
+    **There were attempts to purge event logs.**
+
+    It takes an authorized user 3 attempts to enter the correct password.
+
+    An authorized user attempts to run SQL statements with invalid syntax.
+* Which operating system is susceptible to OS Command Injection attacks?
+  * All
+* What is a possible impact of running commands thought OS shell interpreters such as sh, bash, cmd.exe and powershell.exe?
+  * It makes it easier for a hacker to inject additional commands or arguments.
+* **True** or False: Safe coding practice avoids using OS commands when it can be avoided.
+* True or **False**: Safe coding practice always runs commands through a shell interpreter.
+* **True** or False: Safe coding practice uses library functions when running OS commands.
+* True or **False**: Safe coding practice uses blacklists and avoids the use of whitelists.
+* A hacker tailoring his actions based on the database errors the application displays is an example of which type of SQL Injection attack?
+* **True** or False: Use of prepared statements is an effective mitigation against SQL Injection attacks because it seperates the query structure from the query parameters.
+* **True** or False: Native database errors should be hidden from the user to prevent hackers from gaining insight into the internal structure of your application.
+* True or _False_: The use of object-relational mapping \(ORM\) libraries is a dangerous practice that can help hackers conduct successful SQL Injection attacks.
 
