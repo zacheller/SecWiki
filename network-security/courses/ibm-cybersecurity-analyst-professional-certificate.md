@@ -1102,8 +1102,21 @@ description: Coursera Courses; '-' means not
 * Which vulnerability is being exploited in an OS Command Injection attack?
   * Poor user input sanitation and unsafe execution of OS commands.
 * What is a simple but effective way to protect against DLL hijacking?
-  * Write-protect the folders that contain your libraries.
+  * use absolute paths
 * **True** or False: Safe coding practice runs code with the least possible privilege.
 * True or **False**: Safe coding practice always specifies relative paths when running applications or using shared libraries.
-* True or False: Safe coding practice does not let user input reach an OS command unchanged.
-* 
+* **True** or False: Safe coding practice does not let user input reach an OS command unchanged.
+*  A hacker exfiltrating data by injecting an HTTPrequest command is an example of which type of SQL Injection attack?
+  * Out of Band
+* Protecting against SQL Injection attacks by sanitizing user input can be accomplished by which two \(2\) of the following techniques?
+  * Use of whitelists.
+
+    Use of mapping tables.
+* True or **False**: Limiting database user permissions is an ineffective strategy in preventing SQL Injection attacks since the injected code will run directly against the database regardless of the permission levels that have been set.
+* Which of the following will help reduce the SQL Injection attack surface?
+  * Use of stored procedures.
+* When developing an application, using NoSQL instead of MySQL will have what effect on the applications susceptibility to SQL Injection attacks?
+  * Reduce the attack surface, but not eliminate it
+
+
+
