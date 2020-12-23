@@ -1096,5 +1096,14 @@ description: Coursera Courses; '-' means not
 * A hacker tailoring his actions based on the database errors the application displays is an example of which type of SQL Injection attack?
 * **True** or False: Use of prepared statements is an effective mitigation against SQL Injection attacks because it seperates the query structure from the query parameters.
 * **True** or False: Native database errors should be hidden from the user to prevent hackers from gaining insight into the internal structure of your application.
-* True or _False_: The use of object-relational mapping \(ORM\) libraries is a dangerous practice that can help hackers conduct successful SQL Injection attacks.
-
+* True or **False**: The use of object-relational mapping \(ORM\) libraries is a dangerous practice that can help hackers conduct successful SQL Injection attacks.
+* Which of the following statements is True?
+  * Injection attacks were ranked \#1 on the OWASP Top 10 list in 2013 and again in 2017.
+* Which vulnerability is being exploited in an OS Command Injection attack?
+  * Poor user input sanitation and unsafe execution of OS commands.
+* What is a simple but effective way to protect against DLL hijacking?
+  * Write-protect the folders that contain your libraries.
+* **True** or False: Safe coding practice runs code with the least possible privilege.
+* True or **False**: Safe coding practice always specifies relative paths when running applications or using shared libraries.
+* True or False: Safe coding practice does not let user input reach an OS command unchanged.
+* 
