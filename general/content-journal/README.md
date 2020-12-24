@@ -13,6 +13,7 @@ description: A log to keep track of media
 * [https://readme.localtest.me/](https://readme.localtest.me/)
 * [The Great iPwn  : Journalists Hacked with Suspected NSO Group iMessage ‘Zero-Click’ Exploit](https://citizenlab.ca/2020/12/the-great-ipwn-journalists-hacked-with-suspected-nso-group-imessage-zero-click-exploit/)
 * [Parsing JSON at the CLI: A Practical Introduction to \`jq\` \(and more!\)  ](https://sequoia.makes.software/parsing-json-at-the-cli-a-practical-introduction-to-jq-and-more/)
+* [Google Dork Techniques](https://securitytrails.com/blog/google-hacking-techniques)
 
 11/20
 

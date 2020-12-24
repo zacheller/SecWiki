@@ -1120,15 +1120,709 @@ description: Coursera Courses
 
 ## Penetration Testing, Incident Response and Forensics
 
-* a
+* General Methodology
+  * Planning
+    * Setting Objectives
+    * Establishing Boundaries \([Source](https://hub.packtpub.com/penetration-testing-rules-of-engagement/)\)
+    * Informing Need-to-know employees
+  * Discovery
+    * Vulnerability scanning
+    * Google Dorks \([Source](https://securitytrails.com/blog/google-hacking-techniques)\)
+    * Passive-Online
+      * Wire sniffing
+      * MitM
+      * Replay attack
+    * Active-Online
+      * password brute-forcing
+      * Network mapping
+      * port scanning
+      * trojan/spyware/keyloggers
+      * hash injection \(NTLM, LanMan\)
+      * Phishing
+    * Offline Attacks
+      * Pre-Computed hashes
+      * Distributed Network Attack \(DNA\), password cracker
+      * Rainbow
+    * Tech-less
+      * Social engineering
+      * Shoulder surfing
+      * Dumpster diving
+  * Attack
+    * Exploited vulnerabilities
+      * misconfigurations
+      * kernel flaws
+      * insufficient input validation
+      * symbolic links
+      * file descriptor attacks
+      * race conditions
+      * buffer overflows
+      * incorrect file and directory permissions
+  * Report
+    * Executive Summary
+      * Background
+      * Overall posture
+      * risk ranking
+      * general findings
+      * recommendations
+      * roadmap
+        * 30,60,90 day plan
+
+![](../../.gitbook/assets/image%20%28144%29.png)
+
+* Incident Response
+  * General
+    * Event -&gt; Incident
+    * Team Models: Central, Distributed, Coordinating
+    * Common Attack Vectors
+      * External/Removable Media
+      * Attrition
+      * Web
+      * Email
+      * Impersonation
+      * Loss or Theft of Equipment
+    * Baseline Questions; help coordinate with other teams and the media
+      * Who attacked you? Why?
+      * When and how did it happen?
+      * Did this happen because you have poor security processes?
+      * How widespread is the incident?
+      * What steps are you taking to determine what happened and prevent future occurrences?
+      * What is the impact? Any PII exposed? Estimated cost of incident?
+
+![Resources](../../.gitbook/assets/image%20%28142%29.png)
+
+* Incident Response Continued
+  * Phases
+    * Preparation
+      * Policy \([Source](https://www.sans.org/reading-room/whitepapers/incident/documentation-incident-response-air-tank-scuba-diving-2021)\)
+        * IR Team, roles, means, tools, resources, policy testing, action plan
+        * Risk assessment, network security, user awareness, host security, malware prevention
+        * What types of events should trigger investigation?
+        * What assets do we have?
+    * Detection & Analysis
+      * Precursor: sign incident may occur in future
+        * e.g. log shows vulnerability scanning going on
+      * Indicator: a sign that an incident may have occurred or may be occurring now
+        * e.g. unusual deviation from typical network flow
+      * Monitoring Systems
+        * IDS vs IPS
+        * DLP
+        * SIEM
+      * Documentation
+        * current status, summary, indicators, related incidents, actions taken, chain of custody if applicable, impact assessments, contact info, evidence gathered, comments from incident handlers, next steps to be taken
+        * Functional Impact Categories
+          * None, Low, Medium, High: effect on ability to provide services to users
+        * Information Impact Categories
+          * None, Privacy Breach, Proprietary Breach, Integrity loss
+        * Recoverability Effort Categories
+          * Regular, Supplemented, Extended, Not Recoverable
+        * Notifications
+          * CIO, Local and Head of InfoSec, other incident response teams in or out of the org, system owner, HR, Public Affairs, legal department, law enforcement if appropriate
+    * Containment, Eradication & Recovery
+      * Containment: decision making is easier with predetermined procedures
+        * Potential damage to and theft of resources
+        * need for evidence preservation
+        * service availability
+        * time and resources needed to implement the strategy
+        * effectiveness of the strategy
+        * duration of the solution
+      * Forensics in IR
+        * Capture a backup image of the system as-is
+        * Gather evidence
+        * Follow chain of custody protocols
+      * Eradication & Recovery
+        * Deleting malware, disabling breached accounts, identifying and mitigating all vulnerabilities
+        * Restoring systems from clean backups, rebuilding systems from scratch, replacing compromised files with clean versions, patching, changing passwords, tightening network perimeter security
+        * high level of testing and monitoring are often deployed to ensure restored systems are no longer impacted by the incident. This could take weeks or months depending on how long it takes to bring back compromised systems into production.
+        * Checklist
+          * Can problem be isolated? Are all affected systems isolated from non-affected systems? Have forensic copies of affected systems been created for further analysis?
+          * If possible can the system be reimaged and then hardened with patches and/or other countermeasures to prevent or reduce the risk of attacks? Have all malware and other artifacts been removed, and systems hardened?
+          * What tools are you goin got use to test, monitor, and verify that the systems being restored to productions are not compromised by the same methods that caused the original incident?
+    * Post-incident Activity
+      * Retrospective: what happened at what times? What info was needed sooner? Were procedures adequate? What could be done differently? Could communication be improved?
+      * Utilizing data collected
+      * Evidence retention
+      * Documentation
+  * Incident Response Demo
+    * Common Threats
+      * Software Attacks
+      * Data exfiltration
+      * Information Sabotage
+      * Theft of equipment
+    * Attack Vectors
+      * Website hosting malicious content, countered by:
+        * Qradar
+        * McAfee ePolicy Orchestrator
+        * Next generation firewalls
+* Questions
+  * Which three \(3\) of the following are phases of an incident response?
+    * Containment, Eradication & Recovery
+    * Preparation
+    * Detection & Analysis
+  * Which statement is true about an event?
+    * An event may be totally benign, like receiving an email.
+  * True or **False**: A robust automated incident response system should be able to detect and prevent loss from all incidents.
+  * A good automated Incident Response system should be able to detect which three \(3\) of these common attack vectors?
+    * **An email phishing attack.**
+    * **An unauthorized removable drive being attached to the network.**
+    * **A brute force hacking attack.**
+    * A former employee using his knowledge at a competitor company.
+  * Which three \(3\) of the following are components of an Incident Response Policy?
+    * IR Awareness training.
+    * **Means, tools and resources available.**
+    * **Identity of IR team members.**
+    * **IR Policy testing responsibility.**
+  * Contact information, Smart phones, and Secure storage facilities all belong to which Incident Response resource category?
+    * Incident Handler Communications and Facilities.
+  * Which three \(3\) of the following would be considered an incident detection precursor?
+    * **Detecting the use of a vulnerability scanner**
+    * An application log showing numerous failed login attempts from an unknown remote system.
+    * **A vendor notice of a vulnerability to a product you own.**
+    * **An announced threat against your organization from an activist group.**
+  * True or **False**: The Incident Response team should keep their documentation as concise as possible so only the most important facts take up the attention of the team leadership.
+  * What is the proper classification for a data breach that resulted in the exposure of sensitive personally identifiable information \(PII\)?
+    * Privacy Breach
+  * What is the proper classification for the recovery effort from a breach if you can estimate the total effort required but it will require bringing in additional resources?
+    * Supplemented
+  * During which stage of a comprehensive Containment, Eradication & Recovery strategy does NIST recommend considering the following: Potential damange to and theft of resources, Need for evidence preservation, and Service availability?
+    * Containment
+  * Which Post Incident activity would include ascertaining exactly what happened and at what times?
+    * Lessons learned meeting
+  * Which statement is true about an incident?
+    * An incident is an event that negatively affects IT systems.
+  * **True** or False: A Coordinating Incidents Response Team provides advice and guidance to the Distributed IR teams in each department, but generally does not have specific authority over those teams.
+  * Which Incident Response Team model describes a team that has authority over all aspects of IR within the entire organization?
+    * Central
+  * In what way will having a set of predefined baseline questions will help you in the event of an incident?
+    * Coordinate with other teams and the media.
+  * Incident Response team resources can be divided into which three \(3\) of the following categories?
+    * Incident Analysis Hardware and Software
+
+      Incident Analysis Resources
+
+      Incident Handler Communications and Facilities
+  * Port lists, Documentation, and Cryptographic hashes all belong to which Incident Response resource category?
+    * Incident Analysis Hardware and Software
+
+      Incident Handler Communications and Facilities
+
+      **Incident Analysis Resources**
+
+      Incident Post-Analysis Resources
+  * Which three \(3\) of the following would be considered an incident detection indicator?
+    * **The discovery of a file containing unusual characters by a system administrator.**
+
+      Detecting the use of a vulnerability scanner.
+
+      **A significant deviation from typical network traffic flow patterns.**
+
+      **An application log showing numerous failed login attempts from an unknown remote system.**
+  * Which type of monitoring system analyzes logs and events in real time?
+    * SIEM
+  * **True** or False: Highly detailed and thorough documentation is needed to support the analysis of current and future incidents.
+  * What is the proper classification for a breach that results in sensitive or proprietary information being changed or deleted.
+    * Integrity loss
+  * What is the proper classification for the recovery effort from a breach if sensitive data was stolen and posted on a public web site?
+    * Not Recoverable
+  * During which stage of a comprehensive Containment, Eradication & Recovery strategy does NIST recommend considering the following: Eliminate components of the incident, Disable compromised accounts, and Identify and mitigate vulnerabilities?
+    * Eradication
+  * Which Post Incident activity would include reviewing response times, which systems were impacted and other metrics associated with the incident?
+    * Utilizing collected data
+* Digital Forensics
+  * Types of Data
+    * CDs/DVDs
+    * Internal/External drives
+    * Volatile data
+    * Network activity
+    * Application usage
+    * Portable digital devices
+    * externally owned property
+    * computer at home office
+    * alternate sources of data
+    * logs
+    * keystroke monitoring
+  * Objectives
+    * Recover, analyze, preserve materials; in format useful as evidence in court of law
+    * design procedures to ensure evidence is not corrupted
+    * data acquisition and duplication
+    * identify quickly, estimate potential impact
+    * produce forensic report
+    * preserve evidence by following chain of custody
+  * Process
+    * Collection
+      * Develop plan
+      * acquire
+      * verify integrity; hashes
+  * Examination
+    * Bypassing controls: data compression, encryption, ACLs
+    * Sea of Data: hundreds of thousands of files, not all relevant
+    * Tools: filter and exclude data from searches
+  * Analysis
+    * putting the pieces together
+      * IDS log, link event to host, host audit logs linking event to user account, host IDS log indicating what actions user performed
+  * Reporting
+    * If it's not in the report, you cannot testify about it.
+    * Must detail the basis for your conclusions
+    * Detail every test conducted, the methods and tools used, and results
+    * Report Composition
+      * Overview/Case Summary
+      * Forensic Acquisition & Examination Preparations
+      * Findings and Report \(analysis\)
+      * Conclusion
+    * SANS Institute Best Practices
+      * screenshots
+      * bookmark evidence via forensic app
+      * built-in logging options within forensic tool
+      * highlight and export data items into CSV or TXT files
+      * digital audio recorder vs handwritten notes
+  * Forensic Data
+    * What's not there
+      * Deleted files: pointer deleted, file might still exist
+      * Slack space: if a file requires less space than the file allocation unit size, an entire file allocation unit is still reserved for the file
+      * Free space: area on media that is not allocated to any partition may still contain pieces of data
+    * MAC data
+      * modification time, access time, creation time
+    * Logical Backup vs Imaging
+      * Logical: copies the directories and files of a logical volume, no deleted files or residual data stored in slack space
+      * Imaging: bit-for-bit copy of original media
+        * disk-to-disk or disk-to-file
+        * should not be used on a live system since data is always changing
+    * Tools for Techniques
+      * File viewers
+      * uncompressing files
+      * GUI for data structures
+      * identifying known files
+      * string searches and pattern matches
+      * metadata
+    * Operating System Data
+      * Collection & Prioritization of Volatile Data
+        * slack space, free space, network config/connections, running processes, open files, login sessions, operating system time
+      * Collecting non-volatile data
+        * types: config files, logs, app files, data files, swap files, dump files, hibernation files, temp files
+        * Power-Down options, File system data collected, users and groups, passwords, network shares, logs
+      * Logs
+        * network hack: collect logs of all network devices in route
+        * unauthorized access: save web server logs, app server logs, app logs, router or switch logs, firewall logs, database logs, IDS logs, etc
+        * trojan/worm/virus: save antivirus logs apart from the event logs \(pertaining to the antivirus\)
+      * Windows
+        * Recycle Bin, Registry, Thumbs.db, Files, Browser History, Print Spooling
+      * MacOS
+        * has forensic duplicate technique: Target Disk Mode
+      * Linux
+        * /etc/config
+        * /etc/passwd
+        * /var/log
+        * /home/$USER
+    * Application Data
+      * Application Components
+        * Config Settings
+          * Config File
+          * Runtime Options
+          * Added to Source Code
+        * Authentication
+          * External
+          * Proprietary
+          * Pass-through
+          * Host/user Environment
+        * Logs
+          * Event
+          * Audit
+          * Error
+          * Installation
+          * Debugging
+        * Data
+          * can live in memory or permanent files
+          * file format can be generic or proprietary
+          * may be in databases
+          * some apps create temp files during session or improper shutdown
+        * Supporting Files
+          * Docs
+          * Links
+          * Graphics
+        * App Architecture
+          * Local
+          * Client/Server
+          * Peer-to-Peer
+      * Types of Apps
+        * Email
+        * Web Usage
+          * Web Data from Host
+            * Favorite sites
+            * History w/ timestamps of sites visited
+            * cached web data files
+            * cookies
+          * Web Data from Server
+            * Timestamps
+            * IP addresses
+            * Web Browser version
+            * Type of request
+            * Resource requested
+        * Interactive messaging
+          * IRC, IM, VoIP
+        * File Sharing
+        * Document usage
+        * Security apps
+        * Data Concealment tools
+    * Network Data
+      * Sources
+        * Firewalls and Routers
+        * Packet Sniffers and Protocol Analyzers
+        * Intrusion Detection System
+        * Security Event Management Software
+        * Network Forensic Analysis Tools
+        * Remote Access
+      * Data Value
+        * IDS: starting point for finding malicious activity
+        * SEM: automatically bringing together multiple sources of information and presenting useful info
+        * NFAT - Network Forensic Analysis Tool
+        * Firewalls, Routers, Proxy Servers, & RAS
+        * DHCP Servers: timestamps, who was using what IP when
+        * Packet Sniffers: huge sea of info
+        * Network Monitoring: finding variations from normal traffic flows
+        * ISP records: useful to determine attacker
+      * Attacker Identification
+        * Contact IP Address Owner
+        * Send Network Traffic - not recommended for orgs
+        * Application Content - data packets could contain info of attacker's identity
+        * Seek ISP assistance - requires court order and is done only to assist in the most serious of attacks
+        * History of IP address - look for trends of suspicious activity
+  * Questions
+    * Digital forensics can be defined as the application of science to the identification, collection, examination, and analysis of data.
+    * According to NIST, a forensic analysis should include four elements, Places, Items, Events and what?
+      * People
+    * **True** or False. Digital forensics report must contain details of every test conducted, the methods and tools used, and the results.
+    * Which section of a digital forensics report would contain a list of the steps you have taken to insure the integrity of the evidence?
+      * Forensic Acquisition & Examination Preparation
+    * Network activity, Application usage, Logs and Keystroke monitoring are all sources of what?
+      * Data
+    * What are the three \(3\) main hurdles that must be overcome when examining data? \(Select 3\)
+      * Dealing with a sea of data. A single hard drive will contains many thousands of files that are not relevant to our investigation.
+      * Selecting the most effective tools to help with the searching and filtering of data.
+      * Bypassing controls such as operating system and encryption passwords.
+    * True of **False**. Only data files can be effectively analyzed during a forensic analysis.
+    * Most data files are smaller than the number of blocks allocated to their storage by the file system, the unused spaces is known as what?
+      * Slack space
+    * **True** or False. When collecting forensic data from a running system, you should always attempt to collect volatile data first.
+    * Which of these applications would likely be of the most interest in a forensic analysis?
+      * Patch files
+
+        Operating system DLLs
+
+        **Email**
+
+        OSI Application Layer protocols
+    * Digital forensics is commonly applied to which of the following activities?
+      * Criminal investigation
+
+        Incident handling
+
+        Data recovery
+
+        **All of the above**
+    * NIST includes which three \(3\) as steps in collecting data? \(Select 3\)
+      * **Acquire the data**
+
+        **Develop a plan to acquire the data**
+
+        **Verify the integrity of the data**
+
+        Normalize the data
+    * What is the primary purpose of maintaining a chain of custody?
+      * To avoid allegations of mishandling or tampering of evidence.
+    * **True** or False. Digital forensics had been used to solve a number of high-profile violent crimes.
+    * True or **False**. Digital forensics report is a summary of your findings. If your case goes to trial, your testimony can, and usually does, involve far more detail than is in the report.
+    * Which section of a digital forensics report would include using the best practices of taking lots of screenshots, use built-in logging options of your digital forensics tools, and exporting key data items into a .csv or .txt file?
+      * Findings & Analysis
+    * Which types of files are appropriate subjects for forensic analysis?
+      * Data files
+
+        Image and video files
+
+        Application files
+
+        **All of the above**
+    * Deleting a file results in what action by most operating systems?
+      * The memory registers used by the file are marked as available for new storage but are otherwise not changed.
+    * Forensic analysis should always be conducted on a copy of the original data. What type of copying is appropriate for getting data from a live system that cannot be taken offline?
+      * A logical backup
+    * How does a forensic analysis use hash sets acquired from NIST's Software Reference Library project?
+      * They can quickly eliminate known good operating system and application files from consideration.
+    * Which three \(3\) of the following data types are considered non-volatile? \(Select 3\)
+      * **Dump files**
+
+        Free space
+
+        **Swap files**
+
+        **Logs**
+    * Configuration files are considered which data type?
+      * Non-volatile
+    * Which three \(3\) of the following are application components? \(Select 3\)
+      * **Application architecture**
+
+        **Authentication mechanisms**
+
+        OSI Application Layer protocols
+
+        **Data files**
+    * Which of these applications would likely be of the least interest in a forensic analysis?
+      * Patch files
+    * The Internet layer of the TCP/IP stack, also known as the Network layer in the OSI model, contains which two \(2\) protocols that are very useful to a forensic investigation? \(Select 2\)
+      * UDP
+      * **ICMP**
+      * **IPv4 / IPv6**
+      * LDAP
+    * Which device would you inspect if you were looking event data correlated across a number of different network devices?
+      * Firewall
+    * Which of these sources might require a court order in order to obtain the data for forensic analysis?
+      * ISP records
+* Scripting
+  * How many spaces must be used to indent a block of code in Python?
+    * Any number 1 or more as long as the same indentation is used within a code block.
 
 ## Cyber Threat Intelligence
 
-* a
+### Threat Intelligence
 
+* Security Drivers
+  * breached records
+  * human error
+  * iot innovation
+  * breach cost amplifiers \(3rd parties, cloud migration, system complexity\)
+  * skills gap
+* $3.92M total cost of a data breach
+* Insider Threats
+* Questions
+  * Which three \(3\) of these were among the top 5 security drivers in 2019? \(Select 3\)
+    * New security and privacy laws that went into effect in 2019
+
+      **Human error accounting for the majority of security breaches**
+
+      **The number of breached records in 2019 more than 3 times that of 2018**
+
+      **IOT device attacks moving from targeting consumer electronics to targeting enterprise devices**
+  * What was the average cost of a data breach in 2019 in US dollars?
+    * $3.92M
+  * What was the average size of a data breach in 2019?
+    * **25575** records
+  * According to the Threat Intelligence Strategy Map, The threat intelligence process can be broken down into 4 steps: Collect, Process, Analyze, and Share. Which step would contain activities such as gathering data from internal, external, technical and human sources?
+    * Collect
+  * Crowdstrike organizes threat intelligence into which three \(3\) areas? \(Select 3\)
+    * **Operational**
+    * **Strategic**
+    * **Tactical**
+  * According to the Crowdstrike model, Endpoints, SIEMs and Firewalls belong in which intelligence area?
+    * Tactical
+  * Which three \(3\) sources are recommended reading for any cybersecurity professional? \(Select 3\)
+    * **DarkReading**
+    * **Trend Micro**
+    * **BleepingComputer**
+  * Which two \(2\) of these were among the 4 threat intelligence platforms covered in the Threat Intelligence Platforms video? \(Select 2\)
+    * FireEye
+    * Recorded Future
+  * **True** or False. The average enterprise has 85 different security tools from 45 vendors.
+  * Which threat intelligence framework can be described as a system that is effective if there are only 2 players and the adversary is motivated by socioeconomic or sociopolitical payoffs?
+    * Diamond Model of Intrusion Analysis
+  * **True** or False. An organization's security immune system should not be considered fully integrated until it is integrated with the extended partner ecosystem.
+  * Which term can be defined as "The real-time collection, normalization, and analysis of the data generated by users, applications, and infrastructure that impacts the IT security and risk posture of an enterprise"?
+    * **Security Intelligence**
+  * What are the three \(3\) pillars of effective threat detection? \(Select 3\)
+    * See everything
+    * Become proactive
+    * Automate intelligence
+  * **True** or False. According to the FireEye Mandiant's Security Effectiveness Report 2020, organizations have an average of 50-70 security tools in their IT environments.
+  * What was the average time to identify and contain a breach in 2019?
+    * **279 days**
+  * Which industry had the highest average cost per breach in 2019 at $6.45M
+    * Healthcare
+  * Breaches caused by which source resulted in the highest cost per incident in 2019?
+    * Credentials theft
+  * According to the Threat Intelligence Strategy Map, The threat intelligence process can be broken down into 4 steps: Collect, Process, Analyze, and Share. Which step would contain activities such as normalize, correlate, confirm and enrich the data?
+    * **Process**
+  * According to the Threat Intelligence Strategy Map, The threat intelligence process can be broken down into 4 steps: Collect, Process, Analyze, and Share. Which step would contain activities such as investigate, contain, remediate and prioritize?
+    * **Analyze**
+  * According to the Crowdstrike model, threat hunters, vulnerability management and incident response belong in which intelligence area?
+    * Operational
+  * Which three \(3\) sources are recommended reading for any cybersecurity professional? \(Select 3\)
+    * X-Force Exchange
+
+      InfoSecurity Magazine
+
+      Krebs on Security
+  * Which two \(2\) of these were among the 4 threat intelligence platforms covered in the Threat Intelligence Platforms video? \(Select 2\)
+    * TruSTAR
+
+      IBM X-Force Exchange
+  * Which threat intelligence framework is divided into 3 levels. Level one is getting to know your adversaries. Level 2 involves mapping intelligence yourself and level 3 where you map more information and used that to plan your defense?
+    * Mitre Att&ck Knowledgebase
+  * True or **False**. An organization's security immune system should be isolated from outside organizations, including vendors and other third-parties to keep it from being compromised.
+  * Activities performed as a part of security intelligence can be divided into pre-exploit and post-exploit activities. Which two \(2\) of these are pre-exploit activities? \(Select 2\)
+    * **Prioritize vulnerabilities to optimize remediation processes and close critical exposures**
+
+      **Detect deviations from the norm that indicate early warnings of APTs**
+
+      Gather full situational awareness through advanced security analytics
+
+      Perform forensic investigation
+  * **True** or False. According to the FireEye Mandiant's Security Effectiveness Report 2020, more that 50% of successful attacks are able to infiltrate without detection. 
+
+### Data Loss Prevention and Mobile Endpoint Protection
+
+* A student's grades should be visible to that student when she logs in to her university account. Her ability to see her grades is an example of which aspect of the CIA Triad?
+  * Availability
+* A university has implemented practices that ensures all student data is encrypted while stored on university servers. Which aspect of the CIA Triad does this practice support?
+  * Confidentiality
+* The Student Portal of a university issues a confirmation code with a hash value each time a student submits an assignment using the portal. This is an example of which aspect of the CIA Triad?
+  * Integrity
+* True or **False**. An organization has "air gapped" its small network of critical data servers so they are accessible internally but not to any external system. These systems are now safe from a deliberate attack.
+* C-level executives face 4 challenges when assuring their organizations maintain a comprehensive, workable data security solution. The proliferation of smartphones used for work would impact which two \(2\) of these concerns the most? \(Select 2\)
+  * New privacy regulations
+  * Explosive data growth
+* True or **False**. An organization is subject to both GDPR and PCI-DSS data security regulations and has dedicated all of its efforts in remaining in compliance with these 2 sets of regulations. They are correct in believing that their data is safe.
+* **True** or False. A newly hired CISO made the right choice when he moved the Known Vulnerabilities list to a high priority for his team to resolve even though none of these had ever been exploited on the company's network to-date.
+* All industries have their own unique data security challenges. Which of these industries has a particular concern with HIPAA compliance and the highest cost per breached record?
+  * Healthcare
+* All industries have their own unique data security challenges. Which of these industries has a particular concern with being targeted more than any other by cybercriminals "because that is where the money is"?
+  * Financial
+* Which three \(3\) of these are among the top 12 capabilities that a good data security and protection solution should provide? \(Select 3\)
+  * Data discovery
+  * Blocking, masking and quarantining
+  * Data risk analysis
+* Parsing discovered data against known patterns or key words is a process known as what?
+  * Data classification
+* Which data protection process takes data activity monitoring output and uses it to generate insights about threats?
+  * Active analytics
+* True or **False**. The Guardium administrator needs to be someone with the highest level of access to the data being protected?
+* Which mobile operating system runs the majority of smartphones today?
+  * Android
+* Which mobile operating system runs approximately 60% of tablet computers worldwide?
+  * iOS
+* **True** or False. Security is enhanced on iOS mobile devices because users typically cannot interact directly with the operating system.
+* Which statement best describes the use of anti-virus software on mobile devices?
+  * Antivirus software can "see" the apps that are running on a mobile device but cannot see the data that is associated with each app.
+* Which type of threat is Jailbreaking?
+  * System based
+* On a mobile device, which type of threat is a phishing scam?
+  * App based
+* **True** or False. An operator who corrupts data by mistake is considered an "inadvertent attack" that should be considered when developing data protection plans.
+* C-level executives face 4 challenges when assuring their organizations maintain a comprehensive and workable data security solution. GDPR, CCPA, and PCC-DSS are concerned with which one of these challenges?
+  * New privacy regulations
+* True of **False**. A biotech research company with a very profitable product line has grown so rapidly it has acquired a marketing company, a small IT services company and a company that specializes in pharmaceutical manufacturing and distribution. The CEO of the parent company made a good decision when he decided not to consolidate all data security under a single CISO, believing that each of the new divisions understands its own data security needs better than the parent company possibly could.
+* What are the 5 common pitfalls of data security?
+  * Failure to move beyond compliance
+  * Failure to recognize the need for centralized data security
+  * Failure to define who owns responsibility for the data itself
+  * Failure to address known vulnerabilities
+  * Failure to prioritize and leverage data activity monitoring
+* All industries have their own unique data security challenges. Which of these industries has a particular concern with a widely distributed IT infrastructure that must provide services across a multiple government jurisdictions while not violating the privacy concerns of its users?
+  * Transportation
+* Which three \(3\) of these are among the top 12 capabilities that a good data security and protection solution should provide? \(Select 3\)
+  * Data classification
+
+    Encryption
+
+    Data and file monitoring
+* Which is the data protection process that addresses inappropriate privileges, insecure authentication methods, account sharing, configuration files and missing security patches?
+  * Vulnerability assessment
+* Which data protection process substitutes key data with a token that is issued by a trusted third-party where the token can be accessed but not redeemed by an untrusted party?
+  * Tokenization
+
+### **Scanning**
+
+![](../../.gitbook/assets/image%20%28143%29.png)
+
+![](../../.gitbook/assets/image%20%28141%29.png)
+
+* Which component of a vulnerability scanner would perform security checks according to its installed plug-ins?
+  * Engine Scanner
+* Which component of a vulnerability scanner stores vulnerability information and scan results?
+  * Database
+* How does a vulnerability scanner detect internal threats?
+  * By scanning hosts
+* In which component of a Common Vulnerability Score \(CVSS\) would the attack vector be reflected?
+  * Base-Exploitability Subscore
+* In which component of a Common Vulnerability Score \(CVSS\) would confidentiality be reflected?
+  * Base-Impact Subscore
+* In which component of a Common Vulnerability Score \(CVSS\) would exploit code maturity be reflected?
+  * Temporal Score
+* **True** or False. The US Dept of Defense has produced a number of Security Technical Implementation Guides to show the most secure ways to deploy common software packages such as operation systems, open source software, and network devices. These guides are available to the public and can be freely downloaded.
+* The Center for Internet Security \(CIS\) has implementation groups that rank from the least secure to the most secure. Which of these has the least stringent security requirements?
+  * **a\) CIS Sub-Controls for small, commercial off-the-shelf or home office software environments.**
+
+    b\) CIS Sub-Controls focused on helping security teams manage sensitive client or company information.
+
+    c\) CIS Sub-Controls that reduce the impact of zero-day and targeted attacks from sophisticated adversaries.
+* Which three \(3\) of these is identified by a basic port scanner? \(Select 3\)
+  * Available services provided by the target system
+  * A list of Open ports on a target system
+  * Active hosts using TCP
+* Port numbers 49151 through 65536 are known as what?
+  * Dynamic and Private Ports
+* What are the three \(3\) responses a port scanner might receive when it is scanning a system for open ports? \(Select 3\)
+  * Open
+  * Filtered \(or blocked\)
+  * Closed
+* Which type of scan is commonly used to check if a working system is at the address indicated and that it is responding?
+  * Ping \(ICMP Echo Request\)
+* Which type of scan sends an empty packet or packet with a different payload for each port scanned. A response is received only for closed ports?
+  * UDP port scan
+* Which two \(2\) of these are other names for a protocol analyzer? \(Select 2\)
+  * Packet analyzer
+  * Network analyzer
+* Which is the most popular packet sniffer used?
+  * WireShark
+* Ports 0–1023 – system or well-known ports
+* Ports 1024–49151 – user or registered ports
+* Ports 49152–65535 – dynamic / private / ephemeral ports
+* Which type of scan notes the connection but leaves the target hanging, i.e. does not reveal any information to the target about the host that initiated the scan?
+  * TCP/Half Open Scan \(aka a SYN scan\)
+* Which two \(2\) of these are other names for a protocol analyzer? \(Select 2\)
+  * Traffic analyzer
+
+    Sniffer
+* True or **False**. Packet sniffers are used by hackers but have no legitimate place in legitimate network management.
+* Which component of a vulnerability scanner provides high-level graphs and trend reports for executive leadership?
+  * Report Module
+* How does a vulnerability scanner detect external threats?
+  * By scanning internet facing hosts from the Internet
+* If a port is blocked, what response will be sent to the port scanner?
+  * There will be no response
+
+### Application and Security Testing
+
+
+
+### SIEM Platforms
+
+
+
+### Threat Hunting
+
+* 
 ## Cybersecurity Capstone: Breach Response Case Studies
 
-* a
+### Incident Management Response and Cyberattack Frameworks
+
+
+
+### Phishing Scams
+
+
+
+### Point of Sale Breach
+
+
+
+### 3rd Party Breach
+
+
+
+### Ransomware
+
+
+
+### Apply Your Skill - Data Breaches
+
+
 
 ## IBM Cybersecurity Analyst Assessment
 
