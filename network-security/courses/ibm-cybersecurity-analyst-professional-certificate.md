@@ -1789,12 +1789,133 @@ description: Coursera Courses
 
 ### Application and Security Testing
 
+* Enterprise Architecture
+  * considers the needs of the whole enterprise within scope \(org or department\)
+  * maps the main components of the problem space at a very high level
+* Solution Architecture
+  * describes the main elements, showing internal architecture, stored data, and the use of components/patterns
+* Architectural Building Blocks \(ABBs\) and Solution Building Blocks \(SBBs\)
+  * ABB
+    * Data Sec, AppSec, IAM, Infrastructure and Endpoint Sec, Detect and Respond
+  * SBB
+    * Key Security Manager, Certificate Authority, HSM, WAF, SAST, Directory, Privilege Access Manager, Hardware Token, Virus protection, App firewall, SPAM filter, Network intrusion prevention system, incident workflow manager'
 
+![](../../.gitbook/assets/image%20%28145%29.png)
+
+![](../../.gitbook/assets/image%20%28146%29.png)
+
+* True or False. A security architect's job is to make sure that security considerations dominate other design aspects such as usability, resilience and cost.
+* Which of these is an aspect of an Enterprise Architecture?
+  * Considers the needs of the entire organization
+* Which of these is an aspect of a Solution Architecture?
+  * Describes how specific products or technologies are used
+* Which three \(3\) of these are general features of Building Blocks? \(Select 3\)
+  * May be product or vendor aware
+
+    **Defined boundary, but can work with other building blocks**
+
+    **Could be an actor, business service, application or data**
+
+    **Package of function defined to meet a business need**
+* In security architecture, a reusable solution to a commonly recurring problem is known as what?
+  * a pattern
+* What is lacking in a security architecture pattern that prevents it from being used as a finished design?
+  * context
+* What are the possible consequences if a bug in your application becomes known?
+  * It is embarrassing to your company
+
+    Financial losses via lawsuits and fines can be very significant
+
+    Government agencies can impose fines and other sanctions against your company
+
+    **All of the above**
+* Failure to use input validation in your application introduces what?
+  * A vulnerability
+* Which software development lifecycle is characterized as a top-down approach where one stage of the project is completed before the next stage begins?
+  * Waterfall
+* Which form of penetration testing allows the testers complete knowledge of the systems they are trying to penetrate in advance of their attack to simulate an internal attack from a knowledgeable insider?
+  * White Box testing
+* Which application testing method requires access to the original application source code?
+  * SAST: Static Application Security Testing
+* Which three \(3\) steps are part of a Supplier Risk Assessment? \(Select 3\)
+  * Identify mitigations that would minimize or eliminate the risk
+
+    **Identify how the risk would impact the business**
+
+    **Identify how any risks would impact your organization's business**
+
+    **Determine the likelihood the risk would interrupt the business**
+* What type of firewall should you install to protect applications used by your organization from hacking?
+  * WAF
+* Which of these threat modeling methodologies was introduced in 1999 at Microsoft to provide their developer’s a mnemonic that would help them find security vulnerabilities in their products?
+  * STRIDE
+* What was the ultimate consequence to Target Stores in the United States from their 2013 data breach in which over 100M records were stolen?
+  * Costs of $10M and reputational damage only.
+* Select the two \(2\) top vulnerabilities found in common security products. \(Select 2\)
+  * Cross-site request forgery
+
+    Cross-site scripting
+* True or **False**. If you can isolate your product from the Internet, it is safe from being hacked.
+* Which three \(3\) things can Cross-site scripting be used for?
+  * **Take over sessions**
+
+    **Steal cookies**
+
+    Break encryption
+
+    **Harvest credentials**
+* **True** or False. Commonly a Reflect XSS attack is sent as part of an Email or a malicious link and affects only the the user who receives the Email or link.
+* Cross-site scripting attacks can be minimized by using HTML and URL Encoding. How would a browser display this string?: &lt;b&gt;Password&lt;/b&gt;
+  * `<b>Password</b>`
+* Which three \(3\) statements about whitelisting user input are true?
+  * Special characters should only be allowed on an exception basis
+  * Whitelisting reduces the attack surface to a known quantity
+  * Whenever possible, input should be whitelisted to alphanumeric values to prevent XSS
+* Which two \(2\) statements are considered good practice for avoiding XSS attacks?
+  * Use strict whitelists on accepting input
+  * Encode all data output as part of HTML and JavaScript
+* How would you classify a hactivist group who thinks that your company's stance on climate change threatens the survival of the planet?
+  * **a threat**
+* Which software development lifecycle is characterized by short bursts of analysis, design, coding and testing during a series of 1 to 4 week sprints?
+  * Agile and Scrum
+* Which software development lifecycle is characterized by a series of cycles and an emphasis on security?
+  * Spiral
+* Which application testing method requires a URL to the application, is quick and cheap but also produces the most false-positive results?
+  * DAST: Dynamic Security Application Testing
+* Which type of application attack would include buffer overflow, cross-site scripting, and SQL injection?
+  * input validation
+* Which type of application attack would include unauthorized access to configuration stores, unauthorized access to administration interfaces and over-privileged process and service accounts?
+  * Configuration management
+* Which one of the OWASP Top 10 Application Security Risks would be occur when authentication and session management functions are implemented incorrectly allowing attackers to compromise passwords, keys or session tokens.
+  * Broken authentication
+* Which one of the OWASP Top 10 Application Security Risks would be occur when restrictions on what a user is allowed to do is not properly enforced?
+  * Broken access control
+* Which of these threat modeling methodologies is integrated seamlessly into an Agile development methodology?
+  * VAST
+* Which phase of DevSecOps would contain the activities Secure application code, Secure infrastructure configuration, and OSS/COTS validation?
+  * Code & build
+* Which phase of DevSecOps would contain the activities Detect & Visualize, Respond, and Recover?
+  * Operate & monitor
+* The Deploy step in the DevSecOps Release, Deploy & Decommission phase contains which of these activities?
+  * Versioning of infrastructure
+
+    **Creation of Immutable images**
+
+    Data backup cleansing
+
+    IAM controles to regulate authorization
+* The Respond step in the DevSecOps Operate & Monitor phase contains which of these activities?
+  * Root Cause Analysis
+
+    Inventory
+
+    Chaos engineering
+
+    **Virtual Patching**
 
 ### SIEM Platforms
 
-
-
+* 
 ### Threat Hunting
 
 * 
