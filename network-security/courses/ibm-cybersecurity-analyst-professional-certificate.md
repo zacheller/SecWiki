@@ -1929,17 +1929,57 @@ description: Coursera Courses
 5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
 6. It can be available on prem and in a cloud environment
 
-![](../../.gitbook/assets/image%20%28149%29.png)
+![](../../.gitbook/assets/image%20%28150%29.png)
 
 ![](../../.gitbook/assets/image%20%28148%29.png)
+
+![](../../.gitbook/assets/image%20%28149%29.png)
 
 * **True** or False. SIEMs capture network flow data in near real time and apply advanced analytics to reveal security offenses.
 * Which of these describes the process of data normalization in a SIEM?
   * Turns raw data into a format that has fields that SIEM can use
-* True or **False**. A SIEM considers any event that is anomalous, or outside the norm, to be an offense.
+* **True** or False. A SIEM considers any event that is anomalous, or outside the norm, to be an offense.
 * **True** or False. A large company might have QRadar event collectors in each of their data centers that are configured to forward all collected events to a central event processor for analysis.
 * The triad of a security operations centers \(SOC\) is people, process and technology. Which part of the triad would vendor-specific training belong?
   * People
+* **True** or False. Information is often overlooked simply because the security analysts do not know how it is connected.
+* The partnership between security analysts and technology can be said to be grouped into 3 domains, human expertise, security analytics and artificial intelligence. The human expertise domain would contain which three \(3\) of these topics?
+  * Morals
+  * Common sense
+  * Generalization
+* A robust cybersecurity defense includes contributions from 3 areas, human expertise, security analytics and artificial intelligence. Which of these areas would contain the ability for abstraction?
+  * Human expertise
+* **True** or False. SIEMs can be available on premises and in a cloud environment.
+* For a SIEM, what are logs of specific actions such as user logins referred to?
+  * Events
+* Which of these describes the process of data normalization in a SIEM?
+  * Indexes data records for fast searching and sorting
+* When a data stream entering a SIEM exceeds the volume it is licensed to handle, what are three \(3\) ways the excess data is commonly handled, depending upon the terms of the license agreement? \(Select 3\)
+  * **The data stream is throttled to accept only the amount allowed by the license**
+
+    **The excess data is stored in a queue until it can be processed**
+
+    **The excess data is dropped**
+
+    The data is processed and the license is automatically bumped up to the next tier.
+* Which five \(5\) event properties must match before the event will be coalesced with other events? \(Select 5\)
+  * **Destination IP**
+
+    Source Port
+
+    **Destination Port**
+
+    **Source IP**
+
+    **Username**
+
+    **QID**
+* What is the goal of SIEM tuning?
+  * To get the SIEM to sort out all false-positive offenses so only those that need to be investigated are presented to the investigators
+* True or **False**. QRadar event collectors send all raw event data to the central event processor for all data handling such as data normalization and event coalescence.
+* The triad of a security operations centers \(SOC\) is people, process and technology. Which part of the triad would containment belong?
+  * **Process**
+* **True** or False. There is a natural tendency for security analysts to choose to work on cases that they are familiar with and to ignore those that may be important but for which they have no experience.
 
 ### Threat Hunting
 
