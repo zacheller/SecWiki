@@ -1,5 +1,5 @@
 ---
-description: Coursera Courses
+description: 'Coursera Courses | Note: These courses have a lot of spelling errors.'
 ---
 
 # IBM Cybersecurity Analyst Professional Certificate
@@ -1929,7 +1929,7 @@ description: Coursera Courses
 5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
 6. It can be available on prem and in a cloud environment
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](../../.gitbook/assets/image%20%28152%29.png)
 
 ![](../../.gitbook/assets/image%20%28148%29.png)
 
@@ -1983,6 +1983,24 @@ description: Coursera Courses
 
 ### Threat Hunting
 
+![](../../.gitbook/assets/image%20%28150%29.png)
+
+![](../../.gitbook/assets/image%20%28151%29.png)
+
+* Cyber threats pose many challenges to organizations today. Which three \(3\) of these are among those cited? \(Select 3\)
+  * There is a cybersecurity skills shortage
+
+    It takes an average of 191 days to even detect an attack has occurred
+
+    Almost half of the breaches are caused by malicious or criminal acts
+* What percent of security leaders reported that threat hunting increased the speed and accuracy of response in detection of advanced threats?
+  * 91%
+* While 80% of the threats are known and detected, the 20% that remains unknown account for what percent of the damage?
+  * 80%
+* True or **False**. The skill set of a cyber threat hunter is very different from that of a cybersecurity analyst and many threat hunters a have backgrounds doing intelligence work.
+* True or False. A cyber threat hunting team generally sits at the center of the SOC Command Center.
+* There is value brought by each of the IBM i2 EIA use cases. Which one of these delivers net new discovery of correlating low level alerts and offenses?
+  * Cyber Threat Hunting
 * 
 ## Cybersecurity Capstone: Breach Response Case Studies
 
