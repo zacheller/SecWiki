@@ -1929,11 +1929,11 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
 6. It can be available on prem and in a cloud environment
 
+![](../../.gitbook/assets/image%20%28155%29.png)
+
+![](../../.gitbook/assets/image%20%28151%29.png)
+
 ![](../../.gitbook/assets/image%20%28152%29.png)
-
-![](../../.gitbook/assets/image%20%28148%29.png)
-
-![](../../.gitbook/assets/image%20%28149%29.png)
 
 * **True** or False. SIEMs capture network flow data in near real time and apply advanced analytics to reveal security offenses.
 * Which of these describes the process of data normalization in a SIEM?
@@ -1983,9 +1983,9 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### Threat Hunting
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](../../.gitbook/assets/image%20%28153%29.png)
 
-![](../../.gitbook/assets/image%20%28151%29.png)
+![](../../.gitbook/assets/image%20%28154%29.png)
 
 * Cyber threats pose many challenges to organizations today. Which three \(3\) of these are among those cited? \(Select 3\)
   * There is a cybersecurity skills shortage
@@ -1997,17 +1997,50 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
   * 91%
 * While 80% of the threats are known and detected, the 20% that remains unknown account for what percent of the damage?
   * 80%
-* True or **False**. The skill set of a cyber threat hunter is very different from that of a cybersecurity analyst and many threat hunters a have backgrounds doing intelligence work.
-* True or False. A cyber threat hunting team generally sits at the center of the SOC Command Center.
+* **True** or False. The skill set of a cyber threat hunter is very different from that of a cybersecurity analyst and many threat hunters a have backgrounds doing intelligence work.
+* True or **False**. A cyber threat hunting team generally sits at the center of the SOC Command Center.
 * There is value brought by each of the IBM i2 EIA use cases. Which one of these delivers net new discovery of correlating low level alerts and offenses?
   * Cyber Threat Hunting
-* 
+* What is one thing that makes cybersecurity threats so challenging to deal with?
+  * There is a big shortage in cyber security skills and many job openings unfilled
+* The level 3 and 4 cybersecurity analysts working in a Security Operations Center \(SOC\) combat cyber crime by performing which type of activity?
+  * Cyber forensic investigations
+* True or **False**. If you have no better place to start hunting threats, start with a view of your own organization then work your way up to an industry view and then a regional view, a national view and finally a global view of the threat landscape.
+* **True** or False. A cyber threat hunting team generally sits outside the SOC command center.
+* There is value brought by each of the IBM i2 EIA use cases. Which one of these identifies net new money chain transfers?
+  * Fraud Investigations
+
 ## Cybersecurity Capstone: Breach Response Case Studies
 
 ### Incident Management Response and Cyberattack Frameworks
 
+![](../../.gitbook/assets/image%20%28149%29.png)
 
+![](../../.gitbook/assets/image%20%28147%29.png)
 
+![](../../.gitbook/assets/image%20%28150%29.png)
+
+* In creating an incident response capability in your organization, NIST recommends taking 6 actions. Which three \(3\) actions are included on that list? \(Select 3\)
+  * Establish a formal incident response capability
+
+    'Develop an incident response plan based on the incident response policy
+
+    'Create an incident response policy
+* Which incident response team model would best fit the needs of a small company that runs its business out of a single office building or campus?
+  * Central incident response team
+* **True** or False. An incident response team needs a blend of members with strong technical and strong soft skills?
+* Assuring systems, networks, and applications are sufficiently secure to resist an attack is part of which phase of the incident response lifecycle?
+  * Preparation
+* According to the IRIS Framework, during which stage of an attack would the attacker conduct external reconnaissance, alight tactics, techniques and procedures to target and prepare his attack infrastructure?
+  * Attack beginnings
+* According to the IRIS Framework, during which stage of an attack would the attacker escalate evasion tactics to evade detection?
+* * Continuous phases occur
+* According to the IRIS framework, during the third phase of an attack when the attackers are attempting to escalate privileges, what should the IR team be doing as a countermeasure?
+  * Analyze all network traffic and endpoints, searching for anomalous behavior
+* According to the IRIS framework, during the fifth phase of an attack, the attackers will attempt execute their final objective. What should the IR team be doing as a countermeasure?
+  * Thoroughly examine available forensics to understand attack details, establish mitigation priorities, provide data to law enforcement, and plan risk reduction strategies
+* True or **False**. A data breach only has to be reported to law enforcement if external customer data was compromised?
+* 
 ### Phishing Scams
 
 
