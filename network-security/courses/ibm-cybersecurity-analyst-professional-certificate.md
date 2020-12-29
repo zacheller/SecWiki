@@ -1915,7 +1915,27 @@ description: Coursera Courses
 
 ### SIEM Platforms
 
-* 
+* Core Duties
+  * Log Collection
+  * Normalization
+  * Correlation
+  * Aggregation
+  * Reporting
+
+1. A SIEM system collects logs and other security documentation for analysis
+2. The core function is to manage network security by monitoring flows and events
+3. It consolidates log events and network flow data from thousands of devices, endpoints and applications distributed throughout a network
+4. A SIEM system can be rules-based or employ a statistical correlation engine to establish relationships between event log entries
+5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
+6. It can be available on prem and in a cloud environment
+
+![](../../.gitbook/assets/image%20%28148%29.png)
+
+* **True** or False. SIEMs capture network flow data in near real time and apply advanced analytics to reveal security offenses.
+* Which of these describes the process of data normalization in a SIEM?
+  * Turns raw data into a format that has fields that SIEM can use
+* True or False. A SIEM considers any event that is anomalous, or outside the norm, to be an offense.
+
 ### Threat Hunting
 
 * 
