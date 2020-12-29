@@ -1929,12 +1929,17 @@ description: Coursera Courses
 5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
 6. It can be available on prem and in a cloud environment
 
+![](../../.gitbook/assets/image%20%28149%29.png)
+
 ![](../../.gitbook/assets/image%20%28148%29.png)
 
 * **True** or False. SIEMs capture network flow data in near real time and apply advanced analytics to reveal security offenses.
 * Which of these describes the process of data normalization in a SIEM?
   * Turns raw data into a format that has fields that SIEM can use
-* True or False. A SIEM considers any event that is anomalous, or outside the norm, to be an offense.
+* True or **False**. A SIEM considers any event that is anomalous, or outside the norm, to be an offense.
+* **True** or False. A large company might have QRadar event collectors in each of their data centers that are configured to forward all collected events to a central event processor for analysis.
+* The triad of a security operations centers \(SOC\) is people, process and technology. Which part of the triad would vendor-specific training belong?
+  * People
 
 ### Threat Hunting
 
