@@ -1929,11 +1929,11 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
 6. It can be available on prem and in a cloud environment
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](../../.gitbook/assets/image%20%28165%29.png)
 
-![](../../.gitbook/assets/image%20%28151%29.png)
+![](../../.gitbook/assets/image%20%28158%29.png)
 
-![](../../.gitbook/assets/image%20%28152%29.png)
+![](../../.gitbook/assets/image%20%28161%29.png)
 
 * **True** or False. SIEMs capture network flow data in near real time and apply advanced analytics to reveal security offenses.
 * Which of these describes the process of data normalization in a SIEM?
@@ -1983,9 +1983,9 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### Threat Hunting
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](../../.gitbook/assets/image%20%28162%29.png)
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+![](../../.gitbook/assets/image%20%28164%29.png)
 
 * Cyber threats pose many challenges to organizations today. Which three \(3\) of these are among those cited? \(Select 3\)
   * There is a cybersecurity skills shortage
@@ -2014,11 +2014,37 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### Incident Management Response and Cyberattack Frameworks
 
-![](../../.gitbook/assets/image%20%28149%29.png)
+![](../../.gitbook/assets/image%20%28153%29.png)
 
 ![](../../.gitbook/assets/image%20%28147%29.png)
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](../../.gitbook/assets/image%20%28156%29.png)
+
+{% embed url="https://www.ibm.com/downloads/cas/A27KQP8R" %}
+
+IRIS FRAMEWORK
+
+![](../../.gitbook/assets/image%20%28151%29.png)
+
+![](../../.gitbook/assets/image%20%28160%29.png)
+
+![](../../.gitbook/assets/image%20%28148%29.png)
+
+![](../../.gitbook/assets/image%20%28154%29.png)
+
+![](../../.gitbook/assets/image%20%28152%29.png)
+
+![](../../.gitbook/assets/image%20%28163%29.png)
+
+![](../../.gitbook/assets/image%20%28157%29.png)
+
+![](../../.gitbook/assets/image%20%28159%29.png)
+
+![](../../.gitbook/assets/image%20%28155%29.png)
+
+![](../../.gitbook/assets/image%20%28149%29.png)
+
+
 
 * In creating an incident response capability in your organization, NIST recommends taking 6 actions. Which three \(3\) actions are included on that list? \(Select 3\)
   * Establish a formal incident response capability
@@ -2040,7 +2066,46 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 * According to the IRIS framework, during the fifth phase of an attack, the attackers will attempt execute their final objective. What should the IR team be doing as a countermeasure?
   * Thoroughly examine available forensics to understand attack details, establish mitigation priorities, provide data to law enforcement, and plan risk reduction strategies
 * True or **False**. A data breach only has to be reported to law enforcement if external customer data was compromised?
-* 
+* In creating an incident response capability in your organization, NIST recommends taking 6 actions. Which three \(3\) actions that are a included on that list?
+  * **Considering the relevant factors when selecting an incident response team model**
+
+    **Establish policies and procedures regarding incident-related information sharing**
+
+    Secure executive sponsorship for the incident response plan
+
+    **Develop incident response procedures**
+* Which incident response team model would best fit the needs of a the field offices of a large distributed organizations?
+  * Hybrid incident response team
+
+    **Distributed incident response team**
+
+    Central incident response team
+
+    Coordinating incident response team
+* Which incident response team staffing model would be appropriate for a small retail store that has just launched an online selling platform and finds it is now under attack? The platform was put together by its very small IT department who has no experience in managing incident response.
+  * Completely outsource the incident response work to an onsite contractor with expertise in monitoring and responding to incidents
+* Which three \(3\) technical skills are important to have in an organization's incident response team?
+  * **System administration**
+
+    Encryption
+
+    **Programming**
+
+    **Network administration**
+* Identifying incident precursors and indicators is part of which phase of the incident response lifecycle?
+  * Detection & Analysis
+* Automatically isolating a system from the network when malware is detected on that system is part of which phase of the incident response lifecycle?
+  * Containment, Eradication & Recovery
+* According to the IRIS Framework, during which stage of an attack would the attacker send phishing email, steal credentials and establish a foothold in the target network?
+  * Launch and execute the attack
+* According to the IRIS Framework, during which stage of an attack would the attacker execute their final objectives?
+  * Attack objective execution
+* According to the IRIS framework, during the first stage of an attack, when the bad actors are conducting external reconnaissance and aligning their tactics, techniques and procedures, what should the IR team be doing as a countermeasure?
+  * Build a threat profile of adversarial actors who are likely to target the company
+* According to the IRIS framework, during the fourth phase of an attack, the attackers will attempt to evade detection. What should the IR team be doing as a countermeasure?
+  * Analyze all network traffic and endpoints, searching for anomalous behavior
+* True or **False**. A data breach always has to be reported to law enforcement agencies.
+
 ### Phishing Scams
 
 
