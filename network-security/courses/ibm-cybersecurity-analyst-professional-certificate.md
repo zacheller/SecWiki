@@ -2057,10 +2057,6 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 
 
-### Apply Your Skill - Data Breaches
-
-
-
 ## IBM Cybersecurity Analyst Assessment
 
 * 
