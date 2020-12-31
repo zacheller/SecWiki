@@ -1929,11 +1929,11 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
 6. It can be available on prem and in a cloud environment
 
-![](../../.gitbook/assets/image%20%28165%29.png)
+![](../../.gitbook/assets/image%20%28169%29.png)
 
-![](../../.gitbook/assets/image%20%28158%29.png)
+![](../../.gitbook/assets/image%20%28160%29.png)
 
-![](../../.gitbook/assets/image%20%28161%29.png)
+![](../../.gitbook/assets/image%20%28163%29.png)
 
 * **True** or False. SIEMs capture network flow data in near real time and apply advanced analytics to reveal security offenses.
 * Which of these describes the process of data normalization in a SIEM?
@@ -1983,9 +1983,9 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### Threat Hunting
 
-![](../../.gitbook/assets/image%20%28162%29.png)
+![](../../.gitbook/assets/image%20%28166%29.png)
 
-![](../../.gitbook/assets/image%20%28164%29.png)
+![](../../.gitbook/assets/image%20%28168%29.png)
 
 * Cyber threats pose many challenges to organizations today. Which three \(3\) of these are among those cited? \(Select 3\)
   * There is a cybersecurity skills shortage
@@ -2014,35 +2014,35 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### Incident Management Response and Cyberattack Frameworks
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](../../.gitbook/assets/image%20%28154%29.png)
 
 ![](../../.gitbook/assets/image%20%28147%29.png)
 
-![](../../.gitbook/assets/image%20%28156%29.png)
+![](../../.gitbook/assets/image%20%28158%29.png)
 
 {% embed url="https://www.ibm.com/downloads/cas/A27KQP8R" %}
 
 IRIS FRAMEWORK
 
-![](../../.gitbook/assets/image%20%28151%29.png)
-
-![](../../.gitbook/assets/image%20%28160%29.png)
-
-![](../../.gitbook/assets/image%20%28148%29.png)
-
-![](../../.gitbook/assets/image%20%28154%29.png)
-
 ![](../../.gitbook/assets/image%20%28152%29.png)
 
-![](../../.gitbook/assets/image%20%28163%29.png)
+![](../../.gitbook/assets/image%20%28162%29.png)
 
-![](../../.gitbook/assets/image%20%28157%29.png)
-
-![](../../.gitbook/assets/image%20%28159%29.png)
+![](../../.gitbook/assets/image%20%28149%29.png)
 
 ![](../../.gitbook/assets/image%20%28155%29.png)
 
-![](../../.gitbook/assets/image%20%28149%29.png)
+![](../../.gitbook/assets/image%20%28153%29.png)
+
+![](../../.gitbook/assets/image%20%28167%29.png)
+
+![](../../.gitbook/assets/image%20%28159%29.png)
+
+![](../../.gitbook/assets/image%20%28161%29.png)
+
+![](../../.gitbook/assets/image%20%28157%29.png)
+
+![](../../.gitbook/assets/image%20%28150%29.png)
 
 
 
@@ -2108,19 +2108,129 @@ IRIS FRAMEWORK
 
 ### Phishing Scams
 
+![](../../.gitbook/assets/image%20%28148%29.png)
 
+![Google and Facebook Case Study](../../.gitbook/assets/image%20%28174%29.png)
+
+* Some of the earliest known phishing attacks were carried out against which company?
+  * America Online \(AOL\)
+* You have banked at "MyBank" for many years when you receive an urgent email telling you to log in to verify your security credentials or your account would be frozen. You are not wealthy but what little you have managed to save is in this bank. The email is addressed to "Dear Customer" and upon closer inspection you see it was sent from "security@mybank.yahoo.com". What kind of attack are you under?
+  * As a phishing attack.
+* True or **False**. HTTPS assures passwords and other data that is sent across the Internet is encrypted. Links in email that use HTTPS will protect you against phishing attacks.
+* Which three \(3\) of these statistics about phishing attacks are real? \(Select 3\)
+  * **The average cost of a data breach is $3.86 million.**
+
+    **15% of people successfully phished will be targeted at least one more time within a year.**
+
+    **Phishing accounts for 90% of data breaches.**
+
+    12% of businesses reported being the victim of a phishing attack in 2018.
+* Which range best represents the number of unique phishing web sites reported to the Anti-Phishing Working Group \(apwg.org\) in Q4 2019?
+  * Between 130,000 and 140,000.
+* Which is the most common type of identity theft?
+  * Credit card fraud
 
 ### Point of Sale Breach
 
+![](../../.gitbook/assets/image%20%28165%29.png)
 
+![](../../.gitbook/assets/image%20%28171%29.png)
+
+![Ingenico](../../.gitbook/assets/image%20%28170%29.png)
+
+![Home Depot Case Study](../../.gitbook/assets/image%20%28172%29.png)
+
+* True or **False**. There are more successful PoS attacks made against large online retailers than there are against small to medium sized brick-and-mortar businesses.
+* Which is the standard regulating credit card transactions and processing?
+  * PCI-DSS
+* Which three \(3\) of these are PCI-DSS requirements for any company handling, processing or transmitting credit card data?
+  * **Do not use vendor-supplied defaults for system passwords and other security parameters**
+
+    **Protect stored cardholder data**
+
+    **Install and maintain a firewall configuration to protect cardholder data**
+
+    Cardholder data may not reside on local PoS devices for more than 48 hours
+* True or **False**. A study conducted by the Ingenico Group found that credit card transactions were sufficiently secure as long as all participants were in strict compliance with PCI-DSS standards.
+* What are the two \(2\) most common operating systems for PoS devices?
+  * Windows and Linux
+* If your credit card is stolen from a PoS system, what is the first thing the thief is likely to do with your card data?
+  * Sell it to a distributor
+    * Sell to a broker who will then sell in bulk to "carders" who then purchase pre-paid credit cards which are then used to buy gift cards which are then used to buy goods which are then sold for profit after being shipped to a re-shipper
+* PCI-DSS can best be described how?
+  * A voluntary payment card industry data security standard
+* Which group suffers from the most PoS attacks?
+  * Restaurants and small retail stores.
+* Which three \(3\) of these control processes are included in the PCI-DSS standard?
+  * **Protect cardholder data**
+
+    **Build and maintain a secure network and systems**
+
+    Require use of multi-factor authentication for new card holders
+
+    **Maintain a vulnerability management program**
+* Which three \(3\) of these are PCI-DSS requirements for any company handling, processing or transmitting credit card data?
+  * **Encrypt transmission of cardholder data across open, public networks**
+
+    **Use and regularly update antivirus software**
+
+    All employees with direct access to cardholder data must be bonded
+
+    **Develop and maintain secure systems and applications**
+* When is credit card data most vulnerable to PoS malware?
+  * While in RAM
+* Which scenario best describes how a stolen credit card number is used to enrich the thief?
+  * Stolen credit card numbers are sold to brokers who resell them to carders who use them to buy prepaid credit cards that are then used to buy gift cards that will be used to buy merchandise for resale
+* Which three \(3\) of these were cited as the top 3 sources of third-party breach?
 
 ### 3rd Party Breach
 
+![](../../.gitbook/assets/image%20%28173%29.png)
 
+* A cyber attack originating from which three \(3\) of the following would be considered a supply-chain attack?
+  * E-mail providers
+
+    Subcontractors
+
+    Web hosting companies
+* Which three \(3\) of these were cited as the top 3 sources of third-party breach?
+  * Cloud-based storage or hosting providers
+  * Online payment or credit card processing services
+  * JavaScript on websites used for web analytics
+* True or **False**. While data loss from a third-party breach can be expensive, third-party breaches account for less than 22% of all breaches.
+* According to a 2019 Ponemon study, what percent of consumers say they will defect from a business if their personal information is compromised in a breach?
+  * 80%
+* **True** or False. According to a 2018 Ponemon study, organizations surveyed cited "A third-party misused or shared confidential information..." as their top cyber security concern for the coming year.
+* How effective were the processes for vetting third-parties as reported by the majority \(64%\) of the companies surveyed?
+  * Somewhat or not effective
+* In the first few months of 2020 data breaches were reported from Instagram, Carson City, Amazon, GE, T-Mobile, radio.com, MSU, and Marriot. While different data were stolen from each organization, which two data elements were stolen from all of them?
+  * Personal information
+  * Customer financial information
+* **True** or False. More than 63% of data breaches can be linked to a third-party.
+* According to a 2019 Ponemon study, which is the most common course of action for a consumer who has lost personal data in a breach?
+  * Tell others of their experience
 
 ### Ransomware
 
+![City of Atlanta Case Study](../../.gitbook/assets/image%20%28164%29.png)
 
+![Ransomware Examples](../../.gitbook/assets/image%20%28156%29.png)
+
+* 3 Main Types
+  * Crypto: Specific files encrypted
+  * Locker: Completely locks out device
+  * Leakware/Doxware: e.g. footage from webcam
+* Attack Vectors
+  * Phishing
+  * RDP
+  * Software Vulns
+  * Malicious Links
+* What is the most important thing to have in place that will save you from having to pay a ransom in the event you have fallen victim to a ransomware attack?
+  * A full system backup
+* Which ransomware spread across 150 countries in 2017 and was responsible for over $4 billion in losses worldwide?
+  * WannaCry
+* True or **False**. Projections are that ransomware will not be a significant problem in the future as operating systems become more secure and anti-malware applications gain in sophistication.
+* **True** or False. It is feared that in the future our cars, homes and factories may fall victim to ransomware attacks as more and more devices join the Internet of Things.
 
 ## IBM Cybersecurity Analyst Assessment
 
