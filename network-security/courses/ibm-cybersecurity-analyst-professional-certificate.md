@@ -301,7 +301,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
     **Policy**
 * Which three \(3\) of these are compliance standards that must be adhered to by companies is some industries / countries?
-  * **HIPPA\[sic\]**
+  * **HIPAA**
 
     **PCI/DSS**
 
@@ -405,7 +405,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 * Which of these is a methodology by which to conduct audits?
   * SOX
 
-    HIPPA
+    HIPAA
 
     PCI/DSS
 
@@ -460,7 +460,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
     **They are also known as packet-filtering firewalls.**
 * True or **False**: Most Antivirus/Antimalware software works by comparing each file encountered on your system against a compressed \(zipped\) version of known malware maintained by the vendor on the local host.
-* How many unique encryption keys are required for 2 people to exchange a series of messages using asymmetric public key cryptogrophy?
+* How many unique encryption keys are required for 2 people to exchange a series of messages using asymmetric public key cryptography?
   * 4
 * What is Cryptographic Strength?
   * Relies on math, not secrecy
@@ -671,7 +671,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
     **Project Manager methodologies**
 
-    HIPPA
+    HIPAA
 
     SOX
 * Which service management process has the responsibility of understanding the root cause of a problem?
@@ -2232,6 +2232,3 @@ IRIS FRAMEWORK
 * True or **False**. Projections are that ransomware will not be a significant problem in the future as operating systems become more secure and anti-malware applications gain in sophistication.
 * **True** or False. It is feared that in the future our cars, homes and factories may fall victim to ransomware attacks as more and more devices join the Internet of Things.
 
-## IBM Cybersecurity Analyst Assessment
-
-* 
