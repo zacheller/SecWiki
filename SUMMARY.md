@@ -105,6 +105,7 @@
 ## Network Security
 
 * [Courses](network-security/courses/README.md)
+  * [Sec+](network-security/courses/sec+.md)
   * [IBM Cybersecurity Analyst Professional Certificate](network-security/courses/ibm-cybersecurity-analyst-professional-certificate.md)
   * [ISCI CNSS Course](network-security/courses/isci-cnss-course/README.md)
     * [Introduction to Network Security](network-security/courses/isci-cnss-course/introduction/README.md)

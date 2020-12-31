@@ -1755,7 +1755,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
   * Available services provided by the target system
   * A list of Open ports on a target system
   * Active hosts using TCP
-* Port numbers 49151 through 65536 are known as what?
+* Port numbers 49152 through 65535 are known as what?
   * Dynamic and Private Ports
 * What are the three \(3\) responses a port scanner might receive when it is scanning a system for open ports? \(Select 3\)
   * Open
