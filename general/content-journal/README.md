@@ -4,6 +4,11 @@ description: A log to keep track of media
 
 # Interesting Links
 
+1/21
+
+* [It rather involved being on the other side of this airtight hatchway  ](https://devblogs.microsoft.com/oldnewthing/20060508-22/?p=31283)
+* [CVE Stuffing](https://jerrygamblin.com/2020/12/17/cve-stuffing/)
+* 
 12/20
 
 * [Sockets In Your Shell](https://who23.github.io/2020/12/03/sockets-in-your-shell.html)
