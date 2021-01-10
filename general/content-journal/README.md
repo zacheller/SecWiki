@@ -8,7 +8,9 @@ description: A log to keep track of media
 
 * [It rather involved being on the other side of this airtight hatchway  ](https://devblogs.microsoft.com/oldnewthing/20060508-22/?p=31283)
 * [CVE Stuffing](https://jerrygamblin.com/2020/12/17/cve-stuffing/)
-* 
+* [Privilege Escalation via Python Library Hijacking](https://rastating.github.io/privilege-escalation-via-python-library-hijacking/)
+* [Linux Privilege Escalation Using Capabilities](https://materials.rangeforce.com/tutorial/2020/02/19/Linux-PrivEsc-Capabilities/)
+
 12/20
 
 * [Sockets In Your Shell](https://who23.github.io/2020/12/03/sockets-in-your-shell.html)
