@@ -49,7 +49,6 @@
   * [Cracking Hashes](pentest/privilege-escalation/untitled-1.md)
   * [Restricted Linux Shell Escape](pentest/privilege-escalation/restricted-linux-shell-escape.md)
   * [Linux Privilege Escalation](pentest/privilege-escalation/linux-privilege-escalation/README.md)
-    * [Untitled](pentest/privilege-escalation/linux-privilege-escalation/untitled.md)
     * [lxd](pentest/privilege-escalation/linux-privilege-escalation/lxd.md)
     * [sytemctl](pentest/privilege-escalation/linux-privilege-escalation/sytemctl.md)
   * [Windows Privilege Escalation](pentest/privilege-escalation/windows-privilege-escalation/README.md)
