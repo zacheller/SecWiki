@@ -10,6 +10,8 @@ description: A log to keep track of media
 * [CVE Stuffing](https://jerrygamblin.com/2020/12/17/cve-stuffing/)
 * [Privilege Escalation via Python Library Hijacking](https://rastating.github.io/privilege-escalation-via-python-library-hijacking/)
 * [Linux Privilege Escalation Using Capabilities](https://materials.rangeforce.com/tutorial/2020/02/19/Linux-PrivEsc-Capabilities/)
+* [Stealing Your Private YouTube Videos, One Frame at a Time](https://bugs.xdavidhu.me/google/2021/01/11/stealing-your-private-videos-one-frame-at-a-time/)
+* [A Deep Dive Into Hyperjacking](https://www.securityweek.com/deep-dive-hyperjacking)
 
 12/20
 
