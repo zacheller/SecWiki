@@ -12,6 +12,7 @@ description: A log to keep track of media
 * [Linux Privilege Escalation Using Capabilities](https://materials.rangeforce.com/tutorial/2020/02/19/Linux-PrivEsc-Capabilities/)
 * [Stealing Your Private YouTube Videos, One Frame at a Time](https://bugs.xdavidhu.me/google/2021/01/11/stealing-your-private-videos-one-frame-at-a-time/)
 * [A Deep Dive Into Hyperjacking](https://www.securityweek.com/deep-dive-hyperjacking)
+* [How I hijacked the top-level domain of a sovereign state](https://labs.detectify.com/2021/01/15/how-i-hijacked-the-top-level-domain-of-a-sovereign-state/)
 
 12/20
 
