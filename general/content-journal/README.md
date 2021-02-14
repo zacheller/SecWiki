@@ -4,6 +4,10 @@ description: A log to keep track of media
 
 # Interesting Links
 
+2/21
+
+* [\(Very\) Basic Intro to Elliptic Curve Cryptography  ](https://qvault.io/2020/09/17/very-basic-intro-to-elliptic-curve-cryptography/)
+
 1/21
 
 * [It rather involved being on the other side of this airtight hatchway  ](https://devblogs.microsoft.com/oldnewthing/20060508-22/?p=31283)
