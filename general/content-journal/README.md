@@ -4,6 +4,10 @@ description: A log to keep track of media
 
 # Interesting Links
 
+3/21
+
+* [HALF OF CURL’S VULNERABILITIES ARE C MISTAKES](https://daniel.haxx.se/blog/2021/03/09/half-of-curls-vulnerabilities-are-c-mistakes/)
+
 2/21
 
 * [\(Very\) Basic Intro to Elliptic Curve Cryptography  ](https://qvault.io/2020/09/17/very-basic-intro-to-elliptic-curve-cryptography/)
