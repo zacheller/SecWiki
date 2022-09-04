@@ -17,7 +17,7 @@ Any activity that does not match the pattern of normal user access is noted and 
 
 #### Threshold Monitoring
 
-Threshold monitoring pre-sets acceptable behaviour levels and observes whether these levels are exceeded. This could include something as simple as a finite number of failed login attempts or something as complex as monitoring the time a user is connected and the amount of data that user downloads. ****_Proper threshold values and the time frames at which to check those values are hard to calibrate--can generate false positives._
+Threshold monitoring pre-sets acceptable behaviour levels and observes whether these levels are exceeded. This could include something as simple as a finite number of failed login attempts or something as complex as monitoring the time a user is connected and the amount of data that user downloads. **** _Proper threshold values and the time frames at which to check those values are hard to calibrate--can generate false positives._
 
 #### **Resource Profiling**
 
@@ -32,4 +32,3 @@ In user/group work profiling, the IDS maintains individual work profiles about u
 Executable profiling seeks to measure and monitor how programs use system resources with particular attention to those whose activity cannot always be traced to a specific originating user. For example, system services usually cannot be traced to a specific user launching them. Viruses, Trojan horses, worms, trapdoors, and other software attacks are addressed by profiling how system objects such as files and printers are normally used not only by users, but also by other system subjects on the part of users. In most conventional systems, for example, any program, including a virus, inherits all of the privileges of the user executing the software. The software is not limited by the principle of least privilege to only those privileges needed to properly execute. This openness in the architecture permits viruses to covertly change and infect totally unrelated parts of the system.
 
 Executable profiling enables the IDS to identify activity that might indicate an attack. Once a potential danger is identified, the method of notifying the administrator, such as by network message or e-mail, is specific to the individual IDS.
-

@@ -6,21 +6,21 @@ The U.S. National Institute of Standards and Technology establishes standards fo
 
 Special Publication 800-14, Generally Accepted Principles and Practices for Securing Information Technology Systems, describes common security principles that should be addressed within security policies. The purpose of this document is to describe 8 principles and 14 practices that can be used to develop security policies. This standard is based on 8 principles, which are:
 
-1. Computer security supports the mission of the organisation.
+1\. Computer security supports the mission of the organisation.
 
-2. Computer security is an integral element of sound management.
+2\. Computer security is an integral element of sound management.
 
-3. Computer security should be cost-effective.
+3\. Computer security should be cost-effective.
 
-4. System owners have security responsibilities outside their own organisations.
+4\. System owners have security responsibilities outside their own organisations.
 
-5. Computer security responsibilities and accountability should be made explicit.
+5\. Computer security responsibilities and accountability should be made explicit.
 
-6. Computer security requires a comprehensive and integrated approach.
+6\. Computer security requires a comprehensive and integrated approach.
 
-7. Computer security should be periodically reassessed.
+7\. Computer security should be periodically reassessed.
 
-8. Computer is security is constrained by societal factors.
+8\. Computer is security is constrained by societal factors.
 
 ## **NIST SP 800-35**
 
@@ -53,6 +53,4 @@ NIST SP 800-30 Rev. 1, Guide for Conducting Risk Assessments, is a standard for 
 
 **STEP 8.** Control Recommendations
 
-**STEP 9.** Results documentation  
-
-
+**STEP 9.** Results documentation\

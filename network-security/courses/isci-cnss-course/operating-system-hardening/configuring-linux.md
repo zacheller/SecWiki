@@ -3,7 +3,7 @@
 An in-depth review of Linux security would be a lengthy task indeed. One reason is the diversity of Linux setups. Users could be using Debian, Red Hat, Ubuntu, or other Linux distributions. Some might be working from the shell, while others work from some graphical user interfaces such as KDE or GNOME. Fortunately, many of the same security concepts that apply to Windows can be applied to Linux. The only differences lie in the implementation, as explained in the following list:
 
 * User and account policies should be set up the same in Linux as they are in Windows, with only a few minor differences. These differences are more a matter of using different names in Linux than in Windows. For example, Linux does not have an administrator account; it has a root account.
-* All services \(called daemons in Linux\) not in use should be shut down.
+* All services (called daemons in Linux) not in use should be shut down.
 * The browser must be configured securely.
 * You must routinely patch the operating system.
 
@@ -11,38 +11,38 @@ In addition to some tactics that are common to Windows and Linux, a few approach
 
 * No application should run as the root user unless absolutely necessary. Remember that the root user is equivalent to the administrator account in Windows. Also, remember that all applications in Linux run as if started by a particular user, and therefore having an application run as root user would give it all administrative privileges.
 * The root password must be complex and must be changed frequently. This is the same as with Windows administrator passwords.
-* Disable all console-equivalent access for regular users. This means blocking access to programs such as shutdown, reboot, and halt for regular users on your server. 
+* Disable all console-equivalent access for regular users. This means blocking access to programs such as shutdown, reboot, and halt for regular users on your server.&#x20;
 * Hide your system information. When you log in to a Linux box, it displays by default the Linux distribution name, version, kernel version, and the name of the server. This information can be a starting point for intruders. You should just prompt users with a “Login:” prompt.
 
 ### **Disable Services**
 
-Every service \(daemon\) that runs is executing code on the server. If there is a vulnerability within that code, it is a potential weakness that can be leveraged by an attacker; it is also consuming resources in the form of RAM and CPU cycles.
+Every service (daemon) that runs is executing code on the server. If there is a vulnerability within that code, it is a potential weakness that can be leveraged by an attacker; it is also consuming resources in the form of RAM and CPU cycles.
 
 Many operating systems ship with a number of services enabled by default, many of which you may not use. These services should be disabled to reduce the attack surface on your servers. Of course you should not just start disabling services with reckless abandon—before disabling a service, it is prudent to ascertain exactly what it does and determine if you require it.
 
 There are a number of ways to ascertain which services are running on a UNIX system, the easiest of which is to use the **“ps”** command to list running services. Exact argument syntax can vary between versions, but the **“ps ax”** syntax works on most systems and will list all currently running processes. For minor variations in syntax on your operating system, check the manual page for **“ps”** using the command **“man ps”**.
 
-Services should be disabled in start-up scripts \(**“rc”** or **“init”**, depending on operating system\) unless your system uses **“systemd”**, in which case you can refer to the following discussion on **“systemd”**. Using the **“kill”** command will merely stop the currently running service, which will start once more during a reboot. On Linux the commands are typically one of: **“rc-update”**, **“update-rc.d”**, or **“service”**. On BSD-based systems, you typically edit the file /etc/rc.conf. 
+Services should be disabled in start-up scripts (**“rc”** or **“init”**, depending on operating system) unless your system uses **“systemd”**, in which case you can refer to the following discussion on **“systemd”**. Using the **“kill”** command will merely stop the currently running service, which will start once more during a reboot. On Linux the commands are typically one of: **“rc-update”**, **“update-rc.d”**, or **“service”**. On BSD-based systems, you typically edit the file /etc/rc.conf.&#x20;
 
 For example, on several flavours of Linux the service command can be used to stop the sshd service: \`**service sshd stop**
 
-To start sshd \(one time\): **service start sshd**
+To start sshd (one time): **service start sshd**
 
 And to disable it from starting after a reboot:**update-rc.d -f sshd remove**
 
-Some Linux distributions have moved toward using **“systemd”** as opposed to SysV startup scripts to manage services. **“systemd”** can be used to perform other administrative functions with regards to services, such as reloading configuration and displaying dependency information. 
+Some Linux distributions have moved toward using **“systemd”** as opposed to SysV startup scripts to manage services. **“systemd”** can be used to perform other administrative functions with regards to services, such as reloading configuration and displaying dependency information.&#x20;
 
-To stop sshd \(one time\): **systemctl stop sshd**  
+To stop sshd (one time): **systemctl stop sshd**\
 To enable sshd upon every reboot: **systemctl enable sshd**
 
-And to disable sshd upon further reboots: **systemctl disable sshd**  
+And to disable sshd upon further reboots: **systemctl disable sshd**\
 
 
-Older Unix/Linux operating systems may use inetd or xinetd to manage services rather than rc or init scripts. \(x\)inetd is used to preserve system resources by being almost the only service running and starting other services on demand, rather than leaving them all running all of the time. If this is the case, services can be disabled by editing the inetd.conf or xinetd.conf files, typically located in the /etc/ directory.
+Older Unix/Linux operating systems may use inetd or xinetd to manage services rather than rc or init scripts. (x)inetd is used to preserve system resources by being almost the only service running and starting other services on demand, rather than leaving them all running all of the time. If this is the case, services can be disabled by editing the inetd.conf or xinetd.conf files, typically located in the /etc/ directory.
 
 ### **File Permissions**
 
-Most Unix/Linux file systems have a concept of permissions—that is, files which users and groups can read, write, or execute. Most also have the SETUID \(set user ID upon execution\) permission, which allows a nonroot user to execute a file with the permission of the owning user, typically root. This is because the normal operation of that command, even to a nonroot user, requires root privileges, such as su or sudo.
+Most Unix/Linux file systems have a concept of permissions—that is, files which users and groups can read, write, or execute. Most also have the SETUID (set user ID upon execution) permission, which allows a nonroot user to execute a file with the permission of the owning user, typically root. This is because the normal operation of that command, even to a nonroot user, requires root privileges, such as su or sudo.
 
 Typically, an operating system will set adequate file permissions on the system files during installation. However, as you create files and directories, permissions will be created according to your umask settings. As a general rule, the umask on a system should only be made more restrictive than the default. Cases where a less restrictive umask is required should be infrequent enough that chmod can be used to resolve the issue. Your umask settings can be viewed and edited using the umask command. See man umask1 for further detail on this topic.
 
@@ -52,16 +52,16 @@ Take, for example, a system running a web server such as Apache, nginx, or light
 
 As an example, the file test can be read and written to by the owner \_www, it can be read and executed by the group staff, and can be read by anybody. This is denoted by the rw-, r-x, and r-- permissions in the directory listing:
 
-```text
+```
 $ ls -al test
 -rw-r-xr--  1 _wwwstaff  1228 16 Apr 05:22 test
 ```
 
-In the Unix/Linux file system listing, there are 10 hyphens \(-\), the last 9 of which correspond to read, write, and execute permissions for owner, group and other \(everyone\). A hyphen indicates the permission is not set; a letter indicates that it is set. Other special characters appear less often; for example, an S signifies that the SETUID flag has been set.
+In the Unix/Linux file system listing, there are 10 hyphens (-), the last 9 of which correspond to read, write, and execute permissions for owner, group and other (everyone). A hyphen indicates the permission is not set; a letter indicates that it is set. Other special characters appear less often; for example, an S signifies that the SETUID flag has been set.
 
-If we wish to ensure that others can no longer see this file, then we can modify the permissions. We can alter them using the `chmod`command \(o= sets the other permissions to nothing\):
+If we wish to ensure that others can no longer see this file, then we can modify the permissions. We can alter them using the `chmod`command (o= sets the other permissions to nothing):
 
-```text
+```
 $ sudo chmod o= test
 $ ls -la test
 -rw-r-x---  1 _wwwstaff  1228 16 Apr 05:22 test
@@ -91,19 +91,19 @@ Do not interpret any special dev devices. If no special dev devices are expected
 
 Do not allow setuid execution. Certain core system functions, such as su and sudo will require setuid execution, thus this option should be used carefully. Attackers can use setuid binaries as a method of backdooring a system to quickly obtain root privileges from a standard user account. Setuid execution is probably not required outside of the system-installed bin and sbin directories. You can check for the location of setuid binaries using the following command:
 
-```text
+```
 $ sudo find / -perm -4000
 ```
 
 Binaries that are specifically setuid root, as opposed to any setuid binary, can be located using the following variant:
 
-```text
+```
 $ sudo find / -user root -perm -4000
 ```
 
 **ro**
 
-Mount the file system read-only. If data does not need to be written or updated, this option may be used to prevent modification. This removes the ability for an attacker to modify files stored in this location such as config files and static website content. 
+Mount the file system read-only. If data does not need to be written or updated, this option may be used to prevent modification. This removes the ability for an attacker to modify files stored in this location such as config files and static website content.&#x20;
 
 **noexec**
 
@@ -119,7 +119,7 @@ The process in question can use the chroot system call and chroot itself volunta
 
 The chroot wrapper can be used on the command line when executing the command. Typically this would look something like:
 
-```text
+```
 $ sudo chroot /chroot/dir/ /chroot/dir/bin/binary -args
 ```
 
@@ -127,6 +127,4 @@ For details of specific chroot syntax for your flavor of Unix, consult man chroo
 
 It should be noted, however, that there is a common misconception that chroot offers some security features that it simply does not. Chroot jails are not impossible to break out of, especially if the process within the chroot jail is running with root privileges. Typically processes that are specifically designed to use chroot will drop their root privileges as soon as possible so as to mitigate this risk. Additionally, chroot does not offer the process any protection from privileged users outside of the chroot on the same system.
 
-Neither of these are reasons to abandon chroot, but should be considered when designing use cases as it is not an impenetrable fortress, but more a method of further restricting file system access.  
-
-
+Neither of these are reasons to abandon chroot, but should be considered when designing use cases as it is not an impenetrable fortress, but more a method of further restricting file system access.\

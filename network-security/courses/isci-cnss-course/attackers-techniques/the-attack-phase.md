@@ -16,12 +16,10 @@ Obviously, physical access to a workstation on the target network is not always 
 
 ### **SQL Injection**
 
-SQL injection is a popular attack against web applications. A login screen requires a username and password, which must be checked against a database to see whether they are valid. All databases speak Structured Query Language \(SQL\). If the programmer who created the login is not careful it might be susceptible to SQL injection. Here is how that attack works. SQL looks a lot like English. For example, to check a username and password an intruder might want to query the database and see whether any entry in the users table matches the username and password that was entered. If there is, then a match exists.
+SQL injection is a popular attack against web applications. A login screen requires a username and password, which must be checked against a database to see whether they are valid. All databases speak Structured Query Language (SQL). If the programmer who created the login is not careful it might be susceptible to SQL injection. Here is how that attack works. SQL looks a lot like English. For example, to check a username and password an intruder might want to query the database and see whether any entry in the users table matches the username and password that was entered. If there is, then a match exists.
 
-### **Cross-Site Scripting \(XSS\)**
+### **Cross-Site Scripting (XSS)**
 
 An attacker injects a client-side script into web pages viewed by other users. The term cross-site scripting originally referred to the act of loading the attacked, third-party web application from an unrelated attack site, in a manner that executes a fragment of JavaScript prepared by the attacker in the security context of the targeted domain.
 
-Essentially, an attacker enters scripts into an area that other users interact with, so that when they go to that part of the site, the attacker’s script runs, rather than the intended website functionality. This can include redirecting users.  
-
-
+Essentially, an attacker enters scripts into an area that other users interact with, so that when they go to that part of the site, the attacker’s script runs, rather than the intended website functionality. This can include redirecting users.\

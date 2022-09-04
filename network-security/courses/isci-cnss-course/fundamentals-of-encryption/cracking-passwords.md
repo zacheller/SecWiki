@@ -9,10 +9,11 @@ John the Ripper works with password files rather than attempting to crack live p
 * In Linux, it is /etc/passwd and /etc/shadow.
 * In Windows 2000 and beyond, it is in a hidden .sam file.
 
-After you have downloaded John the Ripper, you can run it by typing in \(at a command line\) the word john followed by the file you want it to try to crack:
+After you have downloaded John the Ripper, you can run it by typing in (at a command line) the word john followed by the file you want it to try to crack:
 
 * john passwd
-* john –wordfile:/usr/share/wordlists/rockyou.txt –rules passwd Cracked passwords will be printed to the terminal and saved in a file called john.pot, found in the directory into which you installed John the Ripper.
+* john –wordfile:/usr/share/wordlists/rockyou.txt –rules passwd\
+  Cracked passwords will be printed to the terminal and saved in a file called john.pot, found in the directory into which you installed John the Ripper.
 
 ### Rainbow Tables
 
@@ -21,4 +22,3 @@ In 1980 Martin Hellman described a cryptanalytic time-memory trade-off that redu
 ### Brute Force
 
 This method simply involves trying every possible key. It is guaranteed to work, but is likely to take so long that it is simply not useable. For example, to break a Caesar cipher there are only 26 possible keys, which you can try in a very short time. But consider AES, with the smallest key size of 128 bits. If you tried 1 trillion keys a second, it could take 112,527,237,738,405,576,542 years to try them all.
-

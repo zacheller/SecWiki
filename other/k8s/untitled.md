@@ -2,8 +2,8 @@
 
 **Introduction**
 
-With container images, we confine the application code, its runtime, and all of its dependencies in a pre-defined format. And, with container runtimes like runC, containerd, or rkt we can use those pre-packaged images, to create one or more containers. All of these runtimes are good at running containers on a single host. But, in practice, we would like to have a fault-tolerant and scalable solution, which can be achieved by creating a single controller/management unit, after connecting multiple nodes together. This controller/management unit is generally referred to as a container orchestrator.  
-  
+With container images, we confine the application code, its runtime, and all of its dependencies in a pre-defined format. And, with container runtimes like runC, containerd, or rkt we can use those pre-packaged images, to create one or more containers. All of these runtimes are good at running containers on a single host. But, in practice, we would like to have a fault-tolerant and scalable solution, which can be achieved by creating a single controller/management unit, after connecting multiple nodes together. This controller/management unit is generally referred to as a container orchestrator.\
+\
 **What are Containers?**
 
 * portable, isolated virtual environments for applications to run without interference from other running applications.
@@ -42,14 +42,12 @@ With container images, we confine the application code, its runtime, and all of 
 
 **Discuss different container orchestration options.**
 
-* container orchestrators can be deployed on the infrastructure of our choice - on bare metal, Virtual Machines, on-premise, or the public cloud. Kubernetes can be deployed on a workstation, with or without a local hypervisor such as Oracle VirtualBox, inside a company's data center, in the cloud on AWS Elastic Compute Cloud \(EC2\) instances, Google Compute Engine \(GCE\) VMs, DigitalOcean Droplets, OpenStack, etc
+* container orchestrators can be deployed on the infrastructure of our choice - on bare metal, Virtual Machines, on-premise, or the public cloud. Kubernetes can be deployed on a workstation, with or without a local hypervisor such as Oracle VirtualBox, inside a company's data center, in the cloud on AWS Elastic Compute Cloud (EC2) instances, Google Compute Engine (GCE) VMs, DigitalOcean Droplets, OpenStack, etc
 * turnkey solutions which allow Kubernetes clusters to be installed, with only a few commands, on top of cloud Infrastructures-as-a-Service, such as GCE, AWS EC2, Docker Enterprise, IBM Cloud, **Rancher**, VMware, Pivotal, and multi-cloud solutions through IBM Cloud Private and StackPointCloud.
 
 **Discuss different container orchestration deployment options.**
 
 * Directly on infrastructure of your choice
 * Turnkey solutions on top of cloud IaaS
-* Kubernetes as-a-Service solution, offered and hosted by the major cloud providers, such as [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/) \(GKE\), [Amazon Elastic Container Service for Kubernetes](https://aws.amazon.com/eks/) \(Amazon EKS\), [Azure Kubernetes Service](https://azure.microsoft.com/en-us/services/kubernetes-service/) \(AKS\), [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service), [DigitalOcean Kubernetes](https://www.digitalocean.com/products/kubernetes/), [Oracle Container Engine for Kubernetes](https://cloud.oracle.com/containers/kubernetes-engine), etc
-
-
+* Kubernetes as-a-Service solution, offered and hosted by the major cloud providers, such as [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/) (GKE), [Amazon Elastic Container Service for Kubernetes](https://aws.amazon.com/eks/) (Amazon EKS), [Azure Kubernetes Service](https://azure.microsoft.com/en-us/services/kubernetes-service/) (AKS), [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service), [DigitalOcean Kubernetes](https://www.digitalocean.com/products/kubernetes/), [Oracle Container Engine for Kubernetes](https://cloud.oracle.com/containers/kubernetes-engine), etc
 

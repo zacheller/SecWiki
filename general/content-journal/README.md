@@ -10,7 +10,7 @@ description: A log to keep track of media
 
 2/21
 
-* [\(Very\) Basic Intro to Elliptic Curve Cryptography  ](https://qvault.io/2020/09/17/very-basic-intro-to-elliptic-curve-cryptography/)
+* [(Very) Basic Intro to Elliptic Curve Cryptography  ](https://qvault.io/2020/09/17/very-basic-intro-to-elliptic-curve-cryptography/)
 
 1/21
 
@@ -26,16 +26,16 @@ description: A log to keep track of media
 
 * [Sockets In Your Shell](https://who23.github.io/2020/12/03/sockets-in-your-shell.html)
 * [Turning the frustration of a mobile game into a reverse engineering training](https://medium.com/@xplodwild/turning-the-frustration-of-a-mobile-game-into-a-reverse-engineering-training-a9887043efdf)
-* [Weaknesses in the Key Scheduling Algorithm of RC4](https://link.springer.com/chapter/10.1007%2F3-540-45537-X_1)
+* [Weaknesses in the Key Scheduling Algorithm of RC4](https://link.springer.com/chapter/10.1007%2F3-540-45537-X\_1)
 * [Removing Exponential Backoff from TCP](https://networks.cs.northwestern.edu/publications/extr.pdf)
 * [https://readme.localtest.me/](https://readme.localtest.me/)
 * [The Great iPwn  : Journalists Hacked with Suspected NSO Group iMessage ‘Zero-Click’ Exploit](https://citizenlab.ca/2020/12/the-great-ipwn-journalists-hacked-with-suspected-nso-group-imessage-zero-click-exploit/)
-* [Parsing JSON at the CLI: A Practical Introduction to \`jq\` \(and more!\)  ](https://sequoia.makes.software/parsing-json-at-the-cli-a-practical-introduction-to-jq-and-more/)
+* [Parsing JSON at the CLI: A Practical Introduction to \`jq\` (and more!)  ](https://sequoia.makes.software/parsing-json-at-the-cli-a-practical-introduction-to-jq-and-more/)
 * [Google Dork Techniques](https://securitytrails.com/blog/google-hacking-techniques)
 
 11/20
 
-* [SSH Pivoting](https://blog.ikuamike.io/posts/2020/grayhat_red_team_village_ctf_tunneler_writeup/) - Red Team Village CTF Writeup
+* [SSH Pivoting](https://blog.ikuamike.io/posts/2020/grayhat\_red\_team\_village\_ctf\_tunneler\_writeup/) - Red Team Village CTF Writeup
 * [.git hacking](https://medium.com/swlh/hacking-git-directories-e0e60fa79a36)
 * [Off-the-Record Communication, or, Why Not To Use PGP](https://otr.cypherpunks.ca/otr-wpes.pdf)
 * [Exploiting X11 Unauthenticated Access](https://resources.infosecinstitute.com/topic/exploiting-x11-unauthenticated-access/)
@@ -52,7 +52,7 @@ description: A log to keep track of media
 
 * [Does CSRF prevention also prevent reflected XSS attack](https://security.stackexchange.com/questions/66225/does-csrf-prevention-also-prevent-reflected-xss-attack)
 * [The 'javascript' resource identifier scheme](https://tools.ietf.org/html/draft-hoehrmann-javascript-scheme-00)
-* [Sources and Sinks - Code Review Basics](https://www.youtube.com/watch?v=ZaOtY4i5w_U)
+* [Sources and Sinks - Code Review Basics](https://www.youtube.com/watch?v=ZaOtY4i5w\_U)
 * [Let’s play a game: what is the deadly bug here?](https://www.youtube.com/watch?v=MpeaSNERwQA)
 * [https://www.benkuhn.net/autocomplete/](https://www.benkuhn.net/autocomplete/)
 
@@ -69,15 +69,15 @@ description: A log to keep track of media
 
 6/20
 
-* [Reverse Engineering Snapchat](https://hot3eed.github.io/2020/06/18/snap_p1_obfuscations.html)
-* [SAT solver on top of regex matcher  ](https://yurichev.com/news/20200621_regex_SAT/)
+* [Reverse Engineering Snapchat](https://hot3eed.github.io/2020/06/18/snap\_p1\_obfuscations.html)
+* [SAT solver on top of regex matcher  ](https://yurichev.com/news/20200621\_regex\_SAT/)
 * [What happens when you update your DNS?  ](https://jvns.ca/blog/how-updating-dns-works/)
 * [Run Your Own Authoritative DNS Servers  ](https://www.joshmcguigan.com/blog/run-your-own-dns-servers/)
 
 5/20
 
-* [PrintDemon: Print Spooler Privilege Escalation, Persistence & Stealth \(CVE-2020-1048 & more\)](https://windows-internals.com/printdemon-cve-2020-1048/)
-* [Security Flaws in Adobe Acrobat Reader Allow Malicious Program to Gain Root on macOS Silently](%20https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)
+* [PrintDemon: Print Spooler Privilege Escalation, Persistence & Stealth (CVE-2020-1048 & more)](https://windows-internals.com/printdemon-cve-2020-1048/)
+* [Security Flaws in Adobe Acrobat Reader Allow Malicious Program to Gain Root on macOS Silently](https://rekken.github.io/2020/05/14/Security-Flaws-in-Adobe-Acrobat-Reader-Allow-Malicious-Program-to-Gain-Root-on-macOS-Silently/)
 * [https://emaragkos.gr/resources/](https://emaragkos.gr/resources/)
 * [White hat social engineering: How to become an admin of a system  ](https://ramon.dev/business/2020/05/11/become-an-admin.html)
 * [STRIDE and Threat Modeling](https://paramsingh.github.io/notes/stride/)
@@ -91,4 +91,3 @@ description: A log to keep track of media
 * [From DnsAdmins to SYSTEM to Domain Compromise](https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/from-dnsadmins-to-system-to-domain-compromise)
 * [Microsoft Buys Corp.com So Bad Guys Can’t](https://krebsonsecurity.com/2020/04/microsoft-buys-corp-com-so-bad-guys-cant/)
 * [HackTheBox Basic Setup Hosts File](https://sabebarker.com/writeups/hackthebox/getting-started/basic-setup/)
-

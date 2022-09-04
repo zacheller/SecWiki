@@ -9,7 +9,7 @@
 * [Pentest Labs, Wargames Sites](general/labs-wargames-ctf/README.md)
   * [How To Vulnhub with VirtualBox](general/labs-wargames-ctf/how-to-vulnhub-virtualbox.md)
 
-## Network Pentest <a id="pentest"></a>
+## Network Pentest <a href="#pentest" id="pentest"></a>
 
 * [Courses](pentest/courses/README.md)
   * [TCM - Zero to Hero](pentest/courses/beginner-network-pentesting/README.md)
@@ -33,7 +33,7 @@
     * [Week 10: MS17-010, GPP/cPasswords, and Kerberoasting](pentest/courses/beginner-network-pentesting/untitled-4.md)
     * [Week 11: File Transfers, Pivoting, Reporting](pentest/courses/beginner-network-pentesting/week-11-file-transfers-pivoting-reporting.md)
     * [Commands](pentest/courses/beginner-network-pentesting/commands.md)
-  * [Penetration Testing Student \(PTS\)](pentest/courses/penetration-testing-student-pts.md)
+  * [Penetration Testing Student (PTS)](pentest/courses/penetration-testing-student-pts.md)
   * [OSCP Study](pentest/courses/oscp-study.md)
 * [Recon](pentest/recon-osint/README.md)
   * [OSINT](pentest/recon-osint/osint.md)
@@ -84,17 +84,16 @@
 * [XSS](web-app-pentest/xss/README.md)
   * [DOMXSS](web-app-pentest/xss/domxss.md)
   * [Persistent XSS](web-app-pentest/xss/persistent-xss.md)
-  * [Reflected \(Client-side\) XSS](web-app-pentest/xss/reflected-client-side-xss.md)
+  * [Reflected (Client-side) XSS](web-app-pentest/xss/reflected-client-side-xss.md)
   * [Data URLs](web-app-pentest/xss/data-urls.md)
 * [Insecure Deserialization](web-app-pentest/insecure-deserialization.md)
 * [Components with Known Vulnerabilities](web-app-pentest/components-with-known-vulnerabilities.md)
 * [Insufficient Logging and Monitoring](web-app-pentest/insufficient-logging-and-monitoring.md)
-* [Server-Side Request Forgery \(SSRF\)](web-app-pentest/server-side-request-forgery-ssrf.md)
+* [Server-Side Request Forgery (SSRF)](web-app-pentest/server-side-request-forgery-ssrf.md)
 
 ## CTF
 
 * [Intro to CTF](ctf/ctf.md)
-* [Writing CTF Challenges](ctf/writing-ctf-challenges.md)
 * [Forensics](ctf/forensics/README.md)
   * [Challenges](ctf/forensics/challenges.md)
 * [Steganography](ctf/untitled.md)
@@ -138,7 +137,7 @@
       * [Windows and Linux Encryption](network-security/courses/isci-cnss-course/fundamentals-of-encryption/windows-and-linux-encryption.md)
       * [Hashing](network-security/courses/isci-cnss-course/fundamentals-of-encryption/hashing.md)
       * [Cracking Passwords](network-security/courses/isci-cnss-course/fundamentals-of-encryption/cracking-passwords.md)
-    * [Virtual Private Networks \(VPN\)](network-security/courses/isci-cnss-course/virtual-private-networks-vpn/README.md)
+    * [Virtual Private Networks (VPN)](network-security/courses/isci-cnss-course/virtual-private-networks-vpn/README.md)
       * [Introduction to VPN](network-security/courses/isci-cnss-course/virtual-private-networks-vpn/introduction-to-vpn.md)
       * [VPN Protocols](network-security/courses/isci-cnss-course/virtual-private-networks-vpn/vpn-protocols.md)
       * [IPSec](network-security/courses/isci-cnss-course/virtual-private-networks-vpn/ipsec.md)
@@ -168,7 +167,7 @@
     * [Security Standards](network-security/courses/isci-cnss-course/security-standards/README.md)
       * [ISO Standards](network-security/courses/isci-cnss-course/security-standards/iso-standards.md)
       * [NIST Standards](network-security/courses/isci-cnss-course/security-standards/nist-standards.md)
-      * [General Data Protection Regulation \(GDPR\)](network-security/courses/isci-cnss-course/security-standards/general-data-protection-regulation-gdpr.md)
+      * [General Data Protection Regulation (GDPR)](network-security/courses/isci-cnss-course/security-standards/general-data-protection-regulation-gdpr.md)
       * [PCI DSS](network-security/courses/isci-cnss-course/security-standards/pci-dss.md)
     * [Physical Security and Recovery](network-security/courses/isci-cnss-course/physical-security-and-recovery/README.md)
       * [Physical Security](network-security/courses/isci-cnss-course/physical-security-and-recovery/physical-security.md)
@@ -197,17 +196,17 @@
   * [File strings](exploit-dev-analysis/static-analysis/file-strings.md)
   * [Packed and Obfuscated Malware](exploit-dev-analysis/static-analysis/packed-and-obfuscated-malware/README.md)
     * [Demo: UPX](exploit-dev-analysis/static-analysis/packed-and-obfuscated-malware/demo-upx.md)
-  * [Portable Executable File Format \(PE\)](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/README.md)
+  * [Portable Executable File Format (PE)](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/README.md)
     * [Tools](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/tools.md)
     * [Linked Libraries and Functions](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/linked-libraries-and-functions.md)
     * [PE File Headers and Sections](exploit-dev-analysis/static-analysis/portable-executable-file-format-pe/untitled.md)
 
-## Shell <a id="shell-scripting"></a>
+## Shell <a href="#shell-scripting" id="shell-scripting"></a>
 
 * [./missing-semester](shell-scripting/.-missing-semester/README.md)
   * [Course overview + the shell](shell-scripting/.-missing-semester/course-overview-+-the-shell.md)
   * [Shell Tools and Scripting](shell-scripting/.-missing-semester/shell-tools-and-scripting.md)
-  * [Editors \(Vim\)](shell-scripting/.-missing-semester/editors-vim.md)
+  * [Editors (Vim)](shell-scripting/.-missing-semester/editors-vim.md)
   * [Data Wrangling](shell-scripting/.-missing-semester/untitled.md)
   * [Command-line Environment](shell-scripting/.-missing-semester/command-line-environment.md)
 * [Bash Tricks](shell-scripting/bash-tricks.md)
@@ -232,4 +231,3 @@
   * [Chapter 2: Container Orchestration](other/k8s/untitled.md)
   * [Chapter 3: Kubernetes](other/k8s/chapter-3-kubernetes.md)
   * [Chapter 4: Kubernetes Architecture](other/k8s/chapter-4-kubernetes-architecture.md)
-

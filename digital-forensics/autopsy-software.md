@@ -6,28 +6,28 @@ description: Based on Autopsy Basics and Hands On (8-Hours) Course
 
 ## Typical Workflow
 
-1. Create a case.
+1\. Create a case.
 
-2. Add a data source.
+2\. Add a data source.
 
-3. Configure case-relevant keywords.
+3\. Configure case-relevant keywords.
 
-4. Run ingest with relevant modules.
+4\. Run ingest with relevant modules.
 
-5. Review data as it comes in.
+5\. Review data as it comes in.
 
-6. Update keywords as you find more relevant terms.
+6\. Update keywords as you find more relevant terms.
 
-7. Tag files of interest.
+7\. Tag files of interest.
 
-8. Generate report.
+8\. Generate report.
 
 ## Base Concepts
 
 * Deployment options: "Desktop/Single-User" and "Cluster/Multi-User" with Central Repository
 * Multi-user Autopsy deployment
   * Two types of databases supported by a Central Repository deployment: SQLite for single user, PostgreSQL for multiple
-  * allows for "Auto-Ingest" mode, where new media is automatically analyzed 24 x 7 by multiple nodes and Analysis can be faster \(if you have fast hardware\)
+  * allows for "Auto-Ingest" mode, where new media is automatically analyzed 24 x 7 by multiple nodes and Analysis can be faster (if you have fast hardware)
   * One of the primary reasons for having the Central Repository is that it allows you to easily access metadata from past cases.
   * You can store hash sets in the Central Repository that can be shared by everyone in the lab.
 
@@ -45,18 +45,18 @@ description: Based on Autopsy Basics and Hands On (8-Hours) Course
 * A case groups the investigation data you are going to analyze.
 * Supported data sources
   * Disk Images
-    * Raw \(dd\) single and split
+    * Raw (dd) single and split
     * E01
-    * Raw disk images of phones \(Android\)
+    * Raw disk images of phones (Android)
     * Virtual machine formats
   * Local Drives
-    * Preview a live system \(i.e. triage\)
-    * USB-attached device \(write blocker\)
-  * Local Files \(Logical Files/Folders\)
+    * Preview a live system (i.e. triage)
+    * USB-attached device (write blocker)
+  * Local Files (Logical Files/Folders)
     * JPEGs, Word docs
     * L01 file
   * Output from Autopsy Logical Imager
-  * Unallocated Space Files \(no structure\)
+  * Unallocated Space Files (no structure)
 * Populate the case database
   * File Metadata
   * Partition layouts
@@ -64,7 +64,7 @@ description: Based on Autopsy Basics and Hands On (8-Hours) Course
   * can be disabled when image is added
 * PhotoRec - open-source carving tool
   * Carving recovers deleted files without relying on file system knowledge
-  * Relies on file structure internals \(e.g. JPEG, PDF\)
+  * Relies on file structure internals (e.g. JPEG, PDF)
   * Needed when File System doesn't have pointers to file content anymore
 * Unallocated space is represented as files.
 * Local Drive Analysis
@@ -74,7 +74,7 @@ description: Based on Autopsy Basics and Hands On (8-Hours) Course
 * Local Files
   * not copied or moved
   * info about each file is added to DB
-* In a multi-user cluster, all examiners need to have access to the case directory at the same path \(i.e. \server\cases or Z:\Cases\)
+* In a multi-user cluster, all examiners need to have access to the case directory at the same path (i.e. \server\cases or Z:\Cases)
 * Autopsy is able to ingest Disk Images/VM files and logical files directly.
 * When adding a data source to Autopsy, in-depth analysis on the data is not automatically performed.
 * The Autopsy case database does not store full copies of every single file contained within a data source.
@@ -94,13 +94,13 @@ Renzik has been dognapped. Ransom notes have been sent. Laptop is found in a car
   * 6 volumes
   * Unallocated file in vol1: Unalloc\_3\_0\_1048576
   * vol7 is of type NTFS
-  * Data Base File is called autopsy.db, ~225 MB
+  * Data Base File is called autopsy.db, \~225 MB
 
 ## UI Basics
 
 * Notable tags get applied with a Hash hit
 * Suspicious tags are marked by a module as interesting
-* Comments, Occurrences if file seen in past cases \(requires Central Repo\)
+* Comments, Occurrences if file seen in past cases (requires Central Repo)
 * File names and text can be translated
 * Hex viewer, Text/Strings, Application viewer, Message viewer, Metadata, Analysis results, Annotations, Occurences
 * Video Triage, takes snapshots of a video so you can quickly check relevance
@@ -127,11 +127,11 @@ Renzik has been dognapped. Ransom notes have been sent. Laptop is found in a car
     * File Ingest Modules
     * Data Source Ingest Modules
   * Ingest modules can run in parallel
-  * Save their results as Blackboard Artifacts \(Type, Value pair\)
+  * Save their results as Blackboard Artifacts (Type, Value pair)
     * one or more attributes
     * Saved under "Extracted Content"
     * e.g. Web Bookmark, Hash Hit, Encryption Detected
-  * Autopsy prioritizes files so that important ones are analyzed first.  The priority order is: 
+  * Autopsy prioritizes files so that important ones are analyzed first.  The priority order is:&#x20;
     * User Folders
     * Program Files and other root folders
     * Windows folder
@@ -141,7 +141,7 @@ Renzik has been dognapped. Ransom notes have been sent. Laptop is found in a car
 
 * The "Hash Lookup" can calculate the MD5 hash of a file.
 * Why?
-  * Identify notable \("known bad"\) files
+  * Identify notable ("known bad") files
   * Hide known files from UI
   * Make ingest faster
 * Files found in a hash set will be in the Hashset Hits part of the tree
@@ -166,9 +166,9 @@ We are now going to begin analyzing the laptop. We are starting off the case wit
 
 * Modules
   * File Type Module: determines MIME types based on signatures
-    * define custom file types \(Tools -&gt; Options -&gt; File Types\)
-      * specify MIME type \(or make one\), offset of signature, signature
-  * File Extension Mismatch Module \(false positives due to renames: .tmp, .bak, .0, .1\)
+    * define custom file types (Tools -> Options -> File Types)
+      * specify MIME type (or make one), offset of signature, signature
+  * File Extension Mismatch Module (false positives due to renames: .tmp, .bak, .0, .1)
   * Exif Module - extracts Exif structure from JPEGs
     * identify camera type, time of pic, geo-coordinates
   * Embedded File Extractor - opens ZIP, RAR, other archives
@@ -193,15 +193,15 @@ We are now going to begin analyzing the laptop. We are starting off the case wit
   * Samsung Galaxy S8:     0 pictures
   * BLU R1 HD:            15 pictures
 * 113 Extension mismatches detected
-  * .rsrc -&gt; image/png
-  * .dat -&gt; application/x-msoffice
-  * .bytes -&gt; image/png
+  * .rsrc -> image/png
+  * .dat -> application/x-msoffice
+  * .bytes -> image/png
 * Ran Interesting Files module looking for "veracrypt.exe" and "truecrypt.exe"
   * found VeraCrypt.exe
 
 ## Recent Activity Module
 
-* Web Activity \(depending on Browser\)
+* Web Activity (depending on Browser)
   * History
   * Bookmarks
   * Cookies
@@ -290,19 +290,18 @@ At this point in the scenario, the police have searched the house and, with the 
 * Review relationships between Accounts and Device Accounts
   * A special account that is created by Autopsy for a data source when it doesn't know what account was used is called a Device account
 * Accounts in Autopsy have both a "type" and a unique "identifier"
-* By default, accounts are sorted by the number of relationships they have in the case. 
+* By default, accounts are sorted by the number of relationships they have in the case.&#x20;
 
 ## Tagging, Commenting, and Reporting
 
 * Tagging allows a user to reference a file or object to easily find it later
-* When viewing a result \(aka a Blackboard Artifact\) you have the choice to tag either the result or its source file
+* When viewing a result (aka a Blackboard Artifact) you have the choice to tag either the result or its source file
 * In a multi-user environment, tags are associated with the examiner who made them
 * You can tag a specific part of an image
 * Generate a Portable case: includes only tagged files and interesting item hits
 
 ## Installing 3rd Party Modules
 
-* Official Repo: [autopsy\_addon\_modules](https://github.com/sleuthkit/autopsy_addon_modules)
-* Java: Tools -&gt; Plugins menu, then just Add Plugin and Install
+* Official Repo: [autopsy\_addon\_modules](https://github.com/sleuthkit/autopsy\_addon\_modules)
+* Java: Tools -> Plugins menu, then just Add Plugin and Install
 * Python: Copy module folder into the python\_modules folder
-

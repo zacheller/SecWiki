@@ -4,7 +4,7 @@ A disaster is any event that significantly disrupts your organisation’s operat
 
 ## **Disaster Recovery Plan**
 
-You should have a **disaster recovery plan** \(DRP\) in place to guide the return of the business to normal operations. This must include a number of items. You must address personnel issues, which means being able to find temporary personnel if needed, and being able to contact the personnel you have employed. It also includes having specific people assigned to specific tasks. If a disaster occurs, who in your organisation is tasked with the following?
+You should have a **disaster recovery plan** (DRP) in place to guide the return of the business to normal operations. This must include a number of items. You must address personnel issues, which means being able to find temporary personnel if needed, and being able to contact the personnel you have employed. It also includes having specific people assigned to specific tasks. If a disaster occurs, who in your organisation is tasked with the following?
 
 * Locating alternative facilities
 * Getting equipment to those facilities
@@ -16,7 +16,7 @@ These are just a few issues that a disaster recovery plan must address; your org
 
 ## **Business Continuity Plan**
 
-A business continuity plan \(BCP\) is similar to a disaster recovery plan but with a different focus. The DRP is designed to get the organisation back to full functionality as quickly as possible. A business continuity plan is designed to get minimal business functions back up and running at least at some level so you can conduct some type of business. 
+A business continuity plan (BCP) is similar to a disaster recovery plan but with a different focus. The DRP is designed to get the organisation back to full functionality as quickly as possible. A business continuity plan is designed to get minimal business functions back up and running at least at some level so you can conduct some type of business.&#x20;
 
 An example would be a retail store whose credit card processing system is down. Disaster recovery is concerned with getting the system back up and running at full functionality, essentially like the disaster never happened. Business continuity is concerned with simply offering a temporary solution, such as processing credit cards manually.
 
@@ -24,15 +24,15 @@ To successfully formulate a business continuity plan one must consider which sys
 
 ## **Determining Impact on Business**
 
-Before you can create a realistic DRP or BCP you have to do a **business impact analysis** \(BIA\) of what damage to your organisation a given disaster might cause. Consider a web server crash. If your organisation is an e-commerce business, then a web server crash is a very serious disaster. 
+Before you can create a realistic DRP or BCP you have to do a **business impact analysis** (BIA) of what damage to your organisation a given disaster might cause. Consider a web server crash. If your organisation is an e-commerce business, then a web server crash is a very serious disaster.&#x20;
 
 However, if your business is an accounting firm and the website is just a way for new customers to find you, then a web server crash is less critical. You can still do business and earn revenue while the web server is down. You should make a spreadsheet of various likely or plausible disasters and do a basic business impact analysis for each.
 
-An issue to consider in your BIA includes the **maximum tolerable downtime** \(MTD\). How long can a given system be down before the effect is catastrophic and the business is unlikely to recover? Another item to consider is the **mean time to repair** \(MTTR\). How long is it likely to take to repair a given system if it is down? You must also consider the **mean time between failures** \(MTBF\). In other words, how frequently does this particular service or device fail? These factors help you to determine the business impact of a given disaster.
+An issue to consider in your BIA includes the **maximum tolerable downtime** (MTD). How long can a given system be down before the effect is catastrophic and the business is unlikely to recover? Another item to consider is the **mean time to repair** (MTTR). How long is it likely to take to repair a given system if it is down? You must also consider the **mean time between failures** (MTBF). In other words, how frequently does this particular service or device fail? These factors help you to determine the business impact of a given disaster.
 
-All of this data will lead you to a **recovery time objective** \(RTO\). That is the time by which you intend to have a service back up and running, should there be a failure. This should always be less than the MTD. For example, if the MTD for your e-commerce server is 48 hours, your RTO might be set at 32 hours, providing a significant margin of error.
+All of this data will lead you to a **recovery time objective** (RTO). That is the time by which you intend to have a service back up and running, should there be a failure. This should always be less than the MTD. For example, if the MTD for your e-commerce server is 48 hours, your RTO might be set at 32 hours, providing a significant margin of error.
 
-Another important concept is **recovery point objective** \(RPO\). This is how much data you can tolerate losing. Imagine you do a backup every 10 minutes. If the server you are backing up fails seconds before the next backup, you will have lost 9 minutes and about 55 to 59 seconds of work/data. That will all have to be redone manually. Is this tolerable? That depends on your organisation.
+Another important concept is **recovery point objective** (RPO). This is how much data you can tolerate losing. Imagine you do a backup every 10 minutes. If the server you are backing up fails seconds before the next backup, you will have lost 9 minutes and about 55 to 59 seconds of work/data. That will all have to be redone manually. Is this tolerable? That depends on your organisation.
 
 ## **Testing Disaster Recovery**
 
@@ -40,7 +40,7 @@ Once you have both a DRP and a BCP, you need to periodically test those plans to
 
 ### **Document Review/Checklist**
 
-This type of testing is usually done by an individual. The BCP and/or DRP are simply reviewed to see if everything is covered. They are compared to check lists, perhaps check lists from various standards \(like PCI\).
+This type of testing is usually done by an individual. The BCP and/or DRP are simply reviewed to see if everything is covered. They are compared to check lists, perhaps check lists from various standards (like PCI).
 
 ### **Walk-through/Tabletop**
 
@@ -60,6 +60,4 @@ This is the ultimate test. You actually shut down real systems and see if the BC
 
 To avoid generating a disaster, there are some steps you can take. The first is to not even consider this test until you have successfully completed the previous tests. In fact, all of these tests should be done in order. First, do a document/check list. If and only if that is successful, then move to a tabletop. Then if that works move to a simulation.
 
-Secondly, you should schedule this type of test during downtime for the company. At a time when, if things go wrong, it will cause the least impact on the business. For example, if this is a bank, then do not do this test Monday morning. Perhaps Saturday afternoon would be best. This would give you a chance to fix anything that goes wrong.  
-
-
+Secondly, you should schedule this type of test during downtime for the company. At a time when, if things go wrong, it will cause the least impact on the business. For example, if this is a bank, then do not do this test Monday morning. Perhaps Saturday afternoon would be best. This would give you a chance to fix anything that goes wrong.\
