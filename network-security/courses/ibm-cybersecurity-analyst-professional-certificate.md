@@ -176,13 +176,13 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 * If an organization responds to an intentional threat, that threat is now classified as what?
   *   **An attack**
 
-      \-An active threat
+      -An active threat
 
       A malicious threat
 
       An open case
 * An attack that is developed particularly for a specific customer and occurs over a long period of time is a form of what type of attack?
-  *   \-Water Hole
+  *   -Water Hole
 
       **Advanced Persistent Threat**
 
@@ -205,7 +205,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
   * Government
 * True or **False**: Passive attacks are easy to detect because the original messages are usually alterned or undelivered.
 * Cryptography, digital signatures, access controls and routing controls considered which?
-  * \-Pervasive security mechanisms
+  * -Pervasive security mechanisms
   * security policy
 * Which type of attack can be addressed using a switched Ethernet gateway and software on every host on your network that makes sure their NICs is not running in promiscuous mode.
   * Packet Sniffing
@@ -216,7 +216,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 * Botnets can be used to orchestrate which form of attack?
   *   Distribution of Spam
 
-      \-DDoS attacks
+      -DDoS attacks
 
       Phishing attacks
 
@@ -226,7 +226,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
       All of the above
 * Policies and training can be classified as which form of threat control?
-  * \-Administrative controls
+  * -Administrative controls
   * Passive Controls
 * Encrypting your email is an example of addressing which aspect of the CIA Triad?
   *   **Confidentiality**
@@ -549,7 +549,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 * Which type of firewall inspects XML packet payloads for things like executable code, a target IP address that make sense, and a known source IP address?
   *   **An XML Gateway.**
 
-      An application-level firewall**.**
+      An application-level firewal&#x6C;**.**
 
       A packet-filtering firewall.
 
@@ -1167,7 +1167,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
       * roadmap
         * 30,60,90 day plan
 
-![](<../../.gitbook/assets/image (144).png>)
+![](<../../.gitbook/assets/image (138).png>)
 
 * Incident Response
   * General
@@ -1188,7 +1188,7 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
       * What steps are you taking to determine what happened and prevent future occurrences?
       * What is the impact? Any PII exposed? Estimated cost of incident?
 
-![Resources](<../../.gitbook/assets/image (142).png>)
+![Resources](<../../.gitbook/assets/image (26).png>)
 
 * Incident Response Continued
   * Phases
@@ -1729,9 +1729,9 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### **Scanning**
 
-![](<../../.gitbook/assets/image (143).png>)
+![](<../../.gitbook/assets/image (47).png>)
 
-![](<../../.gitbook/assets/image (141).png>)
+![](<../../.gitbook/assets/image (171).png>)
 
 * Which component of a vulnerability scanner would perform security checks according to its installed plug-ins?
   * Engine Scanner
@@ -1801,9 +1801,9 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
   * SBB
     * Key Security Manager, Certificate Authority, HSM, WAF, SAST, Directory, Privilege Access Manager, Hardware Token, Virus protection, App firewall, SPAM filter, Network intrusion prevention system, incident workflow manager'
 
-![](<../../.gitbook/assets/image (145).png>)
+![](<../../.gitbook/assets/image (149).png>)
 
-![](<../../.gitbook/assets/image (146).png>)
+![](<../../.gitbook/assets/image (64).png>)
 
 * True or False. A security architect's job is to make sure that security considerations dominate other design aspects such as usability, resilience and cost.
 * Which of these is an aspect of an Enterprise Architecture?
@@ -1930,11 +1930,11 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 5. Captures log event and network flow data in near real time and apply advanced analytics to reveal security offenses
 6. It can be available on prem and in a cloud environment
 
-![](<../../.gitbook/assets/image (169).png>)
+![](<../../.gitbook/assets/image (66).png>)
 
-![](<../../.gitbook/assets/image (160).png>)
+![](<../../.gitbook/assets/image (126).png>)
 
-![](<../../.gitbook/assets/image (163).png>)
+![](<../../.gitbook/assets/image (125).png>)
 
 * **True** or False. SIEMs capture network flow data in near real time and apply advanced analytics to reveal security offenses.
 * Which of these describes the process of data normalization in a SIEM?
@@ -1984,9 +1984,9 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### Threat Hunting
 
-![](<../../.gitbook/assets/image (166).png>)
+![](<../../.gitbook/assets/image (51).png>)
 
-![](<../../.gitbook/assets/image (168).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 * Cyber threats pose many challenges to organizations today. Which three (3) of these are among those cited? (Select 3)
   *   There is a cybersecurity skills shortage
@@ -2015,35 +2015,35 @@ description: 'Coursera Courses | Note: These courses have a lot of spelling erro
 
 ### Incident Management Response and Cyberattack Frameworks
 
-![](<../../.gitbook/assets/image (154).png>)
+![](<../../.gitbook/assets/image (9).png>)
 
-![](<../../.gitbook/assets/image (147).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
-![](<../../.gitbook/assets/image (158).png>)
+![](<../../.gitbook/assets/image (118).png>)
 
 {% embed url="https://www.ibm.com/downloads/cas/A27KQP8R" %}
 
 IRIS FRAMEWORK
 
-![](<../../.gitbook/assets/image (152).png>)
+![](<../../.gitbook/assets/image (65).png>)
+
+![](<../../.gitbook/assets/image (57).png>)
+
+![](<../../.gitbook/assets/image (19).png>)
+
+![](<../../.gitbook/assets/image (166).png>)
+
+![](<../../.gitbook/assets/image (88).png>)
+
+![](<../../.gitbook/assets/image (141).png>)
+
+![](<../../.gitbook/assets/image (30).png>)
+
+![](<../../.gitbook/assets/image (85).png>)
 
 ![](<../../.gitbook/assets/image (162).png>)
 
-![](<../../.gitbook/assets/image (149).png>)
-
-![](<../../.gitbook/assets/image (155).png>)
-
-![](<../../.gitbook/assets/image (153).png>)
-
-![](<../../.gitbook/assets/image (167).png>)
-
-![](<../../.gitbook/assets/image (159).png>)
-
-![](<../../.gitbook/assets/image (161).png>)
-
-![](<../../.gitbook/assets/image (157).png>)
-
-![](<../../.gitbook/assets/image (150).png>)
+![](<../../.gitbook/assets/image (74).png>)
 
 
 
@@ -2110,9 +2110,9 @@ IRIS FRAMEWORK
 
 ### Phishing Scams
 
-![](<../../.gitbook/assets/image (148).png>)
+![](<../../.gitbook/assets/image (89).png>)
 
-![Google and Facebook Case Study](<../../.gitbook/assets/image (174).png>)
+![Google and Facebook Case Study](<../../.gitbook/assets/image (80).png>)
 
 * Some of the earliest known phishing attacks were carried out against which company?
   * America Online (AOL)
@@ -2134,13 +2134,13 @@ IRIS FRAMEWORK
 
 ### Point of Sale Breach
 
-![](<../../.gitbook/assets/image (165).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
-![](<../../.gitbook/assets/image (171).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
-![Ingenico](<../../.gitbook/assets/image (170).png>)
+![Ingenico](<../../.gitbook/assets/image (38).png>)
 
-![Home Depot Case Study](<../../.gitbook/assets/image (172).png>)
+![Home Depot Case Study](<../../.gitbook/assets/image (72).png>)
 
 * True or **False**. There are more successful PoS attacks made against large online retailers than there are against small to medium sized brick-and-mortar businesses.
 * Which is the standard regulating credit card transactions and processing?
@@ -2187,7 +2187,7 @@ IRIS FRAMEWORK
 
 ### 3rd Party Breach
 
-![](<../../.gitbook/assets/image (173).png>)
+![](<../../.gitbook/assets/image (71).png>)
 
 * A cyber attack originating from which three (3) of the following would be considered a supply-chain attack?
   *   E-mail providers
@@ -2214,9 +2214,9 @@ IRIS FRAMEWORK
 
 ### Ransomware
 
-![City of Atlanta Case Study](<../../.gitbook/assets/image (164).png>)
+![City of Atlanta Case Study](<../../.gitbook/assets/image (67).png>)
 
-![Ransomware Examples](<../../.gitbook/assets/image (156).png>)
+![Ransomware Examples](<../../.gitbook/assets/image (90).png>)
 
 * 3 Main Types
   * Crypto: Specific files encrypted

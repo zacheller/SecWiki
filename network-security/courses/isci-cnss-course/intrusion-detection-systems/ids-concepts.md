@@ -17,7 +17,7 @@ Any activity that does not match the pattern of normal user access is noted and 
 
 #### Threshold Monitoring
 
-Threshold monitoring pre-sets acceptable behaviour levels and observes whether these levels are exceeded. This could include something as simple as a finite number of failed login attempts or something as complex as monitoring the time a user is connected and the amount of data that user downloads. **** _Proper threshold values and the time frames at which to check those values are hard to calibrate--can generate false positives._
+Threshold monitoring pre-sets acceptable behaviour levels and observes whether these levels are exceeded. This could include something as simple as a finite number of failed login attempts or something as complex as monitoring the time a user is connected and the amount of data that user downloads. _Proper threshold values and the time frames at which to check those values are hard to calibrate--can generate false positives._
 
 #### **Resource Profiling**
 

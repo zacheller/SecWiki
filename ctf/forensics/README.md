@@ -36,7 +36,7 @@ You can also change the `Content-Type` in Burp.
 
 ### Structure
 
-![PNG Structure](<../../.gitbook/assets/image (15).png>)
+![PNG Structure](<../../.gitbook/assets/image (152).png>)
 
 If the server is checking the structure of the file, consider Polyglot files ([link](https://medium.com/swlh/polyglot-files-a-hackers-best-friend-850bf812dd8a)). Polyglots, in a security context, are files that are a valid form of multiple different file types. For example, a [GIFAR](https://en.wikipedia.org/wiki/Gifar) is both a GIF and a RAR file. There are also files out there that can be both GIF and JS, both PPT and JS, etc. Most famous one is PHAR-JPG ([link](https://github.com/kunte0/phar-jpg-polyglot)).\
 
@@ -49,7 +49,7 @@ File starting with specific leading bytes will usually be read as that type of f
 
 {% embed url="https://en.wikipedia.org/wiki/List_of_file_signatures" %}
 
-### Known-plaintext attack ([link](https://en.wikipedia.org/wiki/Known-plaintext\_attack))
+### Known-plaintext attack ([link](https://en.wikipedia.org/wiki/Known-plaintext_attack))
 
 If you have an encrypted file of a known type. If you XOR the encrypted file with the known magic bytes, you can potentially recover a key. Then, XOR the encrypted file with the key to decrypt and recover the image.
 

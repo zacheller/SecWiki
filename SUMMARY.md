@@ -96,7 +96,7 @@
 * [Intro to CTF](ctf/ctf.md)
 * [Forensics](ctf/forensics/README.md)
   * [Challenges](ctf/forensics/challenges.md)
-* [Steganography](ctf/untitled.md)
+* [Steganography](ctf/steganography.md)
 * [Reverse Engineering](ctf/reverse-engineering.md)
 * [Tools](ctf/crypto.md)
 

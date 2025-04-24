@@ -32,7 +32,7 @@ Blowfish is a symmetric block cipher. This means that it uses a single key to bo
 
 ### **AES (Advanced Encryption Standard)**
 
-Advanced Encryption Standard (AES) uses the Rijndael algorithm. **** AES specifies three key sizes: 128, 192, and 256 bits. By comparison, DES keys are 56 bits long, and Blowfish allows varying lengths up to 448 bits. AES uses a block cipher. This algorithm is widely used, considered very secure, and therefore a good choice for many encryption scenarios.
+Advanced Encryption Standard (AES) uses the Rijndael algorithm. AES specifies three key sizes: 128, 192, and 256 bits. By comparison, DES keys are 56 bits long, and Blowfish allows varying lengths up to 448 bits. AES uses a block cipher. This algorithm is widely used, considered very secure, and therefore a good choice for many encryption scenarios.
 
 ### Public Key Encryption
 

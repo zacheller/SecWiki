@@ -10,7 +10,7 @@ Unit 5.1: Von Neumann Architecture
 * The ALU loads information from the Data bus and manipulates it using the Control bits.
 * Both Data and Addresses are stored in the registers.
 
-![](<../../.gitbook/assets/image (120).png>)
+![](<../../.gitbook/assets/image (14).png>)
 
 Unit 5.2: The Fetch-Execute Cycle
 
@@ -20,7 +20,7 @@ Unit 5.2: The Fetch-Execute Cycle
 * Put the location of the next instruction into the "address" of the program memory
 * Get the instruction code itself by reading the memory contents at that location
 
-![](<../../.gitbook/assets/image (115).png>)
+![](<../../.gitbook/assets/image (81).png>)
 
 ### Executing
 
@@ -32,11 +32,11 @@ Unit 5.2: The Fetch-Execute Cycle
 * Often, different subsets of the bits control different aspects of the operation
 * Executing the operation involves also accessing registers and/or data memory
 
-![](<../../.gitbook/assets/image (108).png>)
+![](<../../.gitbook/assets/image (6).png>)
 
-![](<../../.gitbook/assets/image (127).png>)
+![](<../../.gitbook/assets/image (135).png>)
 
-![](<../../.gitbook/assets/image (125).png>)
+![](<../../.gitbook/assets/image (98).png>)
 
 The fetch part of the cycle reads from the program memory, and the execute part reads from data memory.
 
@@ -53,50 +53,50 @@ The fetch part of the cycle reads from the program memory, and the execute part 
     * Execute the current instruction
     * Figure out which instruction to execute next (written in the Hack language)
 
-![](<../../.gitbook/assets/image (114).png>)
+![](<../../.gitbook/assets/image (163).png>)
 
-![](<../../.gitbook/assets/image (110).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
-![](<../../.gitbook/assets/image (118).png>)
+![](<../../.gitbook/assets/image (100).png>)
 
-![](<../../.gitbook/assets/image (122).png>)
+![](<../../.gitbook/assets/image (165).png>)
 
-![](<../../.gitbook/assets/image (112).png>)
+![](<../../.gitbook/assets/image (95).png>)
 
-![](<../../.gitbook/assets/image (121).png>)
+![](<../../.gitbook/assets/image (143).png>)
 
-![](<../../.gitbook/assets/image (113).png>)
+![](<../../.gitbook/assets/image (153).png>)
 
-![](<../../.gitbook/assets/image (123).png>)
+![](<../../.gitbook/assets/image (148).png>)
 
 Unit 5.4: The Hack Computer
 
 
 * Abstraction: A computer capable of running programs written in the Hack machine language.
 
-![](<../../.gitbook/assets/image (109).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
-![](<../../.gitbook/assets/image (124).png>)
+![](<../../.gitbook/assets/image (59).png>)
 
-![](<../../.gitbook/assets/image (119).png>)
+![](<../../.gitbook/assets/image (144).png>)
 
 * RAM: 16-bit / 16K RAM chip
 * Screen: 16-bit / 8K memory chip with a raster display side-effect
 * Keyboard: 16-bit register with a keyboard side-effect
   * probe memory register 24576
 
-![](<../../.gitbook/assets/image (126).png>)
+![](<../../.gitbook/assets/image (112).png>)
 
 * Hardware implementation: plug-and-play ROM chips
 * Hardware simulation: programs are stored in text files; program loading is emulated by the built-in ROM chip
 
-![](<../../.gitbook/assets/image (111).png>)
+![](<../../.gitbook/assets/image (161).png>)
 
-![2 inputs](<../../.gitbook/assets/image (129).png>)
+![2 inputs](<../../.gitbook/assets/image (11).png>)
 
 Unit 5.5: Project 5 Overview
 
 
-![](<../../.gitbook/assets/image (128).png>)
+![](<../../.gitbook/assets/image (83).png>)
 
-![](<../../.gitbook/assets/image (117).png>)
+![](<../../.gitbook/assets/image (130).png>)
